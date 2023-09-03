@@ -1,0 +1,15 @@
+###############-VERSION-###################
+version: '3.7'
+
+################-SERVICIOS-################
+services:
+
+###################-SERVIDOR-GRPC-#########################  
+  server:
+    container_name: server
+    build: ./test
+    restart: always
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./test:/test

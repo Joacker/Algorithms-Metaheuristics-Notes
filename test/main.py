@@ -52,6 +52,7 @@ while temp > temp_final:
        # Por ejemplo los vecinos {0,0,1,0,1} serian:
        # {1,0,1,0,1} , {0,1,1,0,1} , {0,0,0,0,1} , {0,0,1,1,1} , {0,0,1,0,0}
        
-       if 
+       if copiaVecino[i] == 1:
+           copiaVecino[i] = 0
         
         

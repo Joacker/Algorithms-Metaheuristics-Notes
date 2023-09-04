@@ -30,29 +30,13 @@ temp_final = 10
 
 # Configurados en binarios de 5 digitos
 sol = [0,0,0,0,0]
-
+costo_Actual = costeFuncion(binarioADecimal(sol))
+print("Costo actual: ", costo_Actual)
 while temp > temp_final:
     
     # Busqueda aleatoria
     valor_encontrado = False
     
-    # Generar un array del tamaño de la solución y a la vez una copia del array inicial
-    mejorVecino = np.array(sol)
-    
-    # Generamos una variable entera para almacenar el costo de la solución
-    costo_Actual = 0
-    
-    # Copiamos el vecino actual para ir modificandolo
-    Copiavecino = np.array(sol)
-    
-    for i in range(0, len(sol)):
-        
-        if Copiavecino[i] == 1:
-            Copiavecino[i] = 0
-        else:
-            Copiavecino[i] = 1
-        
-        # Comparamos el costo de la solución actual con el costo de la solución vecina
-        costo_Vecino = 0
+    costo_Actual = costeFuncion(binarioADecimal(sol))
         
         

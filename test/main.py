@@ -1,7 +1,6 @@
 # Ejemplo de Simulated Annealing
 import math, random, numpy as np
 
-
 def costeFuncion(x):
     # Se realiza el coste seg[un la operacion propuesta
     v = 0
@@ -32,6 +31,10 @@ temp_final = 10
 sol = [0,0,0,0,0]
 costo_Actual = costeFuncion(binarioADecimal(sol))
 print("Costo actual: ", costo_Actual)
+# Probabilidad de aceptacion
+print("Probabilidad de aceptacion: ", probabilidadAceptacion(0, costo_Actual, temp))
+# Binaio a decimal
+print("Binario a decimal: ", binarioADecimal(sol))
 while temp > temp_final:
     
     # Busqueda aleatoria

@@ -41,5 +41,17 @@ while temp > temp_final:
     valor_encontrado = False
     
     costo_Actual = costeFuncion(binarioADecimal(sol))
+    
+    # Copiamos la solucion de sol en mejor vecino
+    mejor_vecino = sol.copy()
+    
+    # Copiamos el vecino actual para ir modificandolo
+    copiaVecino = sol.copy()
+    for i in range(len(sol)):
+       # Hallamos los vecinos con una funcion que altera los bits
+       # Por ejemplo los vecinos {0,0,1,0,1} serian:
+       # {1,0,1,0,1} , {0,1,1,0,1} , {0,0,0,0,1} , {0,0,1,1,1} , {0,0,1,0,0}
+       
+       if 
         
         

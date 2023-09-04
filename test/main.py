@@ -18,6 +18,13 @@ def binarioADecimal(arr_binario):
         cont = cont + 1
     return v
 
+# funcion probabilidad de aceptacion
+def probabilidadAceptacion(costoVecino, costoActual, temp):
+    if costoVecino < costoActual:
+        return 1
+    else:
+        return math.exp(-((costoVecino - costoActual)/temp))
+
 temp = 1000
 temp_final = 10
 

@@ -29,12 +29,13 @@ temp_final = 10
 
 # Configurados en binarios de 5 digitos
 sol = [0,0,0,0,0]
-costo_Actual = costeFuncion(binarioADecimal(sol))
+mejor_vecino = sol.copy()
+costo_Actual = costeFuncion(binarioADecimal(mejor_vecino))
 print("Costo actual: ", costo_Actual)
 # Probabilidad de aceptacion
 print("Probabilidad de aceptacion: ", probabilidadAceptacion(0, costo_Actual, temp))
 # Binaio a decimal
-print("Binario a decimal: ", binarioADecimal(sol))
+print("Binario a decimal: ", binarioADecimal(mejor_vecino))
 while temp > temp_final:
     
     # Busqueda aleatoria
@@ -47,12 +48,27 @@ while temp > temp_final:
     
     # Copiamos el vecino actual para ir modificandolo
     copiaVecino = sol.copy()
+    
+    encontrado = False
     for i in range(len(sol)):
        # Hallamos los vecinos con una funcion que altera los bits
        # Por ejemplo los vecinos {0,0,1,0,1} serian:
        # {1,0,1,0,1} , {0,1,1,0,1} , {0,0,0,0,1} , {0,0,1,1,1} , {0,0,1,0,0}
        
-       if copiaVecino[i] == 1:
+        if copiaVecino[i] == 1:
            copiaVecino[i] = 0
-        
-        
+        else:
+              copiaVecino[i] = 1
+        # Comparamos el costo del vecino actual con el nuevo vecino
+        # y lo aceptamos si el coste es mayor o la probabilidad
+        # de aceptación es mayor, lo aceptamos
+        if ( costo_Actual < costeFuncion(binarioADecimal(copiaVecino)) 
+            or 
+            probabilidadAceptacion(costeFuncion(binarioADecimal(copiaVecino)),costo_Actual, temp) > random.random() ):
+            mejor_vecino = copiaVecino
+            costo_Actual = costeFuncion(binarioADecimal(mejor_vecino))
+            encontrado = True
+            break
+        copiaVecino = sol.copy()
+    
+    

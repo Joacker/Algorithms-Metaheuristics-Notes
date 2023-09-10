@@ -1,7 +1,8 @@
 import math, random
 
 def costeFuncion(x):
-    return x**3 - 60*x**2 + 900*x + 100
+    v = x**3 - 60*x**2 + 900*x + 100
+    return v
 
 def binarioADecimal(arr_binario):
     v = 0
@@ -17,6 +18,7 @@ def probabilidadAceptacion(costoVecino, costoActual, temp):
 
 temp = 1000
 temp_final = 10
+oscilacion = []
 
 # Configuración inicial aleatoria
 sol = [random.randint(0, 1) for _ in range(5)]
@@ -39,7 +41,10 @@ while temp > temp_final:
             costo_actual = costo_vecino
     
     sol = mejor_vecino[:]
+    oscilacion.append(costo_actual)  # Guarda el costo actual en cada iteración
     temp *= 0.9  # Enfriamiento gradual
 
-print("Solucion:", sol)
-print("Valor decimal:", binarioADecimal(sol))
+# Mostramos los resultados por pantalla
+print("Solucion final:", sol)
+print("Valor decimal final:", binarioADecimal(sol))
+print("Oscilación de costos:", oscilacion)

@@ -1,74 +1,45 @@
-# Ejemplo de Simulated Annealing
-import math, random, numpy as np
+import math, random
 
 def costeFuncion(x):
-    # Se realiza el coste seg[un la operacion propuesta
-    v = 0
-    v = x**3 - 60*x**2 + 900*x + 100
-    return v    
+    return x**3 - 60*x**2 + 900*x + 100
 
-# recibe un array de valores binarios y devuelve el valor decimal
 def binarioADecimal(arr_binario):
     v = 0
-    cont = 0
-    for i in range(len(arr_binario)-1,-1,-1):
-        if arr_binario[i] == 1:    
-            v = v + float(2)**(float(cont))
-        cont = cont + 1
+    for i, bit in enumerate(reversed(arr_binario)):
+        v += bit * (2 ** i)
     return v
 
-# funcion probabilidad de aceptacion
 def probabilidadAceptacion(costoVecino, costoActual, temp):
     if costoVecino < costoActual:
         return 1
     else:
-        return math.exp(-((costoVecino - costoActual)/temp))
+        return math.exp(-((costoVecino - costoActual) / temp))
 
 temp = 1000
 temp_final = 10
 
-# Configurados en binarios de 5 digitos
-sol = [0,0,0,0,0]
-mejor_vecino = sol.copy()
-costo_Actual = costeFuncion(binarioADecimal(mejor_vecino))
-print("Costo actual: ", costo_Actual)
-# Probabilidad de aceptacion
-print("Probabilidad de aceptacion: ", probabilidadAceptacion(0, costo_Actual, temp))
-# Binaio a decimal
-print("Binario a decimal: ", binarioADecimal(mejor_vecino))
+# Configuración inicial aleatoria
+sol = [random.randint(0, 1) for _ in range(5)]
+mejor_vecino = sol[:]
+costo_actual = costeFuncion(binarioADecimal(mejor_vecino))
+print("Costo actual:", costo_actual)
+
 while temp > temp_final:
+    costo_actual = costeFuncion(binarioADecimal(sol))
+    mejor_vecino = sol[:]
     
-    # Busqueda aleatoria
-    valor_encontrado = False
-    
-    costo_Actual = costeFuncion(binarioADecimal(sol))
-    
-    # Copiamos la solucion de sol en mejor vecino
-    mejor_vecino = sol.copy()
-    
-    # Copiamos el vecino actual para ir modificandolo
-    copiaVecino = sol.copy()
-    
-    encontrado = False
     for i in range(len(sol)):
-       # Hallamos los vecinos con una funcion que altera los bits
-       # Por ejemplo los vecinos {0,0,1,0,1} serian:
-       # {1,0,1,0,1} , {0,1,1,0,1} , {0,0,0,0,1} , {0,0,1,1,1} , {0,0,1,0,0}
-       
-        if copiaVecino[i] == 1:
-           copiaVecino[i] = 0
-        else:
-              copiaVecino[i] = 1
-        # Comparamos el costo del vecino actual con el nuevo vecino
-        # y lo aceptamos si el coste es mayor o la probabilidad
-        # de aceptación es mayor, lo aceptamos
-        if ( costo_Actual < costeFuncion(binarioADecimal(copiaVecino)) 
-            or 
-            probabilidadAceptacion(costeFuncion(binarioADecimal(copiaVecino)),costo_Actual, temp) > random.random() ):
-            mejor_vecino = copiaVecino
-            costo_Actual = costeFuncion(binarioADecimal(mejor_vecino))
-            encontrado = True
-            break
-        copiaVecino = sol.copy()
+        vecino = sol[:]
+        vecino[i] = 1 - vecino[i]  # Cambia 0 a 1 o 1 a 0
+        costo_vecino = costeFuncion(binarioADecimal(vecino))
+        
+        if (costo_vecino < costo_actual or
+                probabilidadAceptacion(costo_vecino, costo_actual, temp) > random.random()):
+            mejor_vecino = vecino[:]
+            costo_actual = costo_vecino
     
-    
+    sol = mejor_vecino[:]
+    temp *= 0.9  # Enfriamiento gradual
+
+print("Solucion:", sol)
+print("Valor decimal:", binarioADecimal(sol))

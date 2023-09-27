@@ -10,8 +10,9 @@ ub = [100, 100, 100, 100]
 dim = length(lb)
 % Llamamos a la suma de cuadrados
 F = @f_obj
-% - Temperatura
-T = 1
+% - Temperatura se debe considerar también el como disminuir la tempera de
+% manera lineal
+T0 = 1
 % Coef alpha
 alpha = 0.99
 
@@ -56,7 +57,17 @@ for i = 1:iter
     end
     % Ahora falta disminuir la temperatura, se amplifica por alpha siendo
     % simpre alpha menor que 1
-    T = alpha*T;
+    % Analicemos lo que ocurre aquí:
+    % Se divide la temperatura inicial o con la que comienza este método
+    % entre el número de iteraciones, i vendría a ser el número o contador
+    % por ciclo relacionado con el número de iteraciones
+    % Es decir a medida que van aumentando el número de iteraciones el
+    % valor generado por este término va a ir aumentando y al aumentar ese
+    % valor, el valor de la temperatura va a ir disminuyendo; es deicr, T
+    % va a ser menor. Ya que T0 se va a mantener fijo y cada vez se le está
+    % restando un valor mayor. De esta menra disminuirá de manera lineal el
+    % valor de la temperatura.
+    T = T0 - i*(T0/iter);
 end
 
 % Imprimimos las soluciones

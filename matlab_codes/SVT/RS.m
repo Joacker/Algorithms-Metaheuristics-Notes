@@ -57,9 +57,12 @@ for i = 1:iter
     % Ahora falta disminuir la temperatura, se amplifica por alpha siendo
     % simpre alpha menor que 1
     T = alpha*T;
+    ruta(i) = eval_X_A;
 end
 
 % Imprimimos las soluciones
 display("X_A: "+X_A)
 display("eval_X_A: "+eval_X_A)
-
+plot(ruta)
+xlabel("Iteraciones")
+ylabel("Valor en la función objetivo")

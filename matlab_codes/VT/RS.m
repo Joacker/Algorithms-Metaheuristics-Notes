@@ -68,9 +68,12 @@ for i = 1:iter
     % restando un valor mayor. De esta menra disminuirá de manera lineal el
     % valor de la temperatura.
     T = T0 - i*(T0/iter);
+    ruta(i) = eval_X_A;
 end
 
 % Imprimimos las soluciones
 display("X_A: "+X_A)
 display("eval_X_A: "+eval_X_A)
-
+plot(ruta)
+xlabel("Iteraciones")
+ylabel("Valor en la función objetivo")

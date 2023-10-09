@@ -1,0 +1,19 @@
+[base]
+test_instances =instances.txt
+mintime = 1.0
+maxtime = 1000000
+sig_gain = 1.2
+max_seeds = 5
+min_seeds = 5
+algo_names = PuntoRandom
+
+
+[PuntoRandom]
+exec = ../__build__/src/ibexopt
+params =_INSTANCE  --timeout=_MAXTIME --random-seed=_SEED 
+outputpos_times = 0
+outputpos_boxes = 1
+
+
+
+

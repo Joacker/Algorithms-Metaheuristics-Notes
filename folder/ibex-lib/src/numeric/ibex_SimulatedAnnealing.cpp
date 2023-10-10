@@ -41,8 +41,7 @@ Vector SimulatedAnnealing::v1(const IntervalVector& box){
         Interval neighborEval = this->sys.f_ctrs[restriccion].eval(neighbor);
 
         // Criterio de aceptación de Metropolis
-        if(neighborEval.mid() < currentEval.mid() || 
-           exp((currentEval.mid() - neighborEval.mid()) / T) > RNG::rand(0,1)) {
+        if(neighborEval.mid() < currentEval.mid() || RNG::rand(0, 1) < std::exp(-(neighborEval.mid() - currentEval.mid()) / T)) {
             current = neighbor;
             currentEval = neighborEval;
         }

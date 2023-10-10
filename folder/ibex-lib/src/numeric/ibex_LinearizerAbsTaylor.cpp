@@ -55,14 +55,12 @@ int LinearizerAbsTaylor::linearize(const IntervalVector& box, LPSolver& _lp_solv
 
 int LinearizerAbsTaylor::linear_restrict(const IntervalVector& box) {
 	// expansion point
-	ibex::IntervalVector box; // inicializa tu box aquí
-	ibex::System sys; // inicializa tu sys aquí
-	ibex::HillClimbing* hill = new HillClimbing(box,this->sys);
+	ibex::HillClimbing* hill = new HillClimbing(box, sys);
     Vector exp_point(box.size());
     if (point == MID)
         exp_point = box.mid();
         else if (point== HILL_CLIMBING)
-                exp_point = v1(box);
+                exp_point = hill->v1(box);
     else if (point == RANDOM){
         for (int i = 0 ; i < box.size() ; i++)
             exp_point[i] = RNG::rand(box[i].lb(),box[i].ub());

@@ -56,6 +56,7 @@ int LinearizerAbsTaylor::linearize(const IntervalVector& box, LPSolver& _lp_solv
 int LinearizerAbsTaylor::linear_restrict(const IntervalVector& box) {
 	// expansion point
 	ibex::HillClimbing* hill = new HillClimbing(box, sys);
+	std::cout << "hill climbing" << std::endl;
     Vector exp_point(box.size());
     if (point == MID)
         exp_point = box.mid();
@@ -67,7 +68,6 @@ int LinearizerAbsTaylor::linear_restrict(const IntervalVector& box) {
     }
 
 	BitSet active=sys.active_ctrs(box);
-	if (active.empty()) return 0;
 	if (active.empty()) return 0;
 
 	try {

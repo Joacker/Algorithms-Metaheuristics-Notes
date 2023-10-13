@@ -1,10 +1,29 @@
+#------------- VERSION -------------#
 version: '3'
 services:
-  myservice:
+  hill-climbing:
     build: .
     tty: true
     stdin_open: true
-    image: tesis
-    container_name: tesis
+    image: hill-climbing
+    container_name: hill-climbing
     volumes:
-      - ./ibex-lib:/app
+      - ./hill-climbing:/app
+  
+  abstaylor:
+    build: .
+    tty: true
+    stdin_open: true
+    image: abstaylor
+    container_name: abstaylor
+    volumes:
+      - ./abstaylor:/app
+
+  simulated-annealing:
+    build: .
+    tty: true
+    stdin_open: true
+    image: simulated-annealing
+    container_name: simulated-annealing
+    volumes:
+      - ./simulated-annealing:/app

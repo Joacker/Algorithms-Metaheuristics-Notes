@@ -1,5 +1,6 @@
 FROM ubuntu:22.04
 
+WORKDIR /app
 
 RUN apt-get update && apt-get install -y \
     bash \
@@ -22,6 +23,7 @@ RUN apt install libeigen3-dev -y
 RUN apt update
 RUN apt upgrade -y
 
+
+COPY ./commands/*.sh .
 # Mantener el contenedor en ejecución
 CMD ["tail", "-f", "/dev/null"]
-

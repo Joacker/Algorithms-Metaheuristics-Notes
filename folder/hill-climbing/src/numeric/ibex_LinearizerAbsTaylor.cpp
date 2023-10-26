@@ -13,8 +13,9 @@
 #include "ibex_Random.h"
 #include "ibex_Exception.h"
 #include "ibex_NormalizedSystem.h"
-
+#include <iostream>
 #include <vector>
+
 
 using namespace std;
 
@@ -23,10 +24,9 @@ namespace ibex {
 namespace {
 	class Unsatisfiability : public Exception { };
 	class NoExpansionPoint : public Exception { };
-	class BadConstraint : public Exception { };
 }
 
-LinearizerAbsTaylor::LinearizerAbsTaylor(const System& _sys, point_policy point):		
+LinearizerAbsTaylor::LinearizerAbsTaylor(const System& _sys, point_policy point):
 		Linearizer(_sys.nb_var), sys(_sys),
 			m(sys.f_ctrs.image_dim()), goal_ctr(-1 /*tmp*/),
 			lp_solver(NULL), point(point) {
@@ -54,14 +54,17 @@ int LinearizerAbsTaylor::linearize(const IntervalVector& box, LPSolver& _lp_solv
 }
 
 int LinearizerAbsTaylor::linear_restrict(const IntervalVector& box) {
+
 	// expansion point
-	ibex::HillClimbing* hill = new HillClimbing(box, sys);
-	std::cout << "hill climbing" << std::endl;
+	HillClimbing hill(box, sys);
+	//std::cout << "hill climbing" << std::endl;
     Vector exp_point(box.size());
     if (point == MID)
         exp_point = box.mid();
-        else if (point== HILL_CLIMBING)
-                exp_point = hill->v1(box);
+    else if (point== HILL_CLIMBING){
+            exp_point = hill.v4(box);
+			//std::cout << "exp_point after hill climbing: " << exp_point << std::endl;
+	}
     else if (point == RANDOM){
         for (int i = 0 ; i < box.size() ; i++)
             exp_point[i] = RNG::rand(box[i].lb(),box[i].ub());
@@ -97,7 +100,7 @@ int LinearizerAbsTaylor::linear_restrict(const IntervalVector& box) {
 					count += linearize_leq_mid(box,exp_point, J[i],g_mid[i]);
 				else
 					count += linearize_leq_mid(box, exp_point, -J[i],-g_mid[i]);
-			} catch (BadConstraint&) {
+			} catch (LPException&) {
 				return -1;
 			} catch (Unsatisfiability&) {
 				return -1;
@@ -127,13 +130,9 @@ int LinearizerAbsTaylor::linear_restrict(const IntervalVector& box) {
 
 }
 
+
 int LinearizerAbsTaylor::linearize_leq_mid(const IntervalVector& box, const Vector& point, const IntervalVector& dg_box, const Interval& g_mid) {
 	Vector a(2*n); // vector of coefficients
-
-
-	if (dg_box.is_unbounded()) {
-		throw BadConstraint();
-	}
 
 	// ========= compute matrix of coefficients ===========
 	// Fix each coefficient to the lower/upper bound of the

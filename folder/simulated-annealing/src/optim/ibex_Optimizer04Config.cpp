@@ -17,6 +17,7 @@
 #include "ibex_CtcNewton.h"
 #include "ibex_CtcFixPoint.h"
 #include "ibex_CtcKuhnTucker.h"
+#include "ibex_Exception.h"
 #include "ibex_OptimLargestFirst.h"
 #include "ibex_RoundRobin.h"
 #include "ibex_SmearFunction.h"
@@ -24,20 +25,11 @@
 #include "ibex_Random.h"
 #include "ibex_NormalizedSystem.h"
 #include "ibex_LinearizerXTaylor.h"
-#include "ibex_LinearizerCompo.h"
 #include "ibex_CellHeap.h"
 #include "ibex_CellDoubleHeap.h"
 #include "ibex_CellBeamSearch.h"
 #include "ibex_LoupFinderDefault.h"
 #include "ibex_SyntaxError.h"
-
-#ifdef _IBEX_WITH_AFFINE_
-#include "ibex_LinearizerAffine2.h"
-#endif
-
-#ifdef _IBEX_WITH_AMPL_
-#include "ibex_AmplInterface.h"
-#endif
 
 #include <sstream>
 #include <vector>
@@ -52,19 +44,15 @@ Optimizer04Config::Optimizer04Config(int argc, char** argv) {
 		if (argc<8) {
 			ibex_error("usage: optimizer04 filename filtering linear_relaxation bisection strategy [beamsize] prec goal_prec timelimit randomseed");
 		}
-#ifdef _IBEX_WITH_AMPL_
-		std::size_t found = string(argv[1]).find(".nl");
-		if (found!=std::string::npos) {
-			AmplInterface interface (argv[1]);
-			sys = &rec(new System(interface));
-		} else
-			sys = &rec(new System(argv[1]));
-#else
-		sys = &rec(new System(argv[1]));
-#endif
+
+		load_sys(argv[1]);
+
 	} catch(SyntaxError& e) {
 		ibex_error(e.msg.c_str());
 	}
+
+//	if (simpl_level)
+//		sys->set_simplification_level(simpl_level.Get());
 
 	filtering = argv[2];
 	linearrelaxation = argv[3];
@@ -97,7 +85,7 @@ Optimizer04Config::Optimizer04Config(int argc, char** argv) {
 	cout << " randomseed " << randomseed << endl;
 	 */
 
-	set_eps_x(prec);
+	set_eps_x(Vector(sys->nb_var,prec));
 	set_rel_eps_f(goalprec);
 	set_abs_eps_f(goalprec);
 
@@ -114,33 +102,31 @@ unsigned int Optimizer04Config::nb_var() {
 	return sys->nb_var;
 }
 
+void Optimizer04Config::load_sys(const char* filename) {
+	std::size_t found = string(filename).find(".nl");
+
+	if (found!=std::string::npos) {
+		cerr << "\n\033[31mAMPL files can only be read with optimizer04 (ibex-opt-extra package).\n\n";
+		exit(0);
+	} else
+		sys = &rec(new System(filename));
+}
 
 Linearizer* Optimizer04Config::get_linear_relax() {
 	Linearizer* lr;
 
 	if (linearrelaxation=="art")
-#ifdef _IBEX_WITH_AFFINE_
-		lr = &rec(new LinearizerAffine2(*ext_sys));
-#else
-	ibex_error("[Optimizer04Config]: ART mode requires \"--with-affine\" option");
-#endif
+		ibex_error("[Optimizer04Config]: ART mode available only in ibex-affine package\n");
 	else if (linearrelaxation=="compo")
-#ifdef _IBEX_WITH_AFFINE_
-		lr = &rec(new LinearizerCompo(
-				rec(new LinearizerXTaylor(*ext_sys)),
-				rec(new LinearizerAffine2(*ext_sys))));
-#else
-	ibex_error("[Optimizer04Config]: COMPO mode requires \"--with-affine\" option");
-#endif
+		ibex_error("[Optimizer04Config]: COMPO mode available only in ibex-affine package\n");
 	else if (linearrelaxation=="xn")
 		lr = &rec(new LinearizerXTaylor(*ext_sys));
-/*	else {
+	/*	else {
 			stringstream ss;
 			ss << "[optimizer04] " << linearrelaxation << " is not an implemented relaxation mode ";
 			ibex_error(ss.str().c_str());
 		}
 */
-
 	return lr;
 }
 
@@ -207,7 +193,18 @@ Ctc& Optimizer04Config::get_ctc() {
 Bsc& Optimizer04Config::get_bsc() {
 	Bsc* bs;
 
-	double prec = get_eps_x();
+	const Vector& eps_x=get_eps_x();
+	Vector prec(ext_sys->nb_var);
+
+	if (eps_x.size()==1) // not really initialized
+		ext_sys->write_ext_vec(Vector(ext_sys->nb_var,eps_x[0]), prec);
+	else
+		ext_sys->write_ext_vec(eps_x, prec);
+
+	// TODO: should the following value be set to "abs_eps_f" instead?
+	// This question is probably related to the discussion #400
+	prec[ext_sys->goal_var()] = OptimizerConfig::default_eps_x;
+
 
 	if (bisection=="roundrobin")
 		bs = &rec(new RoundRobin (prec,0.5));

@@ -43,7 +43,7 @@ public:
 	 *
 	 * \param sys             - The system (extended or not).
 	 */
-	LinearizerAbsTaylor(const System& sys, point_policy = RANDOM);
+	LinearizerAbsTaylor(const System& sys, point_policy = HILL_CLIMBING);
 
 	/**
 	 * \brief Deletes this.

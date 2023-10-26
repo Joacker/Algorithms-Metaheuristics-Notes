@@ -3,6 +3,7 @@
 #include <vector>
 #include <iomanip>
 #include "ibex_Random.h"
+#include <iostream>
 namespace ibex {
     HillClimbing::HillClimbing(const IntervalVector& box, const System& sys):box(box), sys(sys){
 
@@ -10,6 +11,7 @@ namespace ibex {
     }
     Vector HillClimbing::v1(const IntervalVector& box){
         IntervalVector inicial(box.size());
+        //std::cout<<"asdasdas"<<std::endl;
         int sizee=box.size();
         double restriccion1=RNG::rand(0,this->sys.nb_ctr-1); // Escoger restriccion aleatoria
         int restriccion=std::round(restriccion1);

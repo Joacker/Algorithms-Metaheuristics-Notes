@@ -37,13 +37,13 @@ public:
 	 * - MID        - The mid point of the box
 	 * - RANDOM     - A random point inside the box
 	 */
-	typedef enum  {MID, RANDOM, HILL_CLIMBING} point_policy;
+	typedef enum  {MID, RANDOM} point_policy;
 	/**
 	 * \brief Creates the X_Taylor linearizer.
 	 *
 	 * \param sys             - The system (extended or not).
 	 */
-	LinearizerAbsTaylor(const System& sys, point_policy = RANDOM);
+	LinearizerAbsTaylor(const System& sys, point_policy = MID);
 
 	/**
 	 * \brief Deletes this.

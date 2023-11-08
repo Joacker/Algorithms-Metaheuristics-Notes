@@ -23,7 +23,7 @@ namespace ibex {
 
 LoupFinderDefault::LoupFinderDefault(const System& sys, bool inHC4) :
 	finder_probing(inHC4? (LoupFinder&) *new LoupFinderInHC4(sys) : (LoupFinder&) *new LoupFinderFwdBwd(sys)) {
-	LinearizerXTaylor* lr = new LinearizerXTaylor(sys,LinearizerXTaylor::RESTRICT,LinearizerXTaylor::RANDOM);
+	LinearizerAbsTaylor* lr = new LinearizerAbsTaylor(sys);
 	finder_x_taylor = new LoupFinderIP(sys,lr);
 }
 
@@ -73,8 +73,9 @@ std::pair<IntervalVector, double> LoupFinderDefault::find(const IntervalVector& 
 			p=make_pair(loup_point,loup);
 		}
 		return p;
-	} else
+	} else{
 		throw NotFound();
+	}
 }
 
 LoupFinderDefault::~LoupFinderDefault() {

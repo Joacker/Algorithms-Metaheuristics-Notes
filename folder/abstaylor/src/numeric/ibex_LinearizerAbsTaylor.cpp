@@ -22,6 +22,7 @@ namespace ibex {
 namespace {
 	class Unsatisfiability : public Exception { };
 	class NoExpansionPoint : public Exception { };
+	class BadConstraint : public Exception { };
 }
 
 LinearizerAbsTaylor::LinearizerAbsTaylor(const System& _sys, point_policy point):
@@ -92,7 +93,7 @@ int LinearizerAbsTaylor::linear_restrict(const IntervalVector& box) {
 					count += linearize_leq_mid(box,exp_point, J[i],g_mid[i]);
 				else
 					count += linearize_leq_mid(box, exp_point, -J[i],-g_mid[i]);
-			} catch (LPException&) {
+			} catch (BadConstraint&) {
 				return -1;
 			} catch (Unsatisfiability&) {
 				return -1;
@@ -125,7 +126,9 @@ int LinearizerAbsTaylor::linear_restrict(const IntervalVector& box) {
 
 int LinearizerAbsTaylor::linearize_leq_mid(const IntervalVector& box, const Vector& point, const IntervalVector& dg_box, const Interval& g_mid) {
 	Vector a(2*n); // vector of coefficients
-
+	if (dg_box.is_unbounded()) {
+		throw BadConstraint();
+	}
 	// ========= compute matrix of coefficients ===========
 	// Fix each coefficient to the lower/upper bound of the
 	// constraint gradient, depending on the position of the

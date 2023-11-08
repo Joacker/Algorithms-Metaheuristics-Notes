@@ -87,8 +87,6 @@ int main() {
     double T2 = 0.1; // Segunda temperatura
     double alpha = 0.99;
     
-    std::random_device rd;
-    std::mt19937 generator(rd());
     std::default_random_engine generator;
     std::uniform_real_distribution<double> distribution(0.0, 1.0);
     

@@ -1,0 +1,1 @@
+/usr/bin/c++  -O2 -g -DNDEBUG   CMakeFiles/ex_2.dir/tsallis.cpp.o  -o ex_2 -Wl,-rpath,/test/dual-annealing/build ../libdual_annealing.so ../third_party/lbfgs-cpp/liblbfgs.a 

@@ -1,0 +1,1 @@
+g++ -I./yixuan-LBFGSpp-69e2770/include test.cpp -o tu_programa

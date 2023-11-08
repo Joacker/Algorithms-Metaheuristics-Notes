@@ -85,7 +85,7 @@ namespace ibex {
                 vecino = inicial;
             }
         }
-
+        // Geometrico
         temperatura = alpha * temperatura; 
         iter++;
     }

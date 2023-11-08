@@ -9,3 +9,5 @@ folder/abstaylor/__pycache__
 folder/simulated-annealing/__build__
 folder/simulated-annealing/.waf-1.6.2-7f8c2a6b7e089e8e0f0c2a87e0d6e6a6
 folder/simulated-annealing/__pycache__
+
+.vscode

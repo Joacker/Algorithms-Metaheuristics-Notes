@@ -63,7 +63,6 @@ int LinearizerAbsTaylor::linear_restrict(const IntervalVector& box) {
         exp_point = box.mid();
     else if (point== Simulated_Annealing){
             exp_point = SA.v1(box);
-			//std::cout << "exp_point after hill climbing: " << exp_point << std::endl;
 	}
     else if (point == RANDOM){
         for (int i = 0 ; i < box.size() ; i++)

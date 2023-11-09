@@ -1,12 +1,12 @@
 #pragma once
 
-#include "assert.hpp"
-#include "buffers.hpp"
-#include "config.hpp"
-#include "tsallis_distribution.hpp"
+#include "/test/dual-annealing/include/assert.hpp"
+#include "/test/dual-annealing/include/buffers.hpp"
+#include "/test/dual-annealing/include/config.hpp"
+#include "/test/dual-annealing/include/tsallis_distribution.hpp"
 
-#include <gsl/gsl-lite.hpp>
-#include <lbfgs/lbfgs.hpp>
+#include "/test/dual-annealing/third_party/gsl-lite/include/gsl/gsl-lite.hpp"
+#include "/test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/lbfgs.hpp"
 
 #include <cmath> // std::sqrt, std::pow
 #include <cstddef>

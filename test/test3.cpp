@@ -3,84 +3,72 @@
 #include <cmath>
 #include <algorithm>
 #include <random>
+#include "/test/dual-annealing/include/tsallis_distribution.hpp"
 
-std::default_random_engine generator(std::random_device{}());
-std::uniform_real_distribution<double> distribution(0.0, 1.0);
-double q = 1.5; // Valor del parámetro de Tsallis
+using namespace DualAnnealing;
 
 double f_obj(const std::vector<double>& x) {
-    double eval_fun = 0;
-    for(double xi : x) {
-        eval_fun += xi * xi;
+    double sum = 0.0;
+    for (double xi : x) {
+        sum += xi * xi;
     }
-    return eval_fun;
+    return sum;
 }
 
-bool tsallis_accept(double delta, double T, double q) {
-    if (q == 1) {
+// Actualiza la función para usar la distribución de Tsallis para la perturbación
+std::vector<double> perturb_tsallis(std::vector<double>& X, 
+                                    tsallis_distribution_t& tsallis_dist, 
+                                    std::default_random_engine& generator) {
+    std::vector<double> X_new(X.size());
+    for (size_t j = 0; j < X.size(); ++j) {
+        X_new[j] = X[j] + tsallis_dist(generator);  // Genera un nuevo punto
+    }
+    return X_new;
+}
+
+// Implementa la función de aceptación de Tsallis
+bool tsallis_accept(double delta, double T, double q, std::default_random_engine& generator) {
+    std::uniform_real_distribution<double> distribution(0.0, 1.0);
+    if (q == 1.0) {
         return exp(-delta / T) > distribution(generator);
     } else {
-        double factor = (1 - (1-q) * delta / T);
+        double factor = (1 - (1 - q) * delta / T);
         if (factor <= 0) return false;
-        return pow(factor, 1 / (1-q)) > distribution(generator);
+        return pow(factor, 1 / (1 - q)) > distribution(generator);
     }
-}
-
-std::vector<double> fun_per(const std::vector<double>& X_B, 
-                            const std::vector<double>& lb,
-                            const std::vector<double>& ub, int dim, double T, double T2) {
-    std::vector<double> X_B_new = X_B;
-
-    for(int j = 0; j < dim; ++j) {
-        double delta = (distribution(generator) - 0.5) * (ub[j] - lb[j]);
-        X_B_new[j] += delta * T2; // Perturbación influenciada por T2
-        X_B_new[j] = std::min(std::max(X_B_new[j], lb[j]), ub[j]);
-    }
-
-    return X_B_new;
 }
 
 int main() {
-    int iter = 10000;
-    int iter_sin_mejora = 0;
-    std::vector<double> lb = {0, -10, 10, 10};
-    std::vector<double> ub = {100, 100, 100, 100};
-    int dim = lb.size();
-    double T = 1;
-    double T2 = 0.1;
-    double alpha_T = 0.99; // Factor de enfriamiento para T
-    double alpha_T2 = 0.95; // Factor de enfriamiento para T2, si se desea distinto de alpha_T
-    double tol_mejora = 1e-6; // Tolerancia de mejora relativa para el criterio de parada
+    std::default_random_engine generator(std::random_device{}());
+    double q = 1.5; // Parámetro de la distribución de Tsallis
+    std::uniform_real_distribution<double> distribution(0.0, 1.0);
+    tsallis_distribution_t tsallis_dist(q, 1.0); // Inicializa la distribución con q y una temperatura inicial
 
-    std::vector<double> X_A(dim);
-    for(int i = 0; i < dim; ++i) {
+    int iter = 10000;
+    std::vector<double> lb = {-100, -100, -100, -100};
+    std::vector<double> ub = {100, 100, 100, 100};
+    double T = 1; // Temperatura de aceptación inicial
+    double alpha = 0.99; // Factor de enfriamiento para T
+
+    std::vector<double> X_A(lb.size());
+    for(size_t i = 0; i < X_A.size(); ++i) {
         X_A[i] = lb[i] + (ub[i] - lb[i]) * distribution(generator);
     }
+
     double fval_mejor = f_obj(X_A);
 
-    for(int i = 0; i < iter && iter_sin_mejora < 1000; ++i) {
-        std::vector<double> X_B = fun_per(X_A, lb, ub, dim, T, T2);
+    for(int i = 0; i < iter; ++i) {
+        std::vector<double> X_B = perturb_tsallis(X_A, tsallis_dist, generator);
         double eval_X_A = f_obj(X_A);
         double eval_X_B = f_obj(X_B);
 
-        if(eval_X_B < eval_X_A || tsallis_accept(eval_X_B - eval_X_A, T, q)) {
+        if (tsallis_accept(eval_X_A - eval_X_B, T, q, generator)) {
             X_A = X_B;
-            eval_X_A = eval_X_B;
-
-            // Reinicia el contador si hay mejora
-            if (eval_X_A < fval_mejor * (1 - tol_mejora)) {
-                iter_sin_mejora = 0;
-                fval_mejor = eval_X_A;
-            }
-        } else {
-            // Incrementa el contador si no hay mejora
-            ++iter_sin_mejora;
+            fval_mejor = eval_X_B;
         }
 
-        T *= alpha_T;
-        T2 *= alpha_T2;
+        T *= alpha; // Enfriamiento de la temperatura de aceptación
     }
-
     std::cout << "Solución: ";
     for(double xi : X_A) std::cout << xi << ' ';
     std::cout << "\nValor en la función objetivo: " << f_obj(X_A) << '\n';

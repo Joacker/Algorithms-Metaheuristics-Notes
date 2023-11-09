@@ -11,6 +11,7 @@
 #include <random>
 
 using namespace DualAnnealing;
+using DualAnnealing::tsallis_distribution_t;
 tsallis_distribution_t tsallis_dist(1.5, 1.0); // Inicializa la distribución con q y una temperatura inicial
 struct to_range_t {
     float min;

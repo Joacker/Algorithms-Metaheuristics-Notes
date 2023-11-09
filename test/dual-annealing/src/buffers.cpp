@@ -1,6 +1,6 @@
-#include "buffers.hpp"
+#include "/test/dual-annealing/include/buffers.hpp"
 
-#include <gsl/gsl-lite.hpp>
+#include "/test/dual-annealing/third_party/gsl-lite/include/gsl/gsl-lite.hpp"
 
 #include <cstring>   // std::memset
 #include <memory>    // std::unique_ptr, std::aligned_alloc, etc.

@@ -1,5 +1,4 @@
 #pragma once
-
 #include "/test/dual-annealing/include/assert.hpp"
 #include "/test/dual-annealing/include/buffers.hpp"
 #include "/test/dual-annealing/include/config.hpp"
@@ -15,7 +14,7 @@
 #include <tuple>
 #include <type_traits>
 
-DA_NAMESPACE_BEGIN
+namespace DualAnnealing {
 
 struct param_t {
     float  q_V;
@@ -494,4 +493,4 @@ minimize(Objective&& obj, gsl::span<float> x, param_t const& parameters,
     return finalise();
 }
 
-DA_NAMESPACE_END
+} // namespace DualAnnealing

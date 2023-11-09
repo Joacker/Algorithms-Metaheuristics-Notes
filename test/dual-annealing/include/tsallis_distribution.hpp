@@ -34,7 +34,7 @@
 #include <cmath>  // std::sqrt, std::pow
 #include <random> // std::normal_distribution, std::gamma_distribution
 
-namespace DualAnnealing {
+DA_NAMESPACE_BEGIN
 
 /// \brief Tsallis distribution.
 ///
@@ -223,4 +223,4 @@ struct tsallis_distribution_t {
     param_type                          _params;
 };
 
-} // namespace DualAnnealing
+DA_NAMESPACE_END

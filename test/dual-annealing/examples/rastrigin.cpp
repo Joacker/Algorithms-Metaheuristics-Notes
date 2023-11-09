@@ -9,9 +9,10 @@
 #include <iostream>
 #include <iterator>
 #include <random>
+#include <vector>
 
-using namespace DualAnnealing;
-tsallis_distribution_t tsallis_dist(1.5, 1.0); // Inicializa la distribución con q y una temperatura inicial
+using namespace tcm;
+
 struct to_range_t {
     float min;
     float max;

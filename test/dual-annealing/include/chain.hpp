@@ -14,7 +14,7 @@
 #include <tuple>
 #include <type_traits>
 
-namespace DualAnnealing {
+DA_NAMESPACE_BEGIN
 
 struct param_t {
     float  q_V;
@@ -493,4 +493,4 @@ minimize(Objective&& obj, gsl::span<float> x, param_t const& parameters,
     return finalise();
 }
 
-} // namespace DualAnnealing
+DA_NAMESPACE_END

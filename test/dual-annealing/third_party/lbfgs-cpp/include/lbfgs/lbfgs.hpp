@@ -28,8 +28,8 @@
 
 #pragma once
 
-#include "config.hpp"
-#include "line_search.hpp"
+#include "/test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/config.hpp"
+#include "/test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/line_search.hpp"
 
 #if defined(LBFGS_CLANG)
 #    pragma clang diagnostic push

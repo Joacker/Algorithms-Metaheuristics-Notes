@@ -8,7 +8,7 @@
 #include <optional>         // std::optional
 #include <type_traits>      // std::aligned_storage
 
-namespace DualAnnealing {
+DA_NAMESPACE_BEGIN
 
 struct workspace_t {
     struct point_t {
@@ -70,4 +70,4 @@ struct sa_buffers_t {
 
 auto thread_local_workspace(size_t size) noexcept -> std::optional<workspace_t>;
 
-} // namespace DualAnnealing
+DA_NAMESPACE_END

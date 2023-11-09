@@ -7,7 +7,7 @@
 #include <optional>  // std::optional
 #include <stdexcept> // std::overflow_error, std::bad_alloc
 
-DA_NAMESPACE_BEGIN
+namespace DualAnnealing {
 
 namespace detail {
 template <size_t N> struct buffers_base_t {
@@ -173,4 +173,4 @@ DA_EXPORT auto thread_local_workspace(size_t const size) noexcept
     }
 }
 
-DA_NAMESPACE_END
+} // namespace DualAnnealing

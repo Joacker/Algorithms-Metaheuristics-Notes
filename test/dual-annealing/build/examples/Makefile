@@ -286,7 +286,6 @@ base.o: base.cpp.o
 # target to build an object file
 base.cpp.o:
 	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_5.dir/build.make examples/CMakeFiles/ex_5.dir/base.cpp.o
-	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_6.dir/build.make examples/CMakeFiles/ex_6.dir/base.cpp.o
 .PHONY : base.cpp.o
 
 base.i: base.cpp.i
@@ -296,7 +295,6 @@ base.i: base.cpp.i
 # target to preprocess a source file
 base.cpp.i:
 	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_5.dir/build.make examples/CMakeFiles/ex_5.dir/base.cpp.i
-	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_6.dir/build.make examples/CMakeFiles/ex_6.dir/base.cpp.i
 .PHONY : base.cpp.i
 
 base.s: base.cpp.s
@@ -306,8 +304,34 @@ base.s: base.cpp.s
 # target to generate assembly for a file
 base.cpp.s:
 	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_5.dir/build.make examples/CMakeFiles/ex_5.dir/base.cpp.s
-	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_6.dir/build.make examples/CMakeFiles/ex_6.dir/base.cpp.s
 .PHONY : base.cpp.s
+
+base2.o: base2.cpp.o
+
+.PHONY : base2.o
+
+# target to build an object file
+base2.cpp.o:
+	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_6.dir/build.make examples/CMakeFiles/ex_6.dir/base2.cpp.o
+.PHONY : base2.cpp.o
+
+base2.i: base2.cpp.i
+
+.PHONY : base2.i
+
+# target to preprocess a source file
+base2.cpp.i:
+	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_6.dir/build.make examples/CMakeFiles/ex_6.dir/base2.cpp.i
+.PHONY : base2.cpp.i
+
+base2.s: base2.cpp.s
+
+.PHONY : base2.s
+
+# target to generate assembly for a file
+base2.cpp.s:
+	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_6.dir/build.make examples/CMakeFiles/ex_6.dir/base2.cpp.s
+.PHONY : base2.cpp.s
 
 ex_1.o: ex_1.cpp.o
 
@@ -441,6 +465,9 @@ help:
 	@echo "... base.o"
 	@echo "... base.i"
 	@echo "... base.s"
+	@echo "... base2.o"
+	@echo "... base2.i"
+	@echo "... base2.s"
 	@echo "... ex_1.o"
 	@echo "... ex_1.i"
 	@echo "... ex_1.s"

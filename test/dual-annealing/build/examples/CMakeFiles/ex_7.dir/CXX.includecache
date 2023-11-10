@@ -210,7 +210,7 @@ type_traits
 intrin.h
 -
 
-/test/dual-annealing/examples/base2.cpp
+/test/dual-annealing/examples/base3.cpp
 chain.hpp
 /test/dual-annealing/examples/chain.hpp
 pcg_random.hpp
@@ -222,9 +222,5 @@ iostream
 cmath
 -
 ctime
--
-algorithm
--
-random
 -
 

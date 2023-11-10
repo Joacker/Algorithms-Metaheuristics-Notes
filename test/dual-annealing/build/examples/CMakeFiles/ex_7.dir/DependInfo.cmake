@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/test/dual-annealing/examples/base2.cpp" "/test/dual-annealing/build/examples/CMakeFiles/ex_6.dir/base2.cpp.o"
+  "/test/dual-annealing/examples/base3.cpp" "/test/dual-annealing/build/examples/CMakeFiles/ex_7.dir/base3.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

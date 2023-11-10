@@ -1,1 +1,1 @@
-/usr/bin/g++-8  -std=c++17 -O2 -g -DNDEBUG   CMakeFiles/ex_6.dir/base.cpp.o  -o ex_6 -Wl,-rpath,/test/dual-annealing/build ../libdual_annealing.so ../third_party/lbfgs-cpp/liblbfgs.a 
+/usr/bin/g++-8  -std=c++17 -O2 -g -DNDEBUG   CMakeFiles/ex_6.dir/base2.cpp.o  -o ex_6 -Wl,-rpath,/test/dual-annealing/build ../libdual_annealing.so ../third_party/lbfgs-cpp/liblbfgs.a 

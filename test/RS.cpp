@@ -6,9 +6,6 @@
 #include <algorithm>
 #include <iterator>
 #include <functional>
-//#include <matplotlibcpp.h>  // Biblioteca para graficar similar a matplotlib de Python
-
-//namespace plt = matplotlibcpp;
 
 double f_obj(const std::vector<double>& x) {
     // Aplicar una función de suma de cuadrados
@@ -82,12 +79,5 @@ int main() {
     std::cout << "X_A: ";
     std::copy(X_A.begin(), X_A.end(), std::ostream_iterator<double>(std::cout, " "));
     std::cout << "\neval_X_A: " << f_obj(X_A) << std::endl;
-
-    // Graficar la ruta
-    /*plt::plot(ruta);
-    plt::xlabel("Iteraciones");
-    plt::ylabel("Valor en la función objetivo");
-    plt::show();*/
-
     return 0;
 }

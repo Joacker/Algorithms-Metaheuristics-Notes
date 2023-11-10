@@ -57,27 +57,27 @@ include examples/CMakeFiles/ex_6.dir/progress.make
 # Include the compile flags for this target's objects.
 include examples/CMakeFiles/ex_6.dir/flags.make
 
-examples/CMakeFiles/ex_6.dir/base.cpp.o: examples/CMakeFiles/ex_6.dir/flags.make
-examples/CMakeFiles/ex_6.dir/base.cpp.o: ../examples/base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/test/dual-annealing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/ex_6.dir/base.cpp.o"
-	cd /test/dual-annealing/build/examples && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex_6.dir/base.cpp.o -c /test/dual-annealing/examples/base.cpp
+examples/CMakeFiles/ex_6.dir/base2.cpp.o: examples/CMakeFiles/ex_6.dir/flags.make
+examples/CMakeFiles/ex_6.dir/base2.cpp.o: ../examples/base2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/test/dual-annealing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/ex_6.dir/base2.cpp.o"
+	cd /test/dual-annealing/build/examples && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex_6.dir/base2.cpp.o -c /test/dual-annealing/examples/base2.cpp
 
-examples/CMakeFiles/ex_6.dir/base.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex_6.dir/base.cpp.i"
-	cd /test/dual-annealing/build/examples && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /test/dual-annealing/examples/base.cpp > CMakeFiles/ex_6.dir/base.cpp.i
+examples/CMakeFiles/ex_6.dir/base2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex_6.dir/base2.cpp.i"
+	cd /test/dual-annealing/build/examples && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /test/dual-annealing/examples/base2.cpp > CMakeFiles/ex_6.dir/base2.cpp.i
 
-examples/CMakeFiles/ex_6.dir/base.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex_6.dir/base.cpp.s"
-	cd /test/dual-annealing/build/examples && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /test/dual-annealing/examples/base.cpp -o CMakeFiles/ex_6.dir/base.cpp.s
+examples/CMakeFiles/ex_6.dir/base2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex_6.dir/base2.cpp.s"
+	cd /test/dual-annealing/build/examples && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /test/dual-annealing/examples/base2.cpp -o CMakeFiles/ex_6.dir/base2.cpp.s
 
 # Object files for target ex_6
 ex_6_OBJECTS = \
-"CMakeFiles/ex_6.dir/base.cpp.o"
+"CMakeFiles/ex_6.dir/base2.cpp.o"
 
 # External object files for target ex_6
 ex_6_EXTERNAL_OBJECTS =
 
-examples/ex_6: examples/CMakeFiles/ex_6.dir/base.cpp.o
+examples/ex_6: examples/CMakeFiles/ex_6.dir/base2.cpp.o
 examples/ex_6: examples/CMakeFiles/ex_6.dir/build.make
 examples/ex_6: libdual_annealing.so
 examples/ex_6: third_party/lbfgs-cpp/liblbfgs.a

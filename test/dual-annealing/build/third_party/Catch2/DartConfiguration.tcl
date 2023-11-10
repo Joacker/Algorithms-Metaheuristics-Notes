@@ -11,10 +11,10 @@ BuildDirectory: /test/dual-annealing/build/third_party/Catch2
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: 8b2ccc437d50
+Site: 75f9be98be05
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Linux-c++
+BuildName: Linux-g++-8
 
 # Subprojects
 LabelsForSubprojects: 
@@ -72,7 +72,7 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: /usr/bin/c++
+Compiler: /usr/bin/g++-8
 CompilerVersion: 8.3.0
 
 # Dynamic analysis (MemCheck)

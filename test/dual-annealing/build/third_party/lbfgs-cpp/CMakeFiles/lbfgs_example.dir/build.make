@@ -60,15 +60,15 @@ include third_party/lbfgs-cpp/CMakeFiles/lbfgs_example.dir/flags.make
 third_party/lbfgs-cpp/CMakeFiles/lbfgs_example.dir/example/lbfgs.cpp.o: third_party/lbfgs-cpp/CMakeFiles/lbfgs_example.dir/flags.make
 third_party/lbfgs-cpp/CMakeFiles/lbfgs_example.dir/example/lbfgs.cpp.o: ../third_party/lbfgs-cpp/example/lbfgs.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/test/dual-annealing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object third_party/lbfgs-cpp/CMakeFiles/lbfgs_example.dir/example/lbfgs.cpp.o"
-	cd /test/dual-annealing/build/third_party/lbfgs-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lbfgs_example.dir/example/lbfgs.cpp.o -c /test/dual-annealing/third_party/lbfgs-cpp/example/lbfgs.cpp
+	cd /test/dual-annealing/build/third_party/lbfgs-cpp && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lbfgs_example.dir/example/lbfgs.cpp.o -c /test/dual-annealing/third_party/lbfgs-cpp/example/lbfgs.cpp
 
 third_party/lbfgs-cpp/CMakeFiles/lbfgs_example.dir/example/lbfgs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lbfgs_example.dir/example/lbfgs.cpp.i"
-	cd /test/dual-annealing/build/third_party/lbfgs-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /test/dual-annealing/third_party/lbfgs-cpp/example/lbfgs.cpp > CMakeFiles/lbfgs_example.dir/example/lbfgs.cpp.i
+	cd /test/dual-annealing/build/third_party/lbfgs-cpp && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /test/dual-annealing/third_party/lbfgs-cpp/example/lbfgs.cpp > CMakeFiles/lbfgs_example.dir/example/lbfgs.cpp.i
 
 third_party/lbfgs-cpp/CMakeFiles/lbfgs_example.dir/example/lbfgs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lbfgs_example.dir/example/lbfgs.cpp.s"
-	cd /test/dual-annealing/build/third_party/lbfgs-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /test/dual-annealing/third_party/lbfgs-cpp/example/lbfgs.cpp -o CMakeFiles/lbfgs_example.dir/example/lbfgs.cpp.s
+	cd /test/dual-annealing/build/third_party/lbfgs-cpp && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /test/dual-annealing/third_party/lbfgs-cpp/example/lbfgs.cpp -o CMakeFiles/lbfgs_example.dir/example/lbfgs.cpp.s
 
 # Object files for target lbfgs_example
 lbfgs_example_OBJECTS = \

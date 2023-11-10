@@ -1,1 +1,1 @@
-/usr/bin/c++  -O2 -g -DNDEBUG   CMakeFiles/lbfgs_example.dir/example/lbfgs.cpp.o  -o lbfgs_example liblbfgs.a 
+/usr/bin/g++-8  -std=c++17 -O2 -g -DNDEBUG   CMakeFiles/lbfgs_example.dir/example/lbfgs.cpp.o  -o lbfgs_example liblbfgs.a 

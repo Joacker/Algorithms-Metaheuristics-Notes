@@ -6,6 +6,28 @@
 
 #IncludeRegexTransform: 
 
+../third_party/lbfgs-cpp/include/lbfgs/lbfgs.hpp
+/test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/config.hpp
+-
+/test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/line_search.hpp
+-
+/test/dual-annealing/third_party/gsl-lite/include/gsl/gsl-lite.hpp
+-
+cstring
+-
+numeric
+-
+system_error
+-
+tuple
+-
+type_traits
+-
+utility
+-
+vector
+-
+
 /test/dual-annealing/third_party/gsl-lite/include/gsl/gsl-lite.hpp
 algorithm
 -
@@ -40,28 +62,6 @@ cstdint
 
 /test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/config.hpp
 
-/test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/lbfgs.hpp
-/test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/config.hpp
--
-/test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/line_search.hpp
--
-/test/dual-annealing/third_party/gsl-lite/include/gsl/gsl-lite.hpp
--
-cstring
--
-numeric
--
-system_error
--
-tuple
--
-type_traits
--
-utility
--
-vector
--
-
 /test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/line_search.hpp
 /test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/config.hpp
 -
@@ -77,8 +77,8 @@ utility
 -
 
 /test/dual-annealing/third_party/lbfgs-cpp/src/lbfgs.cpp
-/test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/lbfgs.hpp
--
+lbfgs/lbfgs.hpp
+/test/dual-annealing/third_party/lbfgs-cpp/src/lbfgs/lbfgs.hpp
 cblas.h
 -
 immintrin.h

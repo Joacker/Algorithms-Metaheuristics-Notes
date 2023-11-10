@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
+../include/assert.hpp
+
+../include/config.hpp
+cstdio
+-
+
 ../include/tsallis_distribution.hpp
-/test/dual-annealing/include/assert.hpp
--
-/test/dual-annealing/include/config.hpp
--
+assert.hpp
+../include/assert.hpp
+config.hpp
+../include/config.hpp
 cmath
 -
 random
@@ -28,11 +34,5 @@ algorithm
 random
 -
 tsallis_distribution.hpp
--
-
-/test/dual-annealing/include/assert.hpp
-
-/test/dual-annealing/include/config.hpp
-cstdio
 -
 

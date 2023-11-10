@@ -60,28 +60,28 @@ include CMakeFiles/dual_annealing.dir/flags.make
 CMakeFiles/dual_annealing.dir/src/assert.cpp.o: CMakeFiles/dual_annealing.dir/flags.make
 CMakeFiles/dual_annealing.dir/src/assert.cpp.o: ../src/assert.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/test/dual-annealing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dual_annealing.dir/src/assert.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dual_annealing.dir/src/assert.cpp.o -c /test/dual-annealing/src/assert.cpp
+	/usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dual_annealing.dir/src/assert.cpp.o -c /test/dual-annealing/src/assert.cpp
 
 CMakeFiles/dual_annealing.dir/src/assert.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dual_annealing.dir/src/assert.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /test/dual-annealing/src/assert.cpp > CMakeFiles/dual_annealing.dir/src/assert.cpp.i
+	/usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /test/dual-annealing/src/assert.cpp > CMakeFiles/dual_annealing.dir/src/assert.cpp.i
 
 CMakeFiles/dual_annealing.dir/src/assert.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dual_annealing.dir/src/assert.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /test/dual-annealing/src/assert.cpp -o CMakeFiles/dual_annealing.dir/src/assert.cpp.s
+	/usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /test/dual-annealing/src/assert.cpp -o CMakeFiles/dual_annealing.dir/src/assert.cpp.s
 
 CMakeFiles/dual_annealing.dir/src/buffers.cpp.o: CMakeFiles/dual_annealing.dir/flags.make
 CMakeFiles/dual_annealing.dir/src/buffers.cpp.o: ../src/buffers.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/test/dual-annealing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dual_annealing.dir/src/buffers.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dual_annealing.dir/src/buffers.cpp.o -c /test/dual-annealing/src/buffers.cpp
+	/usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dual_annealing.dir/src/buffers.cpp.o -c /test/dual-annealing/src/buffers.cpp
 
 CMakeFiles/dual_annealing.dir/src/buffers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dual_annealing.dir/src/buffers.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /test/dual-annealing/src/buffers.cpp > CMakeFiles/dual_annealing.dir/src/buffers.cpp.i
+	/usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /test/dual-annealing/src/buffers.cpp > CMakeFiles/dual_annealing.dir/src/buffers.cpp.i
 
 CMakeFiles/dual_annealing.dir/src/buffers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dual_annealing.dir/src/buffers.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /test/dual-annealing/src/buffers.cpp -o CMakeFiles/dual_annealing.dir/src/buffers.cpp.s
+	/usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /test/dual-annealing/src/buffers.cpp -o CMakeFiles/dual_annealing.dir/src/buffers.cpp.s
 
 # Object files for target dual_annealing
 dual_annealing_OBJECTS = \

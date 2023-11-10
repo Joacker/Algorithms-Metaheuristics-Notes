@@ -6,14 +6,14 @@
 
 #IncludeRegexTransform: 
 
-/test/dual-annealing/include/assert.hpp
+../include/assert.hpp
 
-/test/dual-annealing/include/buffers.hpp
-/test/dual-annealing/include/assert.hpp
--
-/test/dual-annealing/include/config.hpp
--
-/test/dual-annealing/third_party/gsl-lite/include/gsl/gsl-lite.hpp
+../include/buffers.hpp
+assert.hpp
+../include/assert.hpp
+config.hpp
+../include/config.hpp
+gsl/gsl-lite.hpp
 -
 cstddef
 -
@@ -24,35 +24,11 @@ optional
 type_traits
 -
 
-/test/dual-annealing/include/config.hpp
+../include/config.hpp
 cstdio
 -
 
-/test/dual-annealing/src/assert.cpp
-/test/dual-annealing/include/assert.hpp
--
-cstdio
--
-cstdlib
--
-unistd.h
--
-
-/test/dual-annealing/src/buffers.cpp
-/test/dual-annealing/include/buffers.hpp
--
-/test/dual-annealing/third_party/gsl-lite/include/gsl/gsl-lite.hpp
--
-cstring
--
-memory
--
-optional
--
-stdexcept
--
-
-/test/dual-annealing/third_party/gsl-lite/include/gsl/gsl-lite.hpp
+../third_party/gsl-lite/include/gsl/gsl-lite.hpp
 algorithm
 -
 exception
@@ -82,5 +58,29 @@ type_traits
 tr1/type_traits
 -
 cstdint
+-
+
+/test/dual-annealing/src/assert.cpp
+assert.hpp
+/test/dual-annealing/src/assert.hpp
+cstdio
+-
+cstdlib
+-
+unistd.h
+-
+
+/test/dual-annealing/src/buffers.cpp
+buffers.hpp
+/test/dual-annealing/src/buffers.hpp
+gsl/gsl-lite.hpp
+-
+cstring
+-
+memory
+-
+optional
+-
+stdexcept
 -
 

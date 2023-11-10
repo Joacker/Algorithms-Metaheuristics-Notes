@@ -65,6 +65,6 @@ int main() {
     std::cout << "Solución: ";
     for(double xi : X_A) std::cout << xi << ' ';
     std::cout << "\nValor en la función objetivo: " << f_obj(X_A) << '\n';
-
+    std::cout << "HOLAAAAAAAAAAAAAAAA" << '\n';
     return 0;
 }

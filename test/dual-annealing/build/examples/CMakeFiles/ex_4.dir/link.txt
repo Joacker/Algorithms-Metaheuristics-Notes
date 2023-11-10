@@ -1,1 +1,1 @@
-/usr/bin/c++  -O2 -g -DNDEBUG   CMakeFiles/ex_4.dir/rastrigin.cpp.o  -o ex_4 -Wl,-rpath,/test/dual-annealing/build ../libdual_annealing.so ../third_party/lbfgs-cpp/liblbfgs.a 
+/usr/bin/g++-8  -std=c++17 -O2 -g -DNDEBUG   CMakeFiles/ex_4.dir/rastrigin.cpp.o  -o ex_4 -Wl,-rpath,/test/dual-annealing/build ../libdual_annealing.so ../third_party/lbfgs-cpp/liblbfgs.a 

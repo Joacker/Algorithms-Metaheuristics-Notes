@@ -6,37 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/test/dual-annealing/examples/tsallis.cpp
-/test/dual-annealing/include/tsallis_distribution.hpp
--
-/test/dual-annealing/third_party/pcg-cpp/include/pcg_random.hpp
--
-cerrno
--
-charconv
--
-cstdio
--
-string
--
+../include/assert.hpp
 
-/test/dual-annealing/include/assert.hpp
-
-/test/dual-annealing/include/config.hpp
+../include/config.hpp
 cstdio
 -
 
-/test/dual-annealing/include/tsallis_distribution.hpp
-/test/dual-annealing/include/assert.hpp
--
-/test/dual-annealing/include/config.hpp
--
+../include/tsallis_distribution.hpp
+assert.hpp
+../include/assert.hpp
+config.hpp
+../include/config.hpp
 cmath
 -
 random
 -
 
-/test/dual-annealing/third_party/pcg-cpp/include/pcg_extras.hpp
+../third_party/pcg-cpp/include/pcg_extras.hpp
 cinttypes
 -
 cstddef
@@ -62,9 +48,9 @@ iterator
 cxxabi.h
 -
 pcg_uint128.hpp
-/test/dual-annealing/third_party/pcg-cpp/include/pcg_uint128.hpp
+../third_party/pcg-cpp/include/pcg_uint128.hpp
 
-/test/dual-annealing/third_party/pcg-cpp/include/pcg_random.hpp
+../third_party/pcg-cpp/include/pcg_random.hpp
 algorithm
 -
 cinttypes
@@ -94,9 +80,9 @@ new
 stdexcept
 -
 pcg_extras.hpp
-/test/dual-annealing/third_party/pcg-cpp/include/pcg_extras.hpp
+../third_party/pcg-cpp/include/pcg_extras.hpp
 
-/test/dual-annealing/third_party/pcg-cpp/include/pcg_uint128.hpp
+../third_party/pcg-cpp/include/pcg_uint128.hpp
 cstdint
 -
 cstdio
@@ -112,5 +98,19 @@ initializer_list
 type_traits
 -
 intrin.h
+-
+
+/test/dual-annealing/examples/tsallis.cpp
+tsallis_distribution.hpp
+/test/dual-annealing/examples/tsallis_distribution.hpp
+pcg_random.hpp
+-
+cerrno
+-
+charconv
+-
+cstdio
+-
+string
 -
 

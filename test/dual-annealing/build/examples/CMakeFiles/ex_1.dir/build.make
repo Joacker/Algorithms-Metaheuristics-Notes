@@ -60,15 +60,15 @@ include examples/CMakeFiles/ex_1.dir/flags.make
 examples/CMakeFiles/ex_1.dir/ex_1.cpp.o: examples/CMakeFiles/ex_1.dir/flags.make
 examples/CMakeFiles/ex_1.dir/ex_1.cpp.o: ../examples/ex_1.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/test/dual-annealing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/ex_1.dir/ex_1.cpp.o"
-	cd /test/dual-annealing/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex_1.dir/ex_1.cpp.o -c /test/dual-annealing/examples/ex_1.cpp
+	cd /test/dual-annealing/build/examples && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex_1.dir/ex_1.cpp.o -c /test/dual-annealing/examples/ex_1.cpp
 
 examples/CMakeFiles/ex_1.dir/ex_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex_1.dir/ex_1.cpp.i"
-	cd /test/dual-annealing/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /test/dual-annealing/examples/ex_1.cpp > CMakeFiles/ex_1.dir/ex_1.cpp.i
+	cd /test/dual-annealing/build/examples && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /test/dual-annealing/examples/ex_1.cpp > CMakeFiles/ex_1.dir/ex_1.cpp.i
 
 examples/CMakeFiles/ex_1.dir/ex_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex_1.dir/ex_1.cpp.s"
-	cd /test/dual-annealing/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /test/dual-annealing/examples/ex_1.cpp -o CMakeFiles/ex_1.dir/ex_1.cpp.s
+	cd /test/dual-annealing/build/examples && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /test/dual-annealing/examples/ex_1.cpp -o CMakeFiles/ex_1.dir/ex_1.cpp.s
 
 # Object files for target ex_1
 ex_1_OBJECTS = \

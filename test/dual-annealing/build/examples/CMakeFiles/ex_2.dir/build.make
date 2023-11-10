@@ -60,15 +60,15 @@ include examples/CMakeFiles/ex_2.dir/flags.make
 examples/CMakeFiles/ex_2.dir/tsallis.cpp.o: examples/CMakeFiles/ex_2.dir/flags.make
 examples/CMakeFiles/ex_2.dir/tsallis.cpp.o: ../examples/tsallis.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/test/dual-annealing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/ex_2.dir/tsallis.cpp.o"
-	cd /test/dual-annealing/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex_2.dir/tsallis.cpp.o -c /test/dual-annealing/examples/tsallis.cpp
+	cd /test/dual-annealing/build/examples && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex_2.dir/tsallis.cpp.o -c /test/dual-annealing/examples/tsallis.cpp
 
 examples/CMakeFiles/ex_2.dir/tsallis.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex_2.dir/tsallis.cpp.i"
-	cd /test/dual-annealing/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /test/dual-annealing/examples/tsallis.cpp > CMakeFiles/ex_2.dir/tsallis.cpp.i
+	cd /test/dual-annealing/build/examples && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /test/dual-annealing/examples/tsallis.cpp > CMakeFiles/ex_2.dir/tsallis.cpp.i
 
 examples/CMakeFiles/ex_2.dir/tsallis.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex_2.dir/tsallis.cpp.s"
-	cd /test/dual-annealing/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /test/dual-annealing/examples/tsallis.cpp -o CMakeFiles/ex_2.dir/tsallis.cpp.s
+	cd /test/dual-annealing/build/examples && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /test/dual-annealing/examples/tsallis.cpp -o CMakeFiles/ex_2.dir/tsallis.cpp.s
 
 # Object files for target ex_2
 ex_2_OBJECTS = \

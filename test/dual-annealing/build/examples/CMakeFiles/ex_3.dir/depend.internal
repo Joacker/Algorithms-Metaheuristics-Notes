@@ -9,7 +9,5 @@ examples/CMakeFiles/ex_3.dir/ex_3.cpp.o
  ../include/tsallis_distribution.hpp
  ../third_party/gsl-lite/include/gsl/gsl-lite.hpp
  ../third_party/lbfgs-cpp/include/lbfgs/lbfgs.hpp
+ ../third_party/lbfgs-cpp/include/lbfgs/line_search.hpp
  /test/dual-annealing/examples/ex_3.cpp
- /test/dual-annealing/third_party/gsl-lite/include/gsl/gsl-lite.hpp
- /test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/config.hpp
- /test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/line_search.hpp

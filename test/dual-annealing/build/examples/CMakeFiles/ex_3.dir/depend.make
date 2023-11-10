@@ -8,8 +8,6 @@ examples/CMakeFiles/ex_3.dir/ex_3.cpp.o: ../include/config.hpp
 examples/CMakeFiles/ex_3.dir/ex_3.cpp.o: ../include/tsallis_distribution.hpp
 examples/CMakeFiles/ex_3.dir/ex_3.cpp.o: ../third_party/gsl-lite/include/gsl/gsl-lite.hpp
 examples/CMakeFiles/ex_3.dir/ex_3.cpp.o: ../third_party/lbfgs-cpp/include/lbfgs/lbfgs.hpp
-examples/CMakeFiles/ex_3.dir/ex_3.cpp.o: ../examples/ex_3.cpp
-examples/CMakeFiles/ex_3.dir/ex_3.cpp.o: ../third_party/gsl-lite/include/gsl/gsl-lite.hpp
-examples/CMakeFiles/ex_3.dir/ex_3.cpp.o: ../third_party/lbfgs-cpp/include/lbfgs/config.hpp
 examples/CMakeFiles/ex_3.dir/ex_3.cpp.o: ../third_party/lbfgs-cpp/include/lbfgs/line_search.hpp
+examples/CMakeFiles/ex_3.dir/ex_3.cpp.o: ../examples/ex_3.cpp
 

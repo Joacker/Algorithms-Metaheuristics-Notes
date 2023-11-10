@@ -123,6 +123,17 @@ test/fast: test
 
 .PHONY : test/fast
 
+# Special rule for the target package
+package: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
+	cd /test/dual-annealing/build && /usr/bin/cpack --config ./CPackConfig.cmake
+.PHONY : package
+
+# Special rule for the target package
+package/fast: package
+
+.PHONY : package/fast
+
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -145,17 +156,6 @@ package_source:
 package_source/fast: package_source
 
 .PHONY : package_source/fast
-
-# Special rule for the target package
-package: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /test/dual-annealing/build && /usr/bin/cpack --config ./CPackConfig.cmake
-.PHONY : package
-
-# Special rule for the target package
-package/fast: package
-
-.PHONY : package/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -264,6 +264,21 @@ ex_5/fast:
 	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_5.dir/build.make examples/CMakeFiles/ex_5.dir/build
 .PHONY : ex_5/fast
 
+# Convenience name for target.
+examples/CMakeFiles/ex_6.dir/rule:
+	cd /test/dual-annealing/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_6.dir/rule
+.PHONY : examples/CMakeFiles/ex_6.dir/rule
+
+# Convenience name for target.
+ex_6: examples/CMakeFiles/ex_6.dir/rule
+
+.PHONY : ex_6
+
+# fast build rule for target.
+ex_6/fast:
+	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_6.dir/build.make examples/CMakeFiles/ex_6.dir/build
+.PHONY : ex_6/fast
+
 base.o: base.cpp.o
 
 .PHONY : base.o
@@ -271,6 +286,7 @@ base.o: base.cpp.o
 # target to build an object file
 base.cpp.o:
 	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_5.dir/build.make examples/CMakeFiles/ex_5.dir/base.cpp.o
+	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_6.dir/build.make examples/CMakeFiles/ex_6.dir/base.cpp.o
 .PHONY : base.cpp.o
 
 base.i: base.cpp.i
@@ -280,6 +296,7 @@ base.i: base.cpp.i
 # target to preprocess a source file
 base.cpp.i:
 	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_5.dir/build.make examples/CMakeFiles/ex_5.dir/base.cpp.i
+	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_6.dir/build.make examples/CMakeFiles/ex_6.dir/base.cpp.i
 .PHONY : base.cpp.i
 
 base.s: base.cpp.s
@@ -289,6 +306,7 @@ base.s: base.cpp.s
 # target to generate assembly for a file
 base.cpp.s:
 	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_5.dir/build.make examples/CMakeFiles/ex_5.dir/base.cpp.s
+	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_6.dir/build.make examples/CMakeFiles/ex_6.dir/base.cpp.s
 .PHONY : base.cpp.s
 
 ex_1.o: ex_1.cpp.o
@@ -411,6 +429,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... install/local"
 	@echo "... test"
+	@echo "... package"
 	@echo "... ex_2"
 	@echo "... install"
 	@echo "... ex_1"
@@ -418,7 +437,7 @@ help:
 	@echo "... ex_4"
 	@echo "... ex_3"
 	@echo "... ex_5"
-	@echo "... package"
+	@echo "... ex_6"
 	@echo "... base.o"
 	@echo "... base.i"
 	@echo "... base.s"

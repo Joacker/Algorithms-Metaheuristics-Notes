@@ -452,7 +452,7 @@ PKGCONFIG_INSTALL_DIR:PATH=share/pkgconfig
 SCPCOMMAND:FILEPATH=/usr/bin/scp
 
 //Name of the computer/site where compile is being run
-SITE:STRING=75f9be98be05
+SITE:STRING=a456f25fc118
 
 //Path to the SLURM sbatch executable
 SLURM_SBATCH_COMMAND:FILEPATH=SLURM_SBATCH_COMMAND-NOTFOUND

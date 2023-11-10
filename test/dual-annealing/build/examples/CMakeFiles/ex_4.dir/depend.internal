@@ -9,10 +9,8 @@ examples/CMakeFiles/ex_4.dir/rastrigin.cpp.o
  ../include/tsallis_distribution.hpp
  ../third_party/gsl-lite/include/gsl/gsl-lite.hpp
  ../third_party/lbfgs-cpp/include/lbfgs/lbfgs.hpp
+ ../third_party/lbfgs-cpp/include/lbfgs/line_search.hpp
  ../third_party/pcg-cpp/include/pcg_extras.hpp
  ../third_party/pcg-cpp/include/pcg_random.hpp
  ../third_party/pcg-cpp/include/pcg_uint128.hpp
  /test/dual-annealing/examples/rastrigin.cpp
- /test/dual-annealing/third_party/gsl-lite/include/gsl/gsl-lite.hpp
- /test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/config.hpp
- /test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/line_search.hpp

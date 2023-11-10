@@ -670,6 +670,19 @@ ex_5/fast:
 	$(MAKE) -f examples/CMakeFiles/ex_5.dir/build.make examples/CMakeFiles/ex_5.dir/build
 .PHONY : ex_5/fast
 
+#=============================================================================
+# Target rules for targets named ex_6
+
+# Build rule for target.
+ex_6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ex_6
+.PHONY : ex_6
+
+# fast build rule for target.
+ex_6/fast:
+	$(MAKE) -f examples/CMakeFiles/ex_6.dir/build.make examples/CMakeFiles/ex_6.dir/build
+.PHONY : ex_6/fast
+
 src/assert.o: src/assert.cpp.o
 
 .PHONY : src/assert.o
@@ -776,6 +789,7 @@ help:
 	@echo "... ex_4"
 	@echo "... ex_3"
 	@echo "... ex_5"
+	@echo "... ex_6"
 	@echo "... src/assert.o"
 	@echo "... src/assert.i"
 	@echo "... src/assert.s"

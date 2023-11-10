@@ -199,7 +199,7 @@ endif()
 #    add_subdirectory(test)
 #endif()
 
-if (DA_BUILD_BENCHMARKS)
-    add_subdirectory(bench)
-endif()
+#if (DA_BUILD_BENCHMARKS)
+#    add_subdirectory(bench)
+#endif()
 

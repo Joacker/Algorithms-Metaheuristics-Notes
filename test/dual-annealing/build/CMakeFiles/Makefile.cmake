@@ -110,4 +110,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "examples/CMakeFiles/ex_4.dir/DependInfo.cmake"
   "examples/CMakeFiles/ex_3.dir/DependInfo.cmake"
   "examples/CMakeFiles/ex_5.dir/DependInfo.cmake"
+  "examples/CMakeFiles/ex_6.dir/DependInfo.cmake"
   )

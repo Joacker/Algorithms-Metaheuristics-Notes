@@ -135,17 +135,6 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target package
-package: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /test/dual-annealing/build && /usr/bin/cpack --config ./CPackConfig.cmake
-.PHONY : package
-
-# Special rule for the target package
-package/fast: package
-
-.PHONY : package/fast
-
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
@@ -156,6 +145,17 @@ package_source:
 package_source/fast: package_source
 
 .PHONY : package_source/fast
+
+# Special rule for the target package
+package: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
+	cd /test/dual-annealing/build && /usr/bin/cpack --config ./CPackConfig.cmake
+.PHONY : package
+
+# Special rule for the target package
+package/fast: package
+
+.PHONY : package/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -220,6 +220,21 @@ ex_1/fast:
 .PHONY : ex_1/fast
 
 # Convenience name for target.
+examples/CMakeFiles/ex_4.dir/rule:
+	cd /test/dual-annealing/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_4.dir/rule
+.PHONY : examples/CMakeFiles/ex_4.dir/rule
+
+# Convenience name for target.
+ex_4: examples/CMakeFiles/ex_4.dir/rule
+
+.PHONY : ex_4
+
+# fast build rule for target.
+ex_4/fast:
+	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_4.dir/build.make examples/CMakeFiles/ex_4.dir/build
+.PHONY : ex_4/fast
+
+# Convenience name for target.
 examples/CMakeFiles/ex_3.dir/rule:
 	cd /test/dual-annealing/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_3.dir/rule
 .PHONY : examples/CMakeFiles/ex_3.dir/rule
@@ -235,19 +250,46 @@ ex_3/fast:
 .PHONY : ex_3/fast
 
 # Convenience name for target.
-examples/CMakeFiles/ex_4.dir/rule:
-	cd /test/dual-annealing/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_4.dir/rule
-.PHONY : examples/CMakeFiles/ex_4.dir/rule
+examples/CMakeFiles/ex_5.dir/rule:
+	cd /test/dual-annealing/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_5.dir/rule
+.PHONY : examples/CMakeFiles/ex_5.dir/rule
 
 # Convenience name for target.
-ex_4: examples/CMakeFiles/ex_4.dir/rule
+ex_5: examples/CMakeFiles/ex_5.dir/rule
 
-.PHONY : ex_4
+.PHONY : ex_5
 
 # fast build rule for target.
-ex_4/fast:
-	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_4.dir/build.make examples/CMakeFiles/ex_4.dir/build
-.PHONY : ex_4/fast
+ex_5/fast:
+	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_5.dir/build.make examples/CMakeFiles/ex_5.dir/build
+.PHONY : ex_5/fast
+
+base.o: base.cpp.o
+
+.PHONY : base.o
+
+# target to build an object file
+base.cpp.o:
+	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_5.dir/build.make examples/CMakeFiles/ex_5.dir/base.cpp.o
+.PHONY : base.cpp.o
+
+base.i: base.cpp.i
+
+.PHONY : base.i
+
+# target to preprocess a source file
+base.cpp.i:
+	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_5.dir/build.make examples/CMakeFiles/ex_5.dir/base.cpp.i
+.PHONY : base.cpp.i
+
+base.s: base.cpp.s
+
+.PHONY : base.s
+
+# target to generate assembly for a file
+base.cpp.s:
+	cd /test/dual-annealing/build && $(MAKE) -f examples/CMakeFiles/ex_5.dir/build.make examples/CMakeFiles/ex_5.dir/base.cpp.s
+.PHONY : base.cpp.s
 
 ex_1.o: ex_1.cpp.o
 
@@ -372,10 +414,14 @@ help:
 	@echo "... ex_2"
 	@echo "... install"
 	@echo "... ex_1"
-	@echo "... ex_3"
-	@echo "... package"
-	@echo "... ex_4"
 	@echo "... package_source"
+	@echo "... ex_4"
+	@echo "... ex_3"
+	@echo "... ex_5"
+	@echo "... package"
+	@echo "... base.o"
+	@echo "... base.i"
+	@echo "... base.s"
 	@echo "... ex_1.o"
 	@echo "... ex_1.i"
 	@echo "... ex_1.s"

@@ -1,5 +1,5 @@
-#include "/test/dual-annealing/include/tsallis_distribution.hpp"
-#include </test/dual-annealing/third_party/pcg-cpp/include/pcg_random.hpp>
+#include "tsallis_distribution.hpp"
+#include <pcg_random.hpp>
 
 #include <cerrno>
 #include <charconv>

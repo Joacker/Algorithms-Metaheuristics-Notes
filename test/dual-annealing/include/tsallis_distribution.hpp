@@ -28,18 +28,17 @@
 
 #pragma once
 
-#include "/test/dual-annealing/include/assert.hpp"
-#include "/test/dual-annealing/include/config.hpp"
+#include "assert.hpp"
+#include "config.hpp"
 
 #include <cmath>  // std::sqrt, std::pow
 #include <random> // std::normal_distribution, std::gamma_distribution
 
-DA_NAMESPACE_BEGIN
+DUAL_ANNEALING_NAMESPACE_BEGIN
 
 /// \brief Tsallis distribution.
 ///
 /// \warning It __does not__ model the `RandomNumberDistribution` concept.
-
 struct tsallis_distribution_t {
     using real_type   = float;
     using result_type = real_type;
@@ -223,4 +222,4 @@ struct tsallis_distribution_t {
     param_type                          _params;
 };
 
-DA_NAMESPACE_END
+DUAL_ANNEALING_NAMESPACE_END

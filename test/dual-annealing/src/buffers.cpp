@@ -1,13 +1,13 @@
-#include "/test/dual-annealing/include/buffers.hpp"
+#include "buffers.hpp"
 
-#include "/test/dual-annealing/third_party/gsl-lite/include/gsl/gsl-lite.hpp"
+#include <gsl/gsl-lite.hpp>
 
 #include <cstring>   // std::memset
 #include <memory>    // std::unique_ptr, std::aligned_alloc, etc.
 #include <optional>  // std::optional
 #include <stdexcept> // std::overflow_error, std::bad_alloc
 
-namespace DualAnnealing {
+DA_NAMESPACE_BEGIN
 
 namespace detail {
 template <size_t N> struct buffers_base_t {
@@ -173,4 +173,4 @@ DA_EXPORT auto thread_local_workspace(size_t const size) noexcept
     }
 }
 
-} // namespace DualAnnealing
+DA_NAMESPACE_END

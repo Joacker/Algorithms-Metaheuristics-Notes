@@ -1044,7 +1044,7 @@ third_party/lbfgs-cpp/preinstall:
 third_party/lbfgs-cpp/CMakeFiles/line_search.dir/all: third_party/lbfgs-cpp/CMakeFiles/lbfgs.dir/all
 	$(MAKE) -f third_party/lbfgs-cpp/CMakeFiles/line_search.dir/build.make third_party/lbfgs-cpp/CMakeFiles/line_search.dir/depend
 	$(MAKE) -f third_party/lbfgs-cpp/CMakeFiles/line_search.dir/build.make third_party/lbfgs-cpp/CMakeFiles/line_search.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/test/dual-annealing/build/CMakeFiles --progress-num=16,17 "Built target line_search"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/test/dual-annealing/build/CMakeFiles --progress-num=18,19 "Built target line_search"
 .PHONY : third_party/lbfgs-cpp/CMakeFiles/line_search.dir/all
 
 # Include target in all.
@@ -1081,7 +1081,7 @@ clean: third_party/lbfgs-cpp/CMakeFiles/line_search.dir/clean
 third_party/lbfgs-cpp/CMakeFiles/lbfgs.dir/all:
 	$(MAKE) -f third_party/lbfgs-cpp/CMakeFiles/lbfgs.dir/build.make third_party/lbfgs-cpp/CMakeFiles/lbfgs.dir/depend
 	$(MAKE) -f third_party/lbfgs-cpp/CMakeFiles/lbfgs.dir/build.make third_party/lbfgs-cpp/CMakeFiles/lbfgs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/test/dual-annealing/build/CMakeFiles --progress-num=12,13 "Built target lbfgs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/test/dual-annealing/build/CMakeFiles --progress-num=14,15 "Built target lbfgs"
 .PHONY : third_party/lbfgs-cpp/CMakeFiles/lbfgs.dir/all
 
 # Include target in all.
@@ -1118,7 +1118,7 @@ clean: third_party/lbfgs-cpp/CMakeFiles/lbfgs.dir/clean
 third_party/lbfgs-cpp/CMakeFiles/lbfgs_example.dir/all: third_party/lbfgs-cpp/CMakeFiles/lbfgs.dir/all
 	$(MAKE) -f third_party/lbfgs-cpp/CMakeFiles/lbfgs_example.dir/build.make third_party/lbfgs-cpp/CMakeFiles/lbfgs_example.dir/depend
 	$(MAKE) -f third_party/lbfgs-cpp/CMakeFiles/lbfgs_example.dir/build.make third_party/lbfgs-cpp/CMakeFiles/lbfgs_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/test/dual-annealing/build/CMakeFiles --progress-num=14,15 "Built target lbfgs_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/test/dual-annealing/build/CMakeFiles --progress-num=16,17 "Built target lbfgs_example"
 .PHONY : third_party/lbfgs-cpp/CMakeFiles/lbfgs_example.dir/all
 
 # Include target in all.
@@ -1172,16 +1172,18 @@ third_party/Catch2/preinstall:
 # Convenience name for "all" pass in the directory.
 examples/all: examples/CMakeFiles/ex_2.dir/all
 examples/all: examples/CMakeFiles/ex_1.dir/all
-examples/all: examples/CMakeFiles/ex_3.dir/all
 examples/all: examples/CMakeFiles/ex_4.dir/all
+examples/all: examples/CMakeFiles/ex_3.dir/all
+examples/all: examples/CMakeFiles/ex_5.dir/all
 
 .PHONY : examples/all
 
 # Convenience name for "clean" pass in the directory.
 examples/clean: examples/CMakeFiles/ex_2.dir/clean
 examples/clean: examples/CMakeFiles/ex_1.dir/clean
-examples/clean: examples/CMakeFiles/ex_3.dir/clean
 examples/clean: examples/CMakeFiles/ex_4.dir/clean
+examples/clean: examples/CMakeFiles/ex_3.dir/clean
+examples/clean: examples/CMakeFiles/ex_5.dir/clean
 
 .PHONY : examples/clean
 
@@ -1266,6 +1268,44 @@ clean: examples/CMakeFiles/ex_1.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target examples/CMakeFiles/ex_4.dir
+
+# All Build rule for target.
+examples/CMakeFiles/ex_4.dir/all: CMakeFiles/dual_annealing.dir/all
+examples/CMakeFiles/ex_4.dir/all: third_party/lbfgs-cpp/CMakeFiles/lbfgs.dir/all
+	$(MAKE) -f examples/CMakeFiles/ex_4.dir/build.make examples/CMakeFiles/ex_4.dir/depend
+	$(MAKE) -f examples/CMakeFiles/ex_4.dir/build.make examples/CMakeFiles/ex_4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/test/dual-annealing/build/CMakeFiles --progress-num=10,11 "Built target ex_4"
+.PHONY : examples/CMakeFiles/ex_4.dir/all
+
+# Include target in all.
+all: examples/CMakeFiles/ex_4.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+examples/CMakeFiles/ex_4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /test/dual-annealing/build/CMakeFiles 7
+	$(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /test/dual-annealing/build/CMakeFiles 0
+.PHONY : examples/CMakeFiles/ex_4.dir/rule
+
+# Convenience name for target.
+ex_4: examples/CMakeFiles/ex_4.dir/rule
+
+.PHONY : ex_4
+
+# clean rule for target.
+examples/CMakeFiles/ex_4.dir/clean:
+	$(MAKE) -f examples/CMakeFiles/ex_4.dir/build.make examples/CMakeFiles/ex_4.dir/clean
+.PHONY : examples/CMakeFiles/ex_4.dir/clean
+
+# clean rule for target.
+clean: examples/CMakeFiles/ex_4.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target examples/CMakeFiles/ex_3.dir
 
 # All Build rule for target.
@@ -1304,40 +1344,40 @@ clean: examples/CMakeFiles/ex_3.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target examples/CMakeFiles/ex_4.dir
+# Target rules for target examples/CMakeFiles/ex_5.dir
 
 # All Build rule for target.
-examples/CMakeFiles/ex_4.dir/all: CMakeFiles/dual_annealing.dir/all
-examples/CMakeFiles/ex_4.dir/all: third_party/lbfgs-cpp/CMakeFiles/lbfgs.dir/all
-	$(MAKE) -f examples/CMakeFiles/ex_4.dir/build.make examples/CMakeFiles/ex_4.dir/depend
-	$(MAKE) -f examples/CMakeFiles/ex_4.dir/build.make examples/CMakeFiles/ex_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/test/dual-annealing/build/CMakeFiles --progress-num=10,11 "Built target ex_4"
-.PHONY : examples/CMakeFiles/ex_4.dir/all
+examples/CMakeFiles/ex_5.dir/all: CMakeFiles/dual_annealing.dir/all
+examples/CMakeFiles/ex_5.dir/all: third_party/lbfgs-cpp/CMakeFiles/lbfgs.dir/all
+	$(MAKE) -f examples/CMakeFiles/ex_5.dir/build.make examples/CMakeFiles/ex_5.dir/depend
+	$(MAKE) -f examples/CMakeFiles/ex_5.dir/build.make examples/CMakeFiles/ex_5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/test/dual-annealing/build/CMakeFiles --progress-num=12,13 "Built target ex_5"
+.PHONY : examples/CMakeFiles/ex_5.dir/all
 
 # Include target in all.
-all: examples/CMakeFiles/ex_4.dir/all
+all: examples/CMakeFiles/ex_5.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-examples/CMakeFiles/ex_4.dir/rule: cmake_check_build_system
+examples/CMakeFiles/ex_5.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /test/dual-annealing/build/CMakeFiles 7
-	$(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_4.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /test/dual-annealing/build/CMakeFiles 0
-.PHONY : examples/CMakeFiles/ex_4.dir/rule
+.PHONY : examples/CMakeFiles/ex_5.dir/rule
 
 # Convenience name for target.
-ex_4: examples/CMakeFiles/ex_4.dir/rule
+ex_5: examples/CMakeFiles/ex_5.dir/rule
 
-.PHONY : ex_4
-
-# clean rule for target.
-examples/CMakeFiles/ex_4.dir/clean:
-	$(MAKE) -f examples/CMakeFiles/ex_4.dir/build.make examples/CMakeFiles/ex_4.dir/clean
-.PHONY : examples/CMakeFiles/ex_4.dir/clean
+.PHONY : ex_5
 
 # clean rule for target.
-clean: examples/CMakeFiles/ex_4.dir/clean
+examples/CMakeFiles/ex_5.dir/clean:
+	$(MAKE) -f examples/CMakeFiles/ex_5.dir/build.make examples/CMakeFiles/ex_5.dir/clean
+.PHONY : examples/CMakeFiles/ex_5.dir/clean
+
+# clean rule for target.
+clean: examples/CMakeFiles/ex_5.dir/clean
 
 .PHONY : clean
 

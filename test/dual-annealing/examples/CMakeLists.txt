@@ -10,3 +10,6 @@ target_link_libraries(ex_3 PRIVATE dual_annealing)
 
 add_executable(ex_4 rastrigin.cpp)
 target_link_libraries(ex_4 PRIVATE dual_annealing)
+
+add_executable(ex_5 base.cpp)
+target_link_libraries(ex_5 PRIVATE dual_annealing)

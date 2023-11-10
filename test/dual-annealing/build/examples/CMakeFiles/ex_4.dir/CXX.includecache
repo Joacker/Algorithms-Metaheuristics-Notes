@@ -6,14 +6,38 @@
 
 #IncludeRegexTransform: 
 
-../include/assert.hpp
+/test/dual-annealing/examples/rastrigin.cpp
+/test/dual-annealing/include/chain.hpp
+-
+/test/dual-annealing/third_party/pcg-cpp/include/pcg_random.hpp
+-
+algorithm
+-
+cstdint
+-
+cstdio
+-
+cstdlib
+-
+cstring
+-
+iostream
+-
+iterator
+-
+random
+-
+vector
+-
 
-../include/buffers.hpp
-assert.hpp
-../include/assert.hpp
-config.hpp
-../include/config.hpp
-gsl/gsl-lite.hpp
+/test/dual-annealing/include/assert.hpp
+
+/test/dual-annealing/include/buffers.hpp
+/test/dual-annealing/include/assert.hpp
+-
+/test/dual-annealing/include/config.hpp
+-
+/test/dual-annealing/third_party/gsl-lite/include/gsl/gsl-lite.hpp
 -
 cstddef
 -
@@ -24,18 +48,18 @@ optional
 type_traits
 -
 
-../include/chain.hpp
-assert.hpp
-../include/assert.hpp
-buffers.hpp
-../include/buffers.hpp
-config.hpp
-../include/config.hpp
-tsallis_distribution.hpp
-../include/tsallis_distribution.hpp
-gsl/gsl-lite.hpp
+/test/dual-annealing/include/chain.hpp
+/test/dual-annealing/include/assert.hpp
 -
-lbfgs/lbfgs.hpp
+/test/dual-annealing/include/buffers.hpp
+-
+/test/dual-annealing/include/config.hpp
+-
+/test/dual-annealing/include/tsallis_distribution.hpp
+-
+/test/dual-annealing/third_party/gsl-lite/include/gsl/gsl-lite.hpp
+-
+/test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/lbfgs.hpp
 -
 cmath
 -
@@ -50,21 +74,21 @@ tuple
 type_traits
 -
 
-../include/config.hpp
+/test/dual-annealing/include/config.hpp
 cstdio
 -
 
-../include/tsallis_distribution.hpp
-assert.hpp
-../include/assert.hpp
-config.hpp
-../include/config.hpp
+/test/dual-annealing/include/tsallis_distribution.hpp
+/test/dual-annealing/include/assert.hpp
+-
+/test/dual-annealing/include/config.hpp
+-
 cmath
 -
 random
 -
 
-../third_party/gsl-lite/include/gsl/gsl-lite.hpp
+/test/dual-annealing/third_party/gsl-lite/include/gsl/gsl-lite.hpp
 algorithm
 -
 exception
@@ -96,12 +120,14 @@ tr1/type_traits
 cstdint
 -
 
-../third_party/lbfgs-cpp/include/lbfgs/lbfgs.hpp
-config.hpp
-../third_party/lbfgs-cpp/include/lbfgs/config.hpp
-line_search.hpp
-../third_party/lbfgs-cpp/include/lbfgs/line_search.hpp
-gsl/gsl-lite.hpp
+/test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/config.hpp
+
+/test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/lbfgs.hpp
+/test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/config.hpp
+-
+/test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/line_search.hpp
+-
+/test/dual-annealing/third_party/gsl-lite/include/gsl/gsl-lite.hpp
 -
 cstring
 -
@@ -118,9 +144,9 @@ utility
 vector
 -
 
-../third_party/lbfgs-cpp/include/lbfgs/line_search.hpp
-config.hpp
-../third_party/lbfgs-cpp/include/lbfgs/config.hpp
+/test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/line_search.hpp
+/test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/config.hpp
+-
 cmath
 -
 limits
@@ -132,7 +158,7 @@ type_traits
 utility
 -
 
-../third_party/pcg-cpp/include/pcg_extras.hpp
+/test/dual-annealing/third_party/pcg-cpp/include/pcg_extras.hpp
 cinttypes
 -
 cstddef
@@ -158,9 +184,9 @@ iterator
 cxxabi.h
 -
 pcg_uint128.hpp
-../third_party/pcg-cpp/include/pcg_uint128.hpp
+/test/dual-annealing/third_party/pcg-cpp/include/pcg_uint128.hpp
 
-../third_party/pcg-cpp/include/pcg_random.hpp
+/test/dual-annealing/third_party/pcg-cpp/include/pcg_random.hpp
 algorithm
 -
 cinttypes
@@ -190,9 +216,9 @@ new
 stdexcept
 -
 pcg_extras.hpp
-../third_party/pcg-cpp/include/pcg_extras.hpp
+/test/dual-annealing/third_party/pcg-cpp/include/pcg_extras.hpp
 
-../third_party/pcg-cpp/include/pcg_uint128.hpp
+/test/dual-annealing/third_party/pcg-cpp/include/pcg_uint128.hpp
 cstdint
 -
 cstdio
@@ -208,27 +234,5 @@ initializer_list
 type_traits
 -
 intrin.h
--
-
-/test/dual-annealing/examples/rastrigin.cpp
-chain.hpp
-/test/dual-annealing/examples/chain.hpp
-pcg_random.hpp
--
-algorithm
--
-cstdint
--
-cstdio
--
-cstdlib
--
-cstring
--
-iostream
--
-iterator
--
-random
 -
 

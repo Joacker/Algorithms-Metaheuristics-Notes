@@ -1,14 +1,14 @@
 #pragma once
 
-#include "/test/dual-annealing/include/assert.hpp"
-#include "/test/dual-annealing/include/config.hpp"
-#include "/test/dual-annealing/third_party/gsl-lite/include/gsl/gsl-lite.hpp" // gsl::span
+#include "assert.hpp"
+#include "config.hpp"
+#include <gsl/gsl-lite.hpp> // gsl::span
 #include <cstddef>          // size_t
 #include <cstring>          // std::memcpy
 #include <optional>         // std::optional
 #include <type_traits>      // std::aligned_storage
 
-DA_NAMESPACE_BEGIN
+DUAL_ANNEALING_NAMESPACE_BEGIN
 
 struct workspace_t {
     struct point_t {
@@ -70,4 +70,4 @@ struct sa_buffers_t {
 
 auto thread_local_workspace(size_t size) noexcept -> std::optional<workspace_t>;
 
-DA_NAMESPACE_END
+DUAL_ANNEALING_NAMESPACE_END

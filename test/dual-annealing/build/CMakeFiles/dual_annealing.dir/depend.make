@@ -7,6 +7,6 @@ CMakeFiles/dual_annealing.dir/src/assert.cpp.o: ../src/assert.cpp
 CMakeFiles/dual_annealing.dir/src/buffers.cpp.o: ../include/assert.hpp
 CMakeFiles/dual_annealing.dir/src/buffers.cpp.o: ../include/buffers.hpp
 CMakeFiles/dual_annealing.dir/src/buffers.cpp.o: ../include/config.hpp
-CMakeFiles/dual_annealing.dir/src/buffers.cpp.o: ../third_party/gsl-lite/include/gsl/gsl-lite.hpp
 CMakeFiles/dual_annealing.dir/src/buffers.cpp.o: ../src/buffers.cpp
+CMakeFiles/dual_annealing.dir/src/buffers.cpp.o: ../third_party/gsl-lite/include/gsl/gsl-lite.hpp
 

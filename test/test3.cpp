@@ -3,9 +3,8 @@
 #include <cmath>
 #include <algorithm>
 #include <random>
-#include "/test/dual-annealing/include/tsallis_distribution.hpp"
+#include "tsallis_distribution.hpp"
 
-using namespace DualAnnealing;
 
 double f_obj(const std::vector<double>& x) {
     double sum = 0.0;

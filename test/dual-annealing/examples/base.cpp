@@ -3,6 +3,7 @@
 #include <cmath>
 #include <algorithm>
 #include <random>
+#include <tsallis_distribution.hpp>
 
 double f_obj(const std::vector<double>& x) {
     double eval_fun = 0;

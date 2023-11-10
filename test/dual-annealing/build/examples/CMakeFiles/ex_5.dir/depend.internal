@@ -9,6 +9,9 @@ examples/CMakeFiles/ex_5.dir/base.cpp.o
  ../include/tsallis_distribution.hpp
  ../third_party/gsl-lite/include/gsl/gsl-lite.hpp
  ../third_party/lbfgs-cpp/include/lbfgs/lbfgs.hpp
+ ../third_party/pcg-cpp/include/pcg_extras.hpp
+ ../third_party/pcg-cpp/include/pcg_random.hpp
+ ../third_party/pcg-cpp/include/pcg_uint128.hpp
  /test/dual-annealing/examples/base.cpp
  /test/dual-annealing/third_party/gsl-lite/include/gsl/gsl-lite.hpp
  /test/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/config.hpp

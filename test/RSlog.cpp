@@ -42,7 +42,7 @@ int main() {
     int dim = lb.size();
     double T = 1;
     double alpha = 0.99;
-
+    double T_inicial = 1;
     // Generar una primer Solución
     std::vector<double> X_A(dim);
     for(int i = 0; i < dim; ++i) {
@@ -71,7 +71,7 @@ int main() {
             }
         }
         // Disminuir la temperatura
-        T = T * exp(-alpha * i);
+        T = T_inicial / log(2 + i);
 
         ruta[i] = eval_X_A;
     }

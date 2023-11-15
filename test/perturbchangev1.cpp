@@ -19,10 +19,24 @@ double f_obj(const std::vector<double>& x) {
 std::vector<double> fun_per(const std::vector<double>& X_B, const std::vector<double>& lb, const std::vector<double>& ub, int dim) {
     double mejor_eval = std::numeric_limits<double>::infinity();
     std::vector<double> mejor_sol, xq = X_B;
-    for(int j = 0; j < dim; ++j) {
-        double d_lb = lb[j] - X_B[j];
-        double d_ub = ub[j] - X_B[j];
-        xq[j] = xq[j] + d_lb + (d_ub - d_lb) * ((double) rand() / RAND_MAX);
+    
+    int num_perturbaciones = rand() % dim + 1;  // Número aleatorio de elementos a perturbar
+
+    for(int j = 0; j < num_perturbaciones; ++j) {
+        int idx = rand() % dim; // Selecciona un índice aleatorio para perturbar
+
+        // Aplica una perturbación variada
+        double delta = (ub[idx] - lb[idx]) * ((double) rand() / RAND_MAX) * 0.1; // 10% del rango como máximo
+        if(rand() % 2) {
+            xq[idx] += delta; // Suma el delta
+        } else {
+            xq[idx] -= delta; // Resta el delta
+        }
+
+        // Asegurarse de que la solución perturbada esté dentro de los límites
+        xq[idx] = std::max(lb[idx], std::min(xq[idx], ub[idx]));
+
+        // Evalúa la nueva solución perturbada
         double eval_xq = f_obj(xq);
         if(eval_xq < mejor_eval) {
             mejor_eval = eval_xq;

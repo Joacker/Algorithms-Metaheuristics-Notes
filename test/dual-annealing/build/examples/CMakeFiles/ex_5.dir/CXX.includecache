@@ -11,16 +11,14 @@ algorithm
 -
 cstdint
 -
-cstdio
--
-cstdlib
--
-cstring
--
 iostream
 -
-iterator
+vector
 -
 random
+-
+numeric
+-
+LBFGS.h
 -
 

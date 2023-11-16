@@ -3,7 +3,9 @@
 #include <cmath>
 #include <algorithm>
 #include <random>
+#include <iterator>
 
+// Función objetivo: suma de cuadrados
 double f_obj(const std::vector<double>& x) {
     double eval_fun = 0;
     for(double xi : x) {
@@ -12,58 +14,61 @@ double f_obj(const std::vector<double>& x) {
     return eval_fun;
 }
 
-std::vector<double> fun_per(const std::vector<double>& X_B, 
+// Función de perturbación
+std::vector<double> perturb(const std::vector<double>& x, 
                             const std::vector<double>& lb,
-                            const std::vector<double>& ub, int dim, double T, double T2) {
-    std::vector<double> X_B_new = X_B;
-    std::default_random_engine generator;
+                            const std::vector<double>& ub, 
+                            std::default_random_engine& generator) {
+    std::vector<double> x_new = x;
     std::uniform_real_distribution<double> distribution(0.0, 1.0);
 
-    for(int j = 0; j < dim; ++j) {
-        double delta = (distribution(generator) - 0.5) * (ub[j] - lb[j]);
-        X_B_new[j] += delta * T2 + delta * T; // Perturbación influenciada por ambas temperaturas
-        X_B_new[j] = std::min(std::max(X_B_new[j], lb[j]), ub[j]);
+    for(size_t i = 0; i < x.size(); ++i) {
+        double delta = distribution(generator) - 0.5;
+        x_new[i] += delta;
+        x_new[i] = std::min(std::max(x_new[i], lb[i]), ub[i]);
     }
 
-    return X_B_new;
+    return x_new;
 }
 
 int main() {
+    std::random_device rd;
+    std::default_random_engine generator(rd());
+    std::uniform_real_distribution<double> distribution(0.0, 1.0);
+
     int iter = 10000;
     std::vector<double> lb = {-100, -100, -100, -100};
     std::vector<double> ub = {100, 100, 100, 100};
     int dim = lb.size();
-    double T = 1;
-    double T2 = 0.1; // Segunda temperatura
-    double alpha = 0.99;
+    double T = 1.0; // Temperatura inicial
+    double alpha = 0.99; // Factor de enfriamiento
 
-    std::default_random_engine generator;
-    std::uniform_real_distribution<double> distribution(0.0, 1.0);
-
-    std::vector<double> X_A(dim);
+    std::vector<double> x_current(dim);
     for(int i = 0; i < dim; ++i) {
-        X_A[i] = lb[i] + (ub[i] - lb[i]) * distribution(generator);
+        x_current[i] = lb[i] + (ub[i] - lb[i]) * distribution(generator);
     }
+
+    std::vector<double> x_best = x_current;
+    double f_best = f_obj(x_best);
 
     for(int i = 0; i < iter; ++i) {
-        std::vector<double> X_B = X_A;
+        std::vector<double> x_new = perturb(x_current, lb, ub, generator);
+        double f_new = f_obj(x_new);
 
-        X_B = fun_per(X_B, lb, ub, dim, T, T2); // Llamada a fun_per con temperaturas
-
-        double eval_X_A = f_obj(X_A);
-        double eval_X_B = f_obj(X_B);
-
-        if(eval_X_B < eval_X_A || distribution(generator) < exp(-(eval_X_B - eval_X_A) / T)) {
-            X_A = X_B;
+        if(f_new < f_best || distribution(generator) < exp(-(f_new - f_best) / T)) {
+            x_current = x_new;
+            f_best = f_new;
+            x_best = x_new;
         }
 
-        T = alpha * T;
-        T2 = alpha * T2; // Enfriamiento de la segunda temperatura
+        T *= alpha; // Enfriamiento de la temperatura
     }
 
-    std::cout << "Solución: ";
-    for(double xi : X_A) std::cout << xi << ' ';
-    std::cout << "\nValor en la función objetivo: " << f_obj(X_A) << '\n';
+    std::cout << "Mejor solución encontrada: ";
+    for(double xi : x_best) {
+        std::cout << xi << " ";
+    }
+    std::cout << "\nValor de la función objetivo: " << f_best << std::endl;
 
     return 0;
 }

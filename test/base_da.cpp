@@ -36,7 +36,7 @@ int main() {
     std::default_random_engine generator(rd());
     std::uniform_real_distribution<double> distribution(0.0, 1.0);
 
-    int iter = 10000;
+    int iter = 100000;
     std::vector<double> lb = {-100, -100, -100, -100};
     std::vector<double> ub = {100, 100, 100, 100};
     int dim = lb.size();

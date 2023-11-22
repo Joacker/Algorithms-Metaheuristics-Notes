@@ -1,4 +1,4 @@
-#include "chain.hpp"
+#include <chain.hpp>
 #include <pcg_random.hpp>
 #include <vector>
 #include <iostream>

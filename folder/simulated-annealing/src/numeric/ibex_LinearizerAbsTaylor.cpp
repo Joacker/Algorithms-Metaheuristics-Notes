@@ -62,7 +62,7 @@ int LinearizerAbsTaylor::linear_restrict(const IntervalVector& box) {
     if (point == MID)
         exp_point = box.mid();
     else if (point== Simulated_Annealing){
-            exp_point = SA.v1(box);
+            exp_point = SA.v5(box);
 	}
     else if (point == RANDOM){
         for (int i = 0 ; i < box.size() ; i++)

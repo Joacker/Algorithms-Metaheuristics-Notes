@@ -186,6 +186,17 @@ add_library(dual_annealing SHARED
     src/buffers.cpp)
 target_link_libraries(dual_annealing PUBLIC Common gsl::gsl-lite lbfgs-cpp::lbfgs)
 
+set(HEADER_FILES
+    include/assert.hpp
+    include/buffers.hpp
+    include/chain.hpp
+    include/config.hpp
+    include/tsallis_distribution.hpp
+)
+
+# Instalar los archivos de cabecera
+install(FILES ${HEADER_FILES} DESTINATION include)
+
 # if (TRUE)
 #     target_compile_options(line_search PUBLIC "-fprofile-instr-generate" "-fcoverage-mapping")
 #     target_link_libraries(line_search PUBLIC "-fprofile-instr-generate" "-fcoverage-mapping")

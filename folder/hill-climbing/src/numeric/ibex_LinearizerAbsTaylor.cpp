@@ -62,7 +62,7 @@ int LinearizerAbsTaylor::linear_restrict(const IntervalVector& box) {
     if (point == MID)
         exp_point = box.mid();
     else if (point== HILL_CLIMBING){
-            exp_point = hill.v1(box);
+            exp_point = hill.v4(box);
 			//std::cout << "exp_point after hill climbing: " << exp_point << std::endl;
 	}
     else if (point == RANDOM){

@@ -658,19 +658,6 @@ ex_3/fast:
 .PHONY : ex_3/fast
 
 #=============================================================================
-# Target rules for targets named ex_5
-
-# Build rule for target.
-ex_5: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ex_5
-.PHONY : ex_5
-
-# fast build rule for target.
-ex_5/fast:
-	$(MAKE) -f examples/CMakeFiles/ex_5.dir/build.make examples/CMakeFiles/ex_5.dir/build
-.PHONY : ex_5/fast
-
-#=============================================================================
 # Target rules for targets named ex_6
 
 # Build rule for target.
@@ -788,7 +775,6 @@ help:
 	@echo "... ex_1"
 	@echo "... ex_4"
 	@echo "... ex_3"
-	@echo "... ex_5"
 	@echo "... ex_6"
 	@echo "... src/assert.o"
 	@echo "... src/assert.i"

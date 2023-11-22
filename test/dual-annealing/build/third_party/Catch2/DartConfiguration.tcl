@@ -11,7 +11,7 @@ BuildDirectory: /test/dual-annealing/build/third_party/Catch2
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: a456f25fc118
+Site: 8f5be0085e57
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Linux-g++-8

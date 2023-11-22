@@ -37,7 +37,7 @@ int main() {
 
     // Parámetros que están involucrados en el método
     int iter = 10000;
-    std::vector<double> lb = {-100, -100, -100, -100};
+    std::vector<double> lb = {10, -100, -100, -100};
     std::vector<double> ub = {100, 100, 100, 100};
     int dim = lb.size();
     double T = 1;

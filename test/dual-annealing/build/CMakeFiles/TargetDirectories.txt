@@ -72,12 +72,11 @@
 /test/dual-annealing/build/examples/CMakeFiles/edit_cache.dir
 /test/dual-annealing/build/examples/CMakeFiles/install/local.dir
 /test/dual-annealing/build/examples/CMakeFiles/test.dir
-/test/dual-annealing/build/examples/CMakeFiles/package.dir
 /test/dual-annealing/build/examples/CMakeFiles/ex_2.dir
 /test/dual-annealing/build/examples/CMakeFiles/install.dir
 /test/dual-annealing/build/examples/CMakeFiles/ex_1.dir
 /test/dual-annealing/build/examples/CMakeFiles/package_source.dir
 /test/dual-annealing/build/examples/CMakeFiles/ex_4.dir
 /test/dual-annealing/build/examples/CMakeFiles/ex_3.dir
-/test/dual-annealing/build/examples/CMakeFiles/ex_5.dir
 /test/dual-annealing/build/examples/CMakeFiles/ex_6.dir
+/test/dual-annealing/build/examples/CMakeFiles/package.dir

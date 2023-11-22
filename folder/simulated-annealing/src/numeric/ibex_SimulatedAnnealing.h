@@ -16,6 +16,7 @@ namespace ibex {
             Vector v4(const IntervalVector& box);
             Vector v5(const IntervalVector& box);
             Vector v6(const IntervalVector& box);
+            Vector v7(const IntervalVector& box);
         private:
             const IntervalVector& box;
             const System& sys;

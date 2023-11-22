@@ -55,7 +55,7 @@ namespace ibex {
         return inicial.mid();
     }
 
-        Vector HillClimbing::v2(const IntervalVector& box){
+    Vector HillClimbing::v2(const IntervalVector& box){
         IntervalVector inicial(box.size());
         int sizee=box.size();
         IntervalVector mejor_vecino(box.size());
@@ -98,7 +98,7 @@ namespace ibex {
         //----------------------------------------------
         return inicial.mid();
     }
-        Vector HillClimbing::v3(const IntervalVector& box){
+    Vector HillClimbing::v3(const IntervalVector& box){
         IntervalVector inicial(box.size());
         double suma=0;
         double mejor=0;

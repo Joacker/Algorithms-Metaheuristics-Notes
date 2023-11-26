@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
     openssh-server 
 
 RUN apt install -y \
-    python-is-python3 git
+    python-is-python3 git vim
 
 RUN apt install -y \
     python3-pip sudo

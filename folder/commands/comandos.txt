@@ -2,5 +2,29 @@ cd /test/dual-annealing/          # Navigate to the project root
 mkdir -p build && cd build         # Create and navigate to the build directory
 cmake ..                           # Configure the project
 make   
+make install 
 
 git clone --recurse-submodules git@github.com:twesterhout/dual-annealing.git
+
+sudo cp /app/src/numeric/dual-annealing/build/libdual_annealing.so /usr/local/lib/
+sudo ldconfig
+
+export LIBRARY_PATH=/app/src/numeric/dual-annealing/build:$LIBRARY_PATH
+
+g++ base2.cpp -o base -L/app/src/numeric/dual-annealing/build -ldual_annealing
+
+nm -D /usr/local/lib/libdual_annealing.so | grep thread_local_workspace
+
+vim ~/gpp
+
+#!/bin/bash
+/usr/bin/g++ "$@" -ldual_annealing
+
+chmod +x ~/gpp
+
+mv ~/gpp ~/bin/
+
+gpp base2.cpp -o base
+
+echo 'alias g++="~/bin/gpp"' >> ~/.bashrc
+source ~/.bashrc

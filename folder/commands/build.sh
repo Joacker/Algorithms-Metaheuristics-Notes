@@ -1,1 +1,1 @@
-./__build__/src/ibexopt benchs/optim/medium/ex14_2_7.bch --random-seed=1
+./__build__/src/ibexopt benchs/optim/medium/ex2_1_8.bch --random-seed=1

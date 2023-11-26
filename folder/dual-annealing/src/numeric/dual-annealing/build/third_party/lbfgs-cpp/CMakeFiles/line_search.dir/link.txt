@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/line_search.dir/example/line_search.cpp.o -o line_search  liblbfgs.a 

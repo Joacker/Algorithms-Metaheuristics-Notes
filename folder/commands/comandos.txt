@@ -1,0 +1,6 @@
+cd /test/dual-annealing/          # Navigate to the project root
+mkdir -p build && cd build         # Create and navigate to the build directory
+cmake ..                           # Configure the project
+make   
+
+git clone --recurse-submodules git@github.com:twesterhout/dual-annealing.git

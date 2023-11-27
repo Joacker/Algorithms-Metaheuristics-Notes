@@ -29,11 +29,11 @@ RUN echo 'alias g++="g++ -std=c++17"' >> ~/.bashrc
 
 COPY ./commands/*.sh .
 
-RUN export LD_LIBRARY_PATH=/app/src/numeric/dual-annealing/build:$LD_LIBRARY_PATH
+WORKDIR /app/src/numeric/dual-annealing/build
 
-#RUN sudo cp /app/src/numeric/dual-annealing/build/libdual_annealing.so /usr/local/lib/
+#RUN chmod +x init.sh
 
-#RUN sudo ldconfig
+#RUN bash init.sh
 
 # Mantener el contenedor en ejecución
 CMD ["tail", "-f", "/dev/null"]

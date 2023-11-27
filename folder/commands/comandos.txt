@@ -6,6 +6,23 @@ make install
 
 git clone --recurse-submodules git@github.com:twesterhout/dual-annealing.git
 
+echo 'alias g++="g++ -std=c++17"' >> ~/.bashrc
+
+sudo cp /test/dual-annealing/build/libdual_annealing.so /usr/local/lib/
+sudo ldconfig
+
+export LIBRARY_PATH=/app/src/numeric/dual-annealing/build:$LIBRARY_PATH
+
+sudo ln -s /test/dual-annealing/build/libdual_annealing.so /usr/local/lib/libdual_annealing.so
+sudo ldconfig
+
+alias gpp='g++ -L/app/src/numeric/dual-annealing/build -ldual_annealing'
+
+
+
+echo 'export PATH=~/bin:$PATH' >> ~/.bashrc
+source ~/.bashrc
+
 sudo cp /app/src/numeric/dual-annealing/build/libdual_annealing.so /usr/local/lib/
 sudo ldconfig
 
@@ -15,6 +32,8 @@ g++ base2.cpp -o base -L/app/src/numeric/dual-annealing/build -ldual_annealing
 
 nm -D /usr/local/lib/libdual_annealing.so | grep thread_local_workspace
 
+export LIBRARY_PATH=/app/src/numeric/dual-annealing/build:$LIBRARY_PATH
+
 vim ~/gpp
 
 #!/bin/bash
@@ -22,7 +41,14 @@ vim ~/gpp
 
 chmod +x ~/gpp
 
+mkdir -p ~/bin
+
 mv ~/gpp ~/bin/
+
+export PATH=~/bin:$PATH
+
+echo 'alias g++="~/bin/gpp"' >> ~/.bashrc
+source ~/.bashrc
 
 gpp base2.cpp -o base
 

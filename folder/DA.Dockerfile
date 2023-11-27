@@ -28,5 +28,12 @@ RUN apt upgrade -y
 RUN echo 'alias g++="g++ -std=c++17"' >> ~/.bashrc
 
 COPY ./commands/*.sh .
+
+RUN export LD_LIBRARY_PATH=/app/src/numeric/dual-annealing/build:$LD_LIBRARY_PATH
+
+#RUN sudo cp /app/src/numeric/dual-annealing/build/libdual_annealing.so /usr/local/lib/
+
+#RUN sudo ldconfig
+
 # Mantener el contenedor en ejecución
 CMD ["tail", "-f", "/dev/null"]

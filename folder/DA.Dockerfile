@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-WORKDIR /app
+WORKDIR /f1/app
 
 RUN apt-get update && apt-get install -y \
     bash \
@@ -29,7 +29,7 @@ RUN echo 'alias g++="g++ -std=c++17"' >> ~/.bashrc
 
 COPY ./commands/*.sh .
 
-WORKDIR /app/src/numeric/dual-annealing/build
+#WORKDIR /app/src/numeric/dual-annealing/build
 
 #RUN chmod +x init.sh
 

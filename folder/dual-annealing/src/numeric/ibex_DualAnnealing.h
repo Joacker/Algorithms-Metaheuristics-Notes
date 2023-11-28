@@ -7,7 +7,7 @@ namespace ibex {
         public:
             DualAnnealing(const IntervalVector& box, const System& sys);
             double f_obj(const IntervalVector& x, int ctr) const;
-            
+            Vector v1(const IntervalVector& box);
         private:
             const IntervalVector& box;
             const System& sys;

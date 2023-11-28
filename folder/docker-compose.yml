@@ -37,4 +37,5 @@ services:
     image: dual-annealing
     container_name: dual-annealing
     volumes:
-      - ./dual-annealing:/app
+      - ./dual-annealing:/f1/app
+      - ./da:/f2/app

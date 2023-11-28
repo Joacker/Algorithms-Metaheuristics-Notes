@@ -37,13 +37,13 @@ public:
 	 * - MID        - The mid point of the box
 	 * - RANDOM     - A random point inside the box
 	 */
-	typedef enum  {MID, RANDOM, Simulated_Annealing} point_policy;
+	typedef enum  {MID, RANDOM, Dual_Annealing} point_policy;
 	/**
 	 * \brief Creates the X_Taylor linearizer.
 	 *
 	 * \param sys             - The system (extended or not).
 	 */
-	LinearizerAbsTaylor(const System& sys, point_policy = Simulated_Annealing);
+	LinearizerAbsTaylor(const System& sys, point_policy = Dual_Annealing);
 
 	/**
 	 * \brief Deletes this.

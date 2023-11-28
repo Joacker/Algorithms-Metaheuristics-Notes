@@ -8,7 +8,7 @@
  * ---------------------------------------------------------------------------- */
 
 #include "ibex_LinearizerAbsTaylor.h"
-#include "ibex_SimulatedAnnealing.h"
+#include "ibex_DualAnnealing.h"
 #include "ibex_ExtendedSystem.h"
 #include "ibex_Random.h"
 #include "ibex_Exception.h"
@@ -56,13 +56,13 @@ int LinearizerAbsTaylor::linearize(const IntervalVector& box, LPSolver& _lp_solv
 int LinearizerAbsTaylor::linear_restrict(const IntervalVector& box) {
 
 	// expansion point
-	SimulatedAnnealing SA(box, sys);
+	DualAnnealing DA(box, sys);
 	//std::cout << "hill climbing" << std::endl;
     Vector exp_point(box.size());
     if (point == MID)
         exp_point = box.mid();
-    else if (point== Simulated_Annealing){
-            exp_point = SA.v1(box);
+    else if (point== Dual_Annealing){
+            exp_point = DA.v1(box);
 	}
     else if (point == RANDOM){
         for (int i = 0 ; i < box.size() ; i++)

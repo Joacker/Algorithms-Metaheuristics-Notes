@@ -5,7 +5,7 @@
 #include "config.hpp"
 #include "tsallis_distribution.hpp"
 
-#include <gsl/gsl-lite.hpp>
+#include </f2/app/dual-annealing/third_party/gsl-lite/include/gsl/gsl-lite.hpp>
 #include </f2/app/dual-annealing/third_party/lbfgs-cpp/include/lbfgs/lbfgs.hpp>
 
 #include <cmath> // std::sqrt, std::pow

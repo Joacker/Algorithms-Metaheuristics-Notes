@@ -2,7 +2,7 @@
 
 #include "assert.hpp"
 #include "config.hpp"
-#include <gsl/gsl-lite.hpp> // gsl::span
+#include </f2/app/dual-annealing/third_party/gsl-lite/include/gsl/gsl-lite.hpp> // gsl::span
 #include <cstddef>          // size_t
 #include <cstring>          // std::memcpy
 #include <optional>         // std::optional

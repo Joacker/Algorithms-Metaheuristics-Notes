@@ -11,13 +11,13 @@ make
 make install
 
 # Configurar la variable de entorno LD_LIBRARY_PATH
-export LD_LIBRARY_PATH=/app/src/numeric/dual-annealing/build:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/f2/app/dual-annealing/build:$LD_LIBRARY_PATH
 
 # Listar el contenido del directorio de compilación
-ls -la /app/src/numeric/dual-annealing/build/
+ls -la /f2/app/dual-annealing/build/
 
 # Copiar la biblioteca compartida y actualizar ldconfig
-cp /app/src/numeric/dual-annealing/build/libdual_annealing.so /usr/local/lib/ 
+cp /f2/app/dual-annealing/build/libdual_annealing.so /usr/local/lib/ 
 ldconfig
 
 # Verificar símbolos en la biblioteca compartida

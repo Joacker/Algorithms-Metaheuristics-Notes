@@ -58,7 +58,7 @@ def configure (conf):
 	conf.load ('compiler_cxx compiler_c bison flex')
 
 	conf.prepare_env(conf.env)
-
+	#conf.env.CXXFLAGS += ['-std=c++17']
 	# added by gch
 	for plugin in plugins_dependencies.keys():
 		if getattr(conf.options, plugin) == True:
@@ -95,13 +95,13 @@ def configure (conf):
 	if conf.options.DEBUG:
 		Logs.info("Enabling debug mode")
 		# note: -Wno-int-in-bool-context for Gaol (but unknown option by clang...)
-		flags = "-std=c++11 -O0 -g -pg -Wall -Wno-int-in-bool-context"
+		flags = "-std=c++17 -ldual_annealing -O0 -g -pg -Wall -Wno-int-in-bool-context"
 		flags += " -fmessage-length=0"
 		conf.define ("DEBUG", 1)
 		conf.env.DEBUG = True
 	else:
 		# note: -Wno-int-in-bool-context for Gaol
-		flags = "-std=c++11 -O3 -Wno-deprecated -Wno-unknown-pragmas -Wno-unused-variable -Wno-unused-function"
+		flags = "-std=c++17 -ldual_annealing -O3 -Wno-deprecated -Wno-unknown-pragmas -Wno-unused-variable -Wno-unused-function"
 		conf.define ("NDEBUG", 1)
 		conf.env.DEBUG = False
 	for f in flags.split():

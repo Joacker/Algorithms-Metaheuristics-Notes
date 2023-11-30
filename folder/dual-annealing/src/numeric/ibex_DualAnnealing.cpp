@@ -8,27 +8,18 @@
 #include <ctime>
 #include <algorithm>
 #include <random>
-#include </f2/app/dual-annealing/third_party/pcg-cpp/include/pcg_random.hpp>
-#include </f2/app/dual-annealing/include/chain.hpp>  
 
 namespace ibex {
     DualAnnealing::DualAnnealing(const IntervalVector& box, const System& sys) : box(box), sys(sys) {}
 
     double DualAnnealing::f_obj(const IntervalVector& x, int ctr) const {
+        std::cout << "ctr: " << ctr << std::endl;
+        std::cout << "x: " << x << std::endl;
         return sys.f_ctrs[ctr].eval(x).mid();
     }
 
     Vector DualAnnealing::v1(const IntervalVector& box) {
-        srand(static_cast<unsigned int>(time(0)));  // Inicializar la semilla del generador de números aleatorios
-
-        // Parámetros de la función objetivo
-        std::vector<float> lb1 = {-100, -100, -100, -100};
-        std::vector<float> ub1 = {100, 100, 100, 100};
-
-        // Configuración del algoritmo de Dual Annealing
-        dual_annealing::param_t params = {/* q_V = */ 2.67, /* q_A = */ -5.0, /* t_0 = */ 10.0, /* num_iter = */ 1000, /* patience = */ 20};
-        pcg32 generator{static_cast<uint64_t>(time(0))}; // Generador de números aleatorios
-
+        
         IntervalVector inicial(box.size());
 
         double restriccion1 = RNG::rand(0, this->sys.nb_ctr - 1); 

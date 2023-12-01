@@ -20,6 +20,9 @@ ls -la /f2/app/dual-annealing/build/
 cp /f2/app/dual-annealing/build/libdual_annealing.so /usr/local/lib/ 
 ldconfig
 
+# Acceder a carpeta dual-annealing
+cd /f2/app/dual-annealing/examples
+
 # Verificar símbolos en la biblioteca compartida
 # nm -D /usr/local/lib/libdual_annealing.so | grep thread_local_workspace
 

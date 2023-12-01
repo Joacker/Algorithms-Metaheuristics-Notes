@@ -112,5 +112,28 @@ int main() {
         std::cout << xi << " ";
     }
     std::cout << "\nObjective value: " << result.func << std::endl;
+    std::ofstream csv_file("/f1/app/DualAnnealingResults.csv");
+    
+    int varbynodes = static_cast<int>(lb_values.size());
+    // Agregar header
+    for (int i = 1; i <= varbynodes; ++i) {
+        csv_file << "x" << i;
+        if (i != varbynodes) {
+            csv_file << ",";
+        }
+    }
+    csv_file << ",Objective Value\n";  // Agregar encabezado para el valor objetivo
+
+    // Escribir los resultados en el archivo CSV
+    for (int i = 0; i < varbynodes; ++i) {
+        csv_file << x[i];
+        if (i != varbynodes - 1) {
+            csv_file << ",";
+        }
+    }
+    csv_file << "," << result.func << "\n";  // Escribir el valor objetivo
+
+    csv_file.close();
+
     return 0;
 }

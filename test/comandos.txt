@@ -1,0 +1,34 @@
+git clone --recurse-submodules git@github.com:twesterhout/dual-annealing.git
+
+cd /test/dual-annealing/          # Navigate to the project root
+mkdir -p build && cd build         # Create and navigate to the build directory
+cmake ..                           # Configure the project
+make   
+make install 
+
+g++ base2.cpp -o base -ldual_annealing
+
+sudo cp /test/dual-annealing/build/libdual_annealing.so /usr/local/lib/
+sudo ldconfig
+
+nm -D /usr/local/lib/libdual_annealing.so | grep thread_local_workspace
+
+export LIBRARY_PATH=/test/dual-annealing/build:$LIBRARY_PATH
+
+vim ~/gpp
+
+#!/bin/bash
+/usr/bin/g++ "$@" -ldual_annealing
+
+chmod +x ~/gpp
+
+mkdir -p ~/bin
+
+mv ~/gpp ~/bin/
+
+export PATH=~/bin:$PATH
+
+echo 'alias g++="~/bin/gpp"' >> ~/.bashrc
+source ~/.bashrc
+
+gpp base2.cpp -o base

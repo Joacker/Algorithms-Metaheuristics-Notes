@@ -36,7 +36,7 @@
 #    pragma clang diagnostic ignored "-Wweak-vtables"
 #    pragma clang diagnostic ignored "-Wunused-template"
 #endif
-#include <gsl/gsl-lite.hpp>
+#include </test/dual-annealing/third_party/gsl-lite/include/gsl/gsl-lite.hpp> 
 #if defined(LBFGS_CLANG)
 #    pragma clang diagnostic pop
 #endif

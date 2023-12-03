@@ -1,5 +1,5 @@
 #include "/test/dual-annealing/include/chain.hpp"
-#include <pcg_random.hpp>
+#include </test/dual-annealing/third_party/pcg-cpp/include/pcg_random.hpp>
 #include <vector>
 #include <iostream>
 #include <cmath>

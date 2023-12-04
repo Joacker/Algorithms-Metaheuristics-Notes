@@ -6,7 +6,7 @@ cmake ..                           # Configure the project
 make   
 make install 
 
-g++ base2.cpp -o base -ldual_annealing
+g++ -std=c++17 base2.cpp -o base -ldual_annealing
 
 sudo cp /test/dual-annealing/build/libdual_annealing.so /usr/local/lib/
 sudo ldconfig

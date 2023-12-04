@@ -28,14 +28,14 @@ services:
     volumes:
       - ./simulated-annealing:/app
 
-  dual-annealing:
-    build: 
-      context: .
-      dockerfile: DA.Dockerfile
-    tty: true
-    stdin_open: true
-    image: dual-annealing
-    container_name: dual-annealing
-    volumes:
-      - ./dual-annealing:/f1/app
-      - ./da:/f2/app
+  # dual-annealing:
+  #   build: 
+  #     context: .
+  #     dockerfile: DA.Dockerfile
+  #   tty: true
+  #   stdin_open: true
+  #   image: dual-annealing
+  #   container_name: dual-annealing
+  #   volumes:
+  #     - ./dual-annealing:/f1/app
+  #     - ./da:/f2/app

@@ -3387,3 +3387,18 @@ running............
 
 running............
 
+[32m optimization successful!
+[0m
+ f* in	[911.076502463,911.987578965]
+	(best bound)
+
+ x* =	(3.89871025003 ; 0.811773194638 ; 2.66830642644 ; 4.29731360037 ; 0.851177753516 ; 1.09210375505 ; 0.0273776245118)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.911076502463
+ cpu time used:			1697.07017901s
+ number of cells:		885364
+
+ results written in benchs/optim/with10valorless/hs102.cov
+ (old file saved in benchs/optim/with10valorless/hs102.cov~)

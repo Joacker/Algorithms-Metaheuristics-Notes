@@ -1087,3 +1087,75 @@ running............
 
 running............
 
+[32m optimization successful!
+[0m
+ f* in	[-3.05503119937,-3.05197616817]
+	(best bound)
+
+ x* =	(0.00136728620118 ; 0.198632722799 ; 0.395703036042 ; 0.00429697295899 ; 0.000781349628907 ; 0.399218659372)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00305503119938
+ cpu time used:			448.834206001s
+ number of cells:		330798
+
+ results written in benchs/optim/hard/ex6_2_10.cov
+ (old file saved in benchs/optim/hard/ex6_2_10.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/ex6_2_10.bch
+  random seed:		5
+  output COV file:	benchs/optim/hard/ex6_2_10.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-3.05503119937,-3.05197616817]
+	(best bound)
+
+ x* =	(0.00136728620118 ; 0.198632722799 ; 0.395703036042 ; 0.00429697295899 ; 0.000781349628907 ; 0.399218659372)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00305503119938
+ cpu time used:			441.289742001s
+ number of cells:		330798
+
+ results written in benchs/optim/hard/ex6_2_10.cov
+ (old file saved in benchs/optim/hard/ex6_2_10.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/ex6_2_10.bch
+  random seed:		5
+  output COV file:	benchs/optim/hard/ex6_2_10.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-3.05503119937,-3.05197616817]
+	(best bound)
+
+ x* =	(0.00136728620118 ; 0.198632722799 ; 0.395703036042 ; 0.00429697295899 ; 0.000781349628907 ; 0.399218659372)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00305503119938
+ cpu time used:			438.171673001s
+ number of cells:		330798
+
+ results written in benchs/optim/hard/ex6_2_10.cov
+ (old file saved in benchs/optim/hard/ex6_2_10.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/ex6_2_10.bch
+  random seed:		5
+  output COV file:	benchs/optim/hard/ex6_2_10.cov
+*******************************************************
+
+running............
+

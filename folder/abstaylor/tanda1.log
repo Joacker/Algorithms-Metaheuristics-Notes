@@ -1,0 +1,3595 @@
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		1
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.36134644394,1.36270779039]
+	(best bound)
+
+ x* =	(1.07440661023 ; -0.456462732642)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00136134644394
+ cpu time used:			61.2398910001s
+ number of cells:		1304
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		1
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.36134644394,1.36270779039]
+	(best bound)
+
+ x* =	(1.07440661023 ; -0.456462732642)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00136134644394
+ cpu time used:			59.5227210001s
+ number of cells:		1304
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		1
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.36134644394,1.36270779039]
+	(best bound)
+
+ x* =	(1.07440661023 ; -0.456462732642)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00136134644394
+ cpu time used:			56.8144870001s
+ number of cells:		1304
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		1
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.36134644394,1.36270779039]
+	(best bound)
+
+ x* =	(1.07440661023 ; -0.456462732642)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00136134644394
+ cpu time used:			57.6561860001s
+ number of cells:		1304
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		1
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.36134644394,1.36270779039]
+	(best bound)
+
+ x* =	(1.07440661023 ; -0.456462732642)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00136134644394
+ cpu time used:			60.3438380001s
+ number of cells:		1304
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		2
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.36185488132,1.3632167362]
+	(best bound)
+
+ x* =	(1.07464778254 ; 0.456452494437)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00136185488132
+ cpu time used:			56.2386430001s
+ number of cells:		1344
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		2
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.36185488132,1.3632167362]
+	(best bound)
+
+ x* =	(1.07464778254 ; 0.456452494437)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00136185488132
+ cpu time used:			54.8362960001s
+ number of cells:		1344
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		2
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.36185488132,1.3632167362]
+	(best bound)
+
+ x* =	(1.07464778254 ; 0.456452494437)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00136185488132
+ cpu time used:			57.1553310001s
+ number of cells:		1344
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		2
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.36185488132,1.3632167362]
+	(best bound)
+
+ x* =	(1.07464778254 ; 0.456452494437)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00136185488132
+ cpu time used:			61.4855330001s
+ number of cells:		1344
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		2
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.36185488132,1.3632167362]
+	(best bound)
+
+ x* =	(1.07464778254 ; 0.456452494437)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00136185488132
+ cpu time used:			65.2408500001s
+ number of cells:		1344
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		3
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.3614379575,1.36279939546]
+	(best bound)
+
+ x* =	(1.0742448952 ; 0.456943432591)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.0013614379575
+ cpu time used:			61.7312110001s
+ number of cells:		1352
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		3
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.3614379575,1.36279939546]
+	(best bound)
+
+ x* =	(1.0742448952 ; 0.456943432591)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.0013614379575
+ cpu time used:			65.8754990001s
+ number of cells:		1352
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		3
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.3614379575,1.36279939546]
+	(best bound)
+
+ x* =	(1.0742448952 ; 0.456943432591)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.0013614379575
+ cpu time used:			66.4954700001s
+ number of cells:		1352
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		3
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.3614379575,1.36279939546]
+	(best bound)
+
+ x* =	(1.0742448952 ; 0.456943432591)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.0013614379575
+ cpu time used:			59.6589870001s
+ number of cells:		1352
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		3
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.3614379575,1.36279939546]
+	(best bound)
+
+ x* =	(1.0742448952 ; 0.456943432591)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.0013614379575
+ cpu time used:			56.8383640001s
+ number of cells:		1352
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		4
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.36197861178,1.36334059039]
+	(best bound)
+
+ x* =	(-1.07428975542 ; 0.457429898208)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00136197861178
+ cpu time used:			60.0233290001s
+ number of cells:		1330
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		4
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.36197861178,1.36334059039]
+	(best bound)
+
+ x* =	(-1.07428975542 ; 0.457429898208)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00136197861178
+ cpu time used:			57.1132340001s
+ number of cells:		1330
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		4
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.36197861178,1.36334059039]
+	(best bound)
+
+ x* =	(-1.07428975542 ; 0.457429898208)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00136197861178
+ cpu time used:			54.5336100001s
+ number of cells:		1330
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		4
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.36197861178,1.36334059039]
+	(best bound)
+
+ x* =	(-1.07428975542 ; 0.457429898208)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00136197861178
+ cpu time used:			55.7441650001s
+ number of cells:		1330
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		4
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.36197861178,1.36334059039]
+	(best bound)
+
+ x* =	(-1.07428975542 ; 0.457429898208)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00136197861178
+ cpu time used:			59.5560720001s
+ number of cells:		1330
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		5
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.36204977308,1.36341182286]
+	(best bound)
+
+ x* =	(1.07429513243 ; 0.457495127068)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00136204977308
+ cpu time used:			55.8080860001s
+ number of cells:		1318
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		5
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.36204977308,1.36341182286]
+	(best bound)
+
+ x* =	(1.07429513243 ; 0.457495127068)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00136204977308
+ cpu time used:			56.2933300001s
+ number of cells:		1318
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		5
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.36204977308,1.36341182286]
+	(best bound)
+
+ x* =	(1.07429513243 ; 0.457495127068)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00136204977308
+ cpu time used:			51.5226150001s
+ number of cells:		1318
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		5
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.36204977308,1.36341182286]
+	(best bound)
+
+ x* =	(1.07429513243 ; 0.457495127068)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00136204977308
+ cpu time used:			50.9796330001s
+ number of cells:		1318
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs088
+  random seed:		5
+  output COV file:	benchs/optim/with10valorless/hs088.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[1.36204977308,1.36341182286]
+	(best bound)
+
+ x* =	(1.07429513243 ; 0.457495127068)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00136204977308
+ cpu time used:			52.2253200001s
+ number of cells:		1318
+
+ results written in benchs/optim/with10valorless/hs088.cov
+ (old file saved in benchs/optim/with10valorless/hs088.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250357603e-06,-2.60250357603e-06]
+	(best bound)
+
+ x* =	(0.056680796155 ; 1.00000000001e-06 ; 0.943318212846)
+	(best feasible point)
+
+ relative precision on f*:	0.037002726245
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			48.9875300001s
+ number of cells:		60318
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250357603e-06,-2.60250357603e-06]
+	(best bound)
+
+ x* =	(0.056680796155 ; 1.00000000001e-06 ; 0.943318212846)
+	(best feasible point)
+
+ relative precision on f*:	0.037002726245
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			46.7620680001s
+ number of cells:		60318
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250357603e-06,-2.60250357603e-06]
+	(best bound)
+
+ x* =	(0.056680796155 ; 1.00000000001e-06 ; 0.943318212846)
+	(best feasible point)
+
+ relative precision on f*:	0.037002726245
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			49.8111490001s
+ number of cells:		60318
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250357603e-06,-2.60250357603e-06]
+	(best bound)
+
+ x* =	(0.056680796155 ; 1.00000000001e-06 ; 0.943318212846)
+	(best feasible point)
+
+ relative precision on f*:	0.037002726245
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			46.9934430001s
+ number of cells:		60318
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250357603e-06,-2.60250357603e-06]
+	(best bound)
+
+ x* =	(0.056680796155 ; 1.00000000001e-06 ; 0.943318212846)
+	(best feasible point)
+
+ relative precision on f*:	0.037002726245
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			49.0957180001s
+ number of cells:		60318
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250357586e-06,-2.60250357586e-06]
+	(best bound)
+
+ x* =	(0.0566807961637 ; 1.00000000001e-06 ; 0.943318212837)
+	(best feasible point)
+
+ relative precision on f*:	0.0370027262473
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			53.8222070001s
+ number of cells:		60246
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250357586e-06,-2.60250357586e-06]
+	(best bound)
+
+ x* =	(0.0566807961637 ; 1.00000000001e-06 ; 0.943318212837)
+	(best feasible point)
+
+ relative precision on f*:	0.0370027262473
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			51.3684700001s
+ number of cells:		60246
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250357586e-06,-2.60250357586e-06]
+	(best bound)
+
+ x* =	(0.0566807961637 ; 1.00000000001e-06 ; 0.943318212837)
+	(best feasible point)
+
+ relative precision on f*:	0.0370027262473
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			49.3637130001s
+ number of cells:		60246
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250357586e-06,-2.60250357586e-06]
+	(best bound)
+
+ x* =	(0.0566807961637 ; 1.00000000001e-06 ; 0.943318212837)
+	(best feasible point)
+
+ relative precision on f*:	0.0370027262473
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			48.3373980001s
+ number of cells:		60246
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250357586e-06,-2.60250357586e-06]
+	(best bound)
+
+ x* =	(0.0566807961637 ; 1.00000000001e-06 ; 0.943318212837)
+	(best feasible point)
+
+ relative precision on f*:	0.0370027262473
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			46.3927410001s
+ number of cells:		60246
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250363209e-06,-2.60250363209e-06]
+	(best bound)
+
+ x* =	(0.0566807927328 ; 1.00000000001e-06 ; 0.943318216268)
+	(best feasible point)
+
+ relative precision on f*:	0.0370027254774
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			50.4546930001s
+ number of cells:		60128
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250363209e-06,-2.60250363209e-06]
+	(best bound)
+
+ x* =	(0.0566807927328 ; 1.00000000001e-06 ; 0.943318216268)
+	(best feasible point)
+
+ relative precision on f*:	0.0370027254774
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			50.0579000001s
+ number of cells:		60128
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250363209e-06,-2.60250363209e-06]
+	(best bound)
+
+ x* =	(0.0566807927328 ; 1.00000000001e-06 ; 0.943318216268)
+	(best feasible point)
+
+ relative precision on f*:	0.0370027254774
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			49.2434050001s
+ number of cells:		60128
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250363209e-06,-2.60250363209e-06]
+	(best bound)
+
+ x* =	(0.0566807927328 ; 1.00000000001e-06 ; 0.943318216268)
+	(best feasible point)
+
+ relative precision on f*:	0.0370027254774
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			49.6670550001s
+ number of cells:		60128
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250363209e-06,-2.60250363209e-06]
+	(best bound)
+
+ x* =	(0.0566807927328 ; 1.00000000001e-06 ; 0.943318216268)
+	(best feasible point)
+
+ relative precision on f*:	0.0370027254774
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			50.1228020001s
+ number of cells:		60128
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250364469e-06,-2.60250364469e-06]
+	(best bound)
+
+ x* =	(0.0566807918332 ; 1.00000000001e-06 ; 0.943318217167)
+	(best feasible point)
+
+ relative precision on f*:	0.0370027253048
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			46.9845160001s
+ number of cells:		60444
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250364469e-06,-2.60250364469e-06]
+	(best bound)
+
+ x* =	(0.0566807918332 ; 1.00000000001e-06 ; 0.943318217167)
+	(best feasible point)
+
+ relative precision on f*:	0.0370027253048
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			47.6300900001s
+ number of cells:		60444
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250364469e-06,-2.60250364469e-06]
+	(best bound)
+
+ x* =	(0.0566807918332 ; 1.00000000001e-06 ; 0.943318217167)
+	(best feasible point)
+
+ relative precision on f*:	0.0370027253048
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			51.1356520001s
+ number of cells:		60444
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250364469e-06,-2.60250364469e-06]
+	(best bound)
+
+ x* =	(0.0566807918332 ; 1.00000000001e-06 ; 0.943318217167)
+	(best feasible point)
+
+ relative precision on f*:	0.0370027253048
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			49.6639250001s
+ number of cells:		60444
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250364469e-06,-2.60250364469e-06]
+	(best bound)
+
+ x* =	(0.0566807918332 ; 1.00000000001e-06 ; 0.943318217167)
+	(best feasible point)
+
+ relative precision on f*:	0.0370027253048
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			51.9223300001s
+ number of cells:		60444
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250358402e-06,-2.60250358402e-06]
+	(best bound)
+
+ x* =	(0.0566807956762 ; 1.00000000001e-06 ; 0.943318213324)
+	(best feasible point)
+
+ relative precision on f*:	0.0370027261356
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			50.2001270001s
+ number of cells:		60392
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250358402e-06,-2.60250358402e-06]
+	(best bound)
+
+ x* =	(0.0566807956762 ; 1.00000000001e-06 ; 0.943318213324)
+	(best feasible point)
+
+ relative precision on f*:	0.0370027261356
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			53.0593130001s
+ number of cells:		60392
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250358402e-06,-2.60250358402e-06]
+	(best bound)
+
+ x* =	(0.0566807956762 ; 1.00000000001e-06 ; 0.943318213324)
+	(best feasible point)
+
+ relative precision on f*:	0.0370027261356
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			51.2372190001s
+ number of cells:		60392
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250358402e-06,-2.60250358402e-06]
+	(best bound)
+
+ x* =	(0.0566807956762 ; 1.00000000001e-06 ; 0.943318213324)
+	(best feasible point)
+
+ relative precision on f*:	0.0370027261356
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			49.0615170001s
+ number of cells:		60392
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_6.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex6_2_6.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2.70250358402e-06,-2.60250358402e-06]
+	(best bound)
+
+ x* =	(0.0566807956762 ; 1.00000000001e-06 ; 0.943318213324)
+	(best feasible point)
+
+ relative precision on f*:	0.0370027261356
+ absolute precision on f*:	1e-07[32m [passed] [0m
+ cpu time used:			51.3207470001s
+ number of cells:		60392
+
+ results written in benchs/optim/medium/ex6_2_6.cov
+ (old file saved in benchs/optim/medium/ex6_2_6.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333322517,-0.0270062989195]
+	(best bound)
+
+ x* =	(0.715627879533 ; 0.00335792355652 ; 0.281014205911)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333322518e-05
+ cpu time used:			25.1627000001s
+ number of cells:		31930
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333322517,-0.0270062989195]
+	(best bound)
+
+ x* =	(0.715627879533 ; 0.00335792355652 ; 0.281014205911)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333322518e-05
+ cpu time used:			24.9692290001s
+ number of cells:		31930
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333322517,-0.0270062989195]
+	(best bound)
+
+ x* =	(0.715627879533 ; 0.00335792355652 ; 0.281014205911)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333322518e-05
+ cpu time used:			24.5325710001s
+ number of cells:		31930
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333322517,-0.0270062989195]
+	(best bound)
+
+ x* =	(0.715627879533 ; 0.00335792355652 ; 0.281014205911)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333322518e-05
+ cpu time used:			23.2660800001s
+ number of cells:		31930
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333322517,-0.0270062989195]
+	(best bound)
+
+ x* =	(0.715627879533 ; 0.00335792355652 ; 0.281014205911)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333322518e-05
+ cpu time used:			24.0235360001s
+ number of cells:		31930
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333245947,-0.0270062912701]
+	(best bound)
+
+ x* =	(0.715172812019 ; 0.00335792355652 ; 0.281469273426)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333245948e-05
+ cpu time used:			24.0930540001s
+ number of cells:		31810
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333245947,-0.0270062912701]
+	(best bound)
+
+ x* =	(0.715172812019 ; 0.00335792355652 ; 0.281469273426)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333245948e-05
+ cpu time used:			23.0122580001s
+ number of cells:		31810
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333245947,-0.0270062912701]
+	(best bound)
+
+ x* =	(0.715172812019 ; 0.00335792355652 ; 0.281469273426)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333245948e-05
+ cpu time used:			22.9052080001s
+ number of cells:		31810
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333245947,-0.0270062912701]
+	(best bound)
+
+ x* =	(0.715172812019 ; 0.00335792355652 ; 0.281469273426)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333245948e-05
+ cpu time used:			22.9653190001s
+ number of cells:		31810
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333245947,-0.0270062912701]
+	(best bound)
+
+ x* =	(0.715172812019 ; 0.00335792355652 ; 0.281469273426)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333245948e-05
+ cpu time used:			24.0479140001s
+ number of cells:		31810
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333329535,-0.0270062996205]
+	(best bound)
+
+ x* =	(0.715626335604 ; 0.00335792355652 ; 0.28101574984)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333329536e-05
+ cpu time used:			23.9888310001s
+ number of cells:		31686
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333329535,-0.0270062996205]
+	(best bound)
+
+ x* =	(0.715626335604 ; 0.00335792355652 ; 0.28101574984)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333329536e-05
+ cpu time used:			26.4920770001s
+ number of cells:		31686
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333329535,-0.0270062996205]
+	(best bound)
+
+ x* =	(0.715626335604 ; 0.00335792355652 ; 0.28101574984)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333329536e-05
+ cpu time used:			28.0164610001s
+ number of cells:		31686
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333329535,-0.0270062996205]
+	(best bound)
+
+ x* =	(0.715626335604 ; 0.00335792355652 ; 0.28101574984)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333329536e-05
+ cpu time used:			28.6758980001s
+ number of cells:		31686
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333329535,-0.0270062996205]
+	(best bound)
+
+ x* =	(0.715626335604 ; 0.00335792355652 ; 0.28101574984)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333329536e-05
+ cpu time used:			25.7969810001s
+ number of cells:		31686
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333245947,-0.0270062912701]
+	(best bound)
+
+ x* =	(0.715172812025 ; 0.00335792355652 ; 0.281469273419)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333245948e-05
+ cpu time used:			27.1233140001s
+ number of cells:		31866
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333245947,-0.0270062912701]
+	(best bound)
+
+ x* =	(0.715172812025 ; 0.00335792355652 ; 0.281469273419)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333245948e-05
+ cpu time used:			26.3158830001s
+ number of cells:		31866
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333245947,-0.0270062912701]
+	(best bound)
+
+ x* =	(0.715172812025 ; 0.00335792355652 ; 0.281469273419)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333245948e-05
+ cpu time used:			27.1638830001s
+ number of cells:		31866
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333245947,-0.0270062912701]
+	(best bound)
+
+ x* =	(0.715172812025 ; 0.00335792355652 ; 0.281469273419)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333245948e-05
+ cpu time used:			27.8302110001s
+ number of cells:		31866
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333245947,-0.0270062912701]
+	(best bound)
+
+ x* =	(0.715172812025 ; 0.00335792355652 ; 0.281469273419)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333245948e-05
+ cpu time used:			27.7102720001s
+ number of cells:		31866
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333245947,-0.0270062912701]
+	(best bound)
+
+ x* =	(0.715172812025 ; 0.00335792355652 ; 0.281469273419)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333245948e-05
+ cpu time used:			27.6813640001s
+ number of cells:		31866
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333245947,-0.0270062912701]
+	(best bound)
+
+ x* =	(0.715172812025 ; 0.00335792355652 ; 0.281469273419)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333245948e-05
+ cpu time used:			28.7144150001s
+ number of cells:		31866
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333245947,-0.0270062912701]
+	(best bound)
+
+ x* =	(0.715172812025 ; 0.00335792355652 ; 0.281469273419)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333245948e-05
+ cpu time used:			26.7674870001s
+ number of cells:		31866
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333245947,-0.0270062912701]
+	(best bound)
+
+ x* =	(0.715172812025 ; 0.00335792355652 ; 0.281469273419)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333245948e-05
+ cpu time used:			27.5689120001s
+ number of cells:		31866
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_8.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex6_2_8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0270333245947,-0.0270062912701]
+	(best bound)
+
+ x* =	(0.715172812025 ; 0.00335792355652 ; 0.281469273419)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.70333245948e-05
+ cpu time used:			26.8204370001s
+ number of cells:		31866
+
+ results written in benchs/optim/medium/ex6_2_8.cov
+ (old file saved in benchs/optim/medium/ex6_2_8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676592,-0.0340661673915]
+	(best bound)
+
+ x* =	(0.49983965484 ; 0.00016035416025 ; 0.045166098462 ; 0.454833910539)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.41002676593e-05
+ cpu time used:			21.2336110001s
+ number of cells:		21620
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676592,-0.0340661673915]
+	(best bound)
+
+ x* =	(0.49983965484 ; 0.00016035416025 ; 0.045166098462 ; 0.454833910539)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.41002676593e-05
+ cpu time used:			21.9128550001s
+ number of cells:		21620
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676592,-0.0340661673915]
+	(best bound)
+
+ x* =	(0.49983965484 ; 0.00016035416025 ; 0.045166098462 ; 0.454833910539)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.41002676593e-05
+ cpu time used:			22.7272290001s
+ number of cells:		21620
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676592,-0.0340661673915]
+	(best bound)
+
+ x* =	(0.49983965484 ; 0.00016035416025 ; 0.045166098462 ; 0.454833910539)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.41002676593e-05
+ cpu time used:			22.4922790001s
+ number of cells:		21620
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676592,-0.0340661673915]
+	(best bound)
+
+ x* =	(0.49983965484 ; 0.00016035416025 ; 0.045166098462 ; 0.454833910539)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.41002676593e-05
+ cpu time used:			20.3330660001s
+ number of cells:		21620
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676592,-0.0340661673915]
+	(best bound)
+
+ x* =	(0.49983965484 ; 0.00016035416025 ; 0.045166098462 ; 0.454833910539)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.41002676593e-05
+ cpu time used:			20.8195770001s
+ number of cells:		21620
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676592,-0.0340661673915]
+	(best bound)
+
+ x* =	(0.49983965484 ; 0.00016035416025 ; 0.045166098462 ; 0.454833910539)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.41002676593e-05
+ cpu time used:			23.0096740001s
+ number of cells:		21620
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676592,-0.0340661673915]
+	(best bound)
+
+ x* =	(0.49983965484 ; 0.00016035416025 ; 0.045166098462 ; 0.454833910539)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.41002676593e-05
+ cpu time used:			21.6604410001s
+ number of cells:		21620
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676592,-0.0340661673915]
+	(best bound)
+
+ x* =	(0.49983965484 ; 0.00016035416025 ; 0.045166098462 ; 0.454833910539)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.41002676593e-05
+ cpu time used:			19.5019480001s
+ number of cells:		21620
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676592,-0.0340661673915]
+	(best bound)
+
+ x* =	(0.49983965484 ; 0.00016035416025 ; 0.045166098462 ; 0.454833910539)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.41002676593e-05
+ cpu time used:			19.9427950001s
+ number of cells:		21620
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676592,-0.0340661673915]
+	(best bound)
+
+ x* =	(0.49983965484 ; 0.00016035416025 ; 0.045166098462 ; 0.454833910539)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.41002676593e-05
+ cpu time used:			21.5969670001s
+ number of cells:		21620
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676592,-0.0340661673915]
+	(best bound)
+
+ x* =	(0.49983965484 ; 0.00016035416025 ; 0.045166098462 ; 0.454833910539)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.41002676593e-05
+ cpu time used:			20.4701270001s
+ number of cells:		21620
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676592,-0.0340661673915]
+	(best bound)
+
+ x* =	(0.49983965484 ; 0.00016035416025 ; 0.045166098462 ; 0.454833910539)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.41002676593e-05
+ cpu time used:			20.3309500001s
+ number of cells:		21620
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676592,-0.0340661673915]
+	(best bound)
+
+ x* =	(0.49983965484 ; 0.00016035416025 ; 0.045166098462 ; 0.454833910539)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.41002676593e-05
+ cpu time used:			20.3373930001s
+ number of cells:		21620
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676592,-0.0340661673915]
+	(best bound)
+
+ x* =	(0.49983965484 ; 0.00016035416025 ; 0.045166098462 ; 0.454833910539)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.41002676593e-05
+ cpu time used:			19.1503400001s
+ number of cells:		21620
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676639,-0.0340661673962]
+	(best bound)
+
+ x* =	(0.000160354531906 ; 0.499839654469 ; 0.454833910539 ; 0.045166098462)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.4100267664e-05
+ cpu time used:			18.4085380001s
+ number of cells:		21432
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676639,-0.0340661673962]
+	(best bound)
+
+ x* =	(0.000160354531906 ; 0.499839654469 ; 0.454833910539 ; 0.045166098462)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.4100267664e-05
+ cpu time used:			18.2287680001s
+ number of cells:		21432
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676639,-0.0340661673962]
+	(best bound)
+
+ x* =	(0.000160354531906 ; 0.499839654469 ; 0.454833910539 ; 0.045166098462)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.4100267664e-05
+ cpu time used:			19.6224610001s
+ number of cells:		21432
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676639,-0.0340661673962]
+	(best bound)
+
+ x* =	(0.000160354531906 ; 0.499839654469 ; 0.454833910539 ; 0.045166098462)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.4100267664e-05
+ cpu time used:			18.5434510001s
+ number of cells:		21432
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676639,-0.0340661673962]
+	(best bound)
+
+ x* =	(0.000160354531906 ; 0.499839654469 ; 0.454833910539 ; 0.045166098462)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.4100267664e-05
+ cpu time used:			19.5134430001s
+ number of cells:		21432
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676639,-0.0340661673962]
+	(best bound)
+
+ x* =	(0.000160354531906 ; 0.499839654469 ; 0.454833910539 ; 0.045166098462)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.4100267664e-05
+ cpu time used:			18.9498650001s
+ number of cells:		21432
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676639,-0.0340661673962]
+	(best bound)
+
+ x* =	(0.000160354531906 ; 0.499839654469 ; 0.454833910539 ; 0.045166098462)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.4100267664e-05
+ cpu time used:			19.4493390001s
+ number of cells:		21432
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676639,-0.0340661673962]
+	(best bound)
+
+ x* =	(0.000160354531906 ; 0.499839654469 ; 0.454833910539 ; 0.045166098462)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.4100267664e-05
+ cpu time used:			20.8853540001s
+ number of cells:		21432
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676639,-0.0340661673962]
+	(best bound)
+
+ x* =	(0.000160354531906 ; 0.499839654469 ; 0.454833910539 ; 0.045166098462)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.4100267664e-05
+ cpu time used:			20.0541410001s
+ number of cells:		21432
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_9.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex6_2_9.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.0341002676639,-0.0340661673962]
+	(best bound)
+
+ x* =	(0.000160354531906 ; 0.499839654469 ; 0.454833910539 ; 0.045166098462)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	3.4100267664e-05
+ cpu time used:			19.8876920001s
+ number of cells:		21432
+
+ results written in benchs/optim/medium/ex6_2_9.cov
+ (old file saved in benchs/optim/medium/ex6_2_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			5.87730500001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			6.31684000001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			5.69595200001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			5.67217900001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			5.95866300001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			6.13334300001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			6.44180900001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			6.03922700001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			6.04084400001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			6.28757900001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			6.20842800001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			6.06613600001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			6.24989800001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			6.11110700001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			6.03206700001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			5.82245900001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			6.05736100001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			6.56989200001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			6.08181400001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			6.03639100001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			5.78586200001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			6.05307200001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			6.15576800001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			6.05861900001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex6_2_12.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex6_2_12.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.288906812683,0.289195719496]
+	(best bound)
+
+ x* =	(0.000577726091504 ; 0.499422282909 ; 0.38281205137 ; 0.117187939631)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000288906812683
+ cpu time used:			5.87990700001s
+ number of cells:		7728
+
+ results written in benchs/optim/medium/ex6_2_12.cov
+ (old file saved in benchs/optim/medium/ex6_2_12.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212250619388,0.212462870007]
+	(best bound)
+
+ x* =	(0.606312500001 ; 0.556431145756 ; 1.13198217477 ; 0.75 ; 0.62169197754)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212250619388
+ cpu time used:			58.6696510001s
+ number of cells:		78334
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212250619388,0.212462870007]
+	(best bound)
+
+ x* =	(0.606312500001 ; 0.556431145756 ; 1.13198217477 ; 0.75 ; 0.62169197754)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212250619388
+ cpu time used:			61.0376710001s
+ number of cells:		78334
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212250619388,0.212462870007]
+	(best bound)
+
+ x* =	(0.606312500001 ; 0.556431145756 ; 1.13198217477 ; 0.75 ; 0.62169197754)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212250619388
+ cpu time used:			61.8270010001s
+ number of cells:		78334
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212250619388,0.212462870007]
+	(best bound)
+
+ x* =	(0.606312500001 ; 0.556431145756 ; 1.13198217477 ; 0.75 ; 0.62169197754)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212250619388
+ cpu time used:			62.7724960001s
+ number of cells:		78334
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		1
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212250619388,0.212462870007]
+	(best bound)
+
+ x* =	(0.606312500001 ; 0.556431145756 ; 1.13198217477 ; 0.75 ; 0.62169197754)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212250619388
+ cpu time used:			60.8027400001s
+ number of cells:		78334
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212255278336,0.212467533614]
+	(best bound)
+
+ x* =	(0.605000000001 ; 0.557559143642 ; 1.13107854849 ; 0.75 ; 0.622488489417)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212255278335
+ cpu time used:			62.5260170001s
+ number of cells:		77624
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212255278336,0.212467533614]
+	(best bound)
+
+ x* =	(0.605000000001 ; 0.557559143642 ; 1.13107854849 ; 0.75 ; 0.622488489417)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212255278335
+ cpu time used:			61.3205870001s
+ number of cells:		77624
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212255278336,0.212467533614]
+	(best bound)
+
+ x* =	(0.605000000001 ; 0.557559143642 ; 1.13107854849 ; 0.75 ; 0.622488489417)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212255278335
+ cpu time used:			63.0489780001s
+ number of cells:		77624
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212255278336,0.212467533614]
+	(best bound)
+
+ x* =	(0.605000000001 ; 0.557559143642 ; 1.13107854849 ; 0.75 ; 0.622488489417)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212255278335
+ cpu time used:			61.2625530001s
+ number of cells:		77624
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212255278336,0.212467533614]
+	(best bound)
+
+ x* =	(0.605000000001 ; 0.557559143642 ; 1.13107854849 ; 0.75 ; 0.622488489417)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212255278335
+ cpu time used:			61.6710950001s
+ number of cells:		77624
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212252129038,0.212464381168]
+	(best bound)
+
+ x* =	(0.605000000001 ; 0.557203783562 ; 1.13163833875 ; 0.75 ; 0.621923593752)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212252129038
+ cpu time used:			58.2248600001s
+ number of cells:		75280
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212252129038,0.212464381168]
+	(best bound)
+
+ x* =	(0.605000000001 ; 0.557203783562 ; 1.13163833875 ; 0.75 ; 0.621923593752)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212252129038
+ cpu time used:			58.7008180001s
+ number of cells:		75280
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212252129038,0.212464381168]
+	(best bound)
+
+ x* =	(0.605000000001 ; 0.557203783562 ; 1.13163833875 ; 0.75 ; 0.621923593752)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212252129038
+ cpu time used:			61.1084290001s
+ number of cells:		75280
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212252129038,0.212464381168]
+	(best bound)
+
+ x* =	(0.605000000001 ; 0.557203783562 ; 1.13163833875 ; 0.75 ; 0.621923593752)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212252129038
+ cpu time used:			57.7695800001s
+ number of cells:		75280
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212252129038,0.212464381168]
+	(best bound)
+
+ x* =	(0.605000000001 ; 0.557203783562 ; 1.13163833875 ; 0.75 ; 0.621923593752)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212252129038
+ cpu time used:			58.7581890001s
+ number of cells:		75280
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212253191089,0.212465444281]
+	(best bound)
+
+ x* =	(0.603854236461 ; 0.558165674389 ; 1.13079700469 ; 0.751185602472 ; 0.62301407833)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212253191089
+ cpu time used:			55.2451470001s
+ number of cells:		76608
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212253191089,0.212465444281]
+	(best bound)
+
+ x* =	(0.603854236461 ; 0.558165674389 ; 1.13079700469 ; 0.751185602472 ; 0.62301407833)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212253191089
+ cpu time used:			55.2991820001s
+ number of cells:		76608
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212253191089,0.212465444281]
+	(best bound)
+
+ x* =	(0.603854236461 ; 0.558165674389 ; 1.13079700469 ; 0.751185602472 ; 0.62301407833)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212253191089
+ cpu time used:			54.8668350001s
+ number of cells:		76608
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212253191089,0.212465444281]
+	(best bound)
+
+ x* =	(0.603854236461 ; 0.558165674389 ; 1.13079700469 ; 0.751185602472 ; 0.62301407833)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212253191089
+ cpu time used:			55.4380570001s
+ number of cells:		76608
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212253191089,0.212465444281]
+	(best bound)
+
+ x* =	(0.603854236461 ; 0.558165674389 ; 1.13079700469 ; 0.751185602472 ; 0.62301407833)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212253191089
+ cpu time used:			55.5792710001s
+ number of cells:		76608
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212252141771,0.212464393912]
+	(best bound)
+
+ x* =	(0.605735600547 ; 0.556759694288 ; 1.13192207929 ; 0.750886988643 ; 0.621979007096)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212252141771
+ cpu time used:			54.8072820001s
+ number of cells:		77722
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212252141771,0.212464393912]
+	(best bound)
+
+ x* =	(0.605735600547 ; 0.556759694288 ; 1.13192207929 ; 0.750886988643 ; 0.621979007096)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212252141771
+ cpu time used:			54.9142000001s
+ number of cells:		77722
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212252141771,0.212464393912]
+	(best bound)
+
+ x* =	(0.605735600547 ; 0.556759694288 ; 1.13192207929 ; 0.750886988643 ; 0.621979007096)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212252141771
+ cpu time used:			56.5147100001s
+ number of cells:		77722
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212252141771,0.212464393912]
+	(best bound)
+
+ x* =	(0.605735600547 ; 0.556759694288 ; 1.13192207929 ; 0.750886988643 ; 0.621979007096)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212252141771
+ cpu time used:			56.2442430001s
+ number of cells:		77722
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/ex8_4_4bis.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/ex8_4_4bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[0.212252141771,0.212464393912]
+	(best bound)
+
+ x* =	(0.605735600547 ; 0.556759694288 ; 1.13192207929 ; 0.750886988643 ; 0.621979007096)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000212252141771
+ cpu time used:			54.8918650001s
+ number of cells:		77722
+
+ results written in benchs/optim/medium/ex8_4_4bis.cov
+ (old file saved in benchs/optim/medium/ex8_4_4bis.cov~)

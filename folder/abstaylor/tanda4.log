@@ -1795,3 +1795,12 @@ running............
 
  results written in benchs/optim/with10valorless/hs113.cov
  (old file saved in benchs/optim/with10valorless/hs113.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/chem.bch
+  random seed:		1
+  output COV file:	benchs/optim/hard/chem.cov
+*******************************************************
+
+running............
+

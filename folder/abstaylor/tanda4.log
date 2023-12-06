@@ -2163,3 +2163,27 @@ running............
 
 running............
 
+[32m optimization successful!
+[0m
+ f* in	[-47.7530477221,-47.7052946744]
+	(best bound)
+
+ x* =	(0.0401875015625 ; 0.156996723422 ; 0.773315779126 ; 0.00100000000001 ; 0.484552255326 ; 0.00100000000001 ; 0.0288954983481 ; 0.0147830518991 ; 0.0424090886419 ; 0.0981875023438 ; 1.64132740967)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.0477530477222
+ cpu time used:			1650.51537501s
+ number of cells:		902650
+
+ results written in benchs/optim/hard/chem.cov
+ (old file saved in benchs/optim/hard/chem.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/chem.bch
+  random seed:		4
+  output COV file:	benchs/optim/hard/chem.cov
+*******************************************************
+
+running............
+

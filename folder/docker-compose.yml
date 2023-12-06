@@ -6,7 +6,9 @@ services:
     tty: true
     stdin_open: true
     image: hill-climbing
-    container_name: hill-climbing
+    deploy:
+      replicas: 4
+    #container_name: hill-climbing
     volumes:
       - ./hill-climbing:/app
   
@@ -15,7 +17,9 @@ services:
     tty: true
     stdin_open: true
     image: abstaylor
-    container_name: abstaylor
+    deploy:
+      replicas: 3
+    #container_name: abstaylor
     volumes:
       - ./abstaylor:/app
 

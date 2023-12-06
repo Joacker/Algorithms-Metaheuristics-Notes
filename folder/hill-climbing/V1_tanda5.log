@@ -1,0 +1,32 @@
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/ex6_1_3.bch
+  random seed:		1
+  output COV file:	benchs/optim/hard/ex6_1_3.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.352682113518,-0.352329431404]
+	(best bound)
+
+ x* =	(2.75200265503e-05 ; 0.299472488974 ; 0.137362468375 ; 0.062437540625 ; 0.00121933781739 ; 0.498180671183 ; 0.00130063486905 ; 0.37364471306 ; 0.994237493629 ; 0.13218120987 ; 0.0356726185273 ; 0.713141429937)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000352682113519
+ cpu time used:			78.8650390001s
+ number of cells:		14696
+
+ results written in benchs/optim/hard/ex6_1_3.cov
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/ex6_1_3.bch
+  random seed:		1
+  output COV file:	benchs/optim/hard/ex6_1_3.cov
+*******************************************************
+
+running............
+

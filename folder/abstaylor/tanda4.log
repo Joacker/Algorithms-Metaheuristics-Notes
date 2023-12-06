@@ -597,3 +597,35 @@ running............
 
  results written in benchs/optim/medium/ex2_1_9.cov
  (old file saved in benchs/optim/medium/ex2_1_9.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/odfits
+  random seed:		1
+  output COV file:	benchs/optim/with10valorless/odfits.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-2382.36436463,-2379.98200026]
+	(best bound)
+
+ x* =	(96.7298558561 ; 492.521834388 ; 400.335701152 ; 164.985244078 ; 96.7298558661 ; 492.521834386 ; 400.335701143 ; 1057.84277963 ; 565.32094524 ; 164.985244088)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	2.38236436464
+ cpu time used:			35.0527400001s
+ number of cells:		17762
+
+ results written in benchs/optim/with10valorless/odfits.cov
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/odfits
+  random seed:		1
+  output COV file:	benchs/optim/with10valorless/odfits.cov
+*******************************************************
+
+running............
+

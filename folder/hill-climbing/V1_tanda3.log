@@ -2715,3 +2715,314 @@ running............
 
 running............
 
+[32m optimization successful!
+[0m
+ f* in	[-0.866821272917,-0.865954451644]
+	(best bound)
+
+ x* =	(-0.195123990659 ; -0.60352493784 ; 0.751788237097 ; -0.659366149654 ; -0.195078872568 ; -0.980771807766 ; 0.751766616456 ; -0.282225708006 ; 0.377201847849)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866821272918
+ cpu time used:			113.455855001s
+ number of cells:		49610
+
+ results written in benchs/optim/with10valorless/hs108.cov
+ (old file saved in benchs/optim/with10valorless/hs108.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs108
+  random seed:		3
+  output COV file:	benchs/optim/with10valorless/hs108.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.866775854699,-0.865909078844]
+	(best bound)
+
+ x* =	(-0.200241513743 ; -0.232181326543 ; 0.749654786362 ; -0.661806064897 ; -0.19828888456 ; -0.980137711144 ; 0.748167539629 ; 0.0841229020982 ; 0.747528260401)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.0008667758547
+ cpu time used:			113.251844001s
+ number of cells:		49128
+
+ results written in benchs/optim/with10valorless/hs108.cov
+ (old file saved in benchs/optim/with10valorless/hs108.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs108
+  random seed:		4
+  output COV file:	benchs/optim/with10valorless/hs108.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.866778908409,-0.8659121295]
+	(best bound)
+
+ x* =	(-0.498085650707 ; -0.373511314727 ; 0.5 ; -0.866025221704 ; -0.499993748891 ; -0.866024032998 ; 0.501657773931 ; -0.371360248904 ; 0.493591459447)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00086677890841
+ cpu time used:			115.428008001s
+ number of cells:		42242
+
+ results written in benchs/optim/with10valorless/hs108.cov
+ (old file saved in benchs/optim/with10valorless/hs108.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs108
+  random seed:		4
+  output COV file:	benchs/optim/with10valorless/hs108.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.866777060238,-0.865910283178]
+	(best bound)
+
+ x* =	(-0.0113048837802 ; -0.886445596315 ; 0.857766278702 ; -0.51403925696 ; -0.0162835491946 ; -0.999865773482 ; 0.86018389909 ; -0.396425430367 ; 0.113406142436)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866777060239
+ cpu time used:			107.166428001s
+ number of cells:		40194
+
+ results written in benchs/optim/with10valorless/hs108.cov
+ (old file saved in benchs/optim/with10valorless/hs108.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs108
+  random seed:		4
+  output COV file:	benchs/optim/with10valorless/hs108.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.866861741165,-0.865994879424]
+	(best bound)
+
+ x* =	(-0.5 ; -0.367442945368 ; 0.497484549194 ; -0.867449434553 ; -0.502451836622 ; -0.864599020996 ; 0.499996940347 ; -0.36744103917 ; 0.498581280276)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866861741166
+ cpu time used:			103.528873001s
+ number of cells:		38058
+
+ results written in benchs/optim/with10valorless/hs108.cov
+ (old file saved in benchs/optim/with10valorless/hs108.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs108
+  random seed:		4
+  output COV file:	benchs/optim/with10valorless/hs108.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.866778908409,-0.8659121295]
+	(best bound)
+
+ x* =	(-0.498085650707 ; -0.373511314727 ; 0.5 ; -0.866025221704 ; -0.499993748891 ; -0.866024032998 ; 0.501657773931 ; -0.371360248904 ; 0.493591459447)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00086677890841
+ cpu time used:			113.146718001s
+ number of cells:		42242
+
+ results written in benchs/optim/with10valorless/hs108.cov
+ (old file saved in benchs/optim/with10valorless/hs108.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs108
+  random seed:		4
+  output COV file:	benchs/optim/with10valorless/hs108.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.866861741165,-0.865994879424]
+	(best bound)
+
+ x* =	(-0.5 ; -0.367442945368 ; 0.497484549194 ; -0.867449434553 ; -0.502451836622 ; -0.864599020996 ; 0.499996940347 ; -0.36744103917 ; 0.498581280276)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866861741166
+ cpu time used:			105.635551001s
+ number of cells:		38058
+
+ results written in benchs/optim/with10valorless/hs108.cov
+ (old file saved in benchs/optim/with10valorless/hs108.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs108
+  random seed:		5
+  output COV file:	benchs/optim/with10valorless/hs108.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.86681724242,-0.865950425177]
+	(best bound)
+
+ x* =	(-0.143992288074 ; -0.619860562106 ; 0.782312822246 ; -0.622843065318 ; -0.148173453392 ; -0.988948745254 ; 0.784937709904 ; -0.249780844892 ; 0.369717793637)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866817242421
+ cpu time used:			108.305695001s
+ number of cells:		38386
+
+ results written in benchs/optim/with10valorless/hs108.cov
+ (old file saved in benchs/optim/with10valorless/hs108.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs108
+  random seed:		5
+  output COV file:	benchs/optim/with10valorless/hs108.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.866783323636,-0.865916540312]
+	(best bound)
+
+ x* =	(-0.375033060023 ; -0.764536967814 ; 0.618136918133 ; -0.786058407037 ; -0.371624649472 ; -0.928362447466 ; 0.615229549924 ; -0.625879692797 ; 0.162360652187)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866783323637
+ cpu time used:			118.513372001s
+ number of cells:		41698
+
+ results written in benchs/optim/with10valorless/hs108.cov
+ (old file saved in benchs/optim/with10valorless/hs108.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs108
+  random seed:		5
+  output COV file:	benchs/optim/with10valorless/hs108.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.866812230187,-0.865945417957]
+	(best bound)
+
+ x* =	(-0.792830012013 ; 0.239298898728 ; 0.128488996644 ; -0.99170954375 ; -0.794591167623 ; -0.607136317159 ; 0.131245596787 ; -0.142632688859 ; 0.848639597178)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866812230188
+ cpu time used:			104.643075001s
+ number of cells:		39536
+
+ results written in benchs/optim/with10valorless/hs108.cov
+ (old file saved in benchs/optim/with10valorless/hs108.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs108
+  random seed:		5
+  output COV file:	benchs/optim/with10valorless/hs108.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.866812230187,-0.865945417957]
+	(best bound)
+
+ x* =	(-0.792830012013 ; 0.239298898728 ; 0.128488996644 ; -0.99170954375 ; -0.794591167623 ; -0.607136317159 ; 0.131245596787 ; -0.142632688859 ; 0.848639597178)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866812230188
+ cpu time used:			104.851345001s
+ number of cells:		39536
+
+ results written in benchs/optim/with10valorless/hs108.cov
+ (old file saved in benchs/optim/with10valorless/hs108.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs108
+  random seed:		5
+  output COV file:	benchs/optim/with10valorless/hs108.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.86681724242,-0.865950425177]
+	(best bound)
+
+ x* =	(-0.143992288074 ; -0.619860562106 ; 0.782312822246 ; -0.622843065318 ; -0.148173453392 ; -0.988948745254 ; 0.784937709904 ; -0.249780844892 ; 0.369717793637)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866817242421
+ cpu time used:			98.8332290001s
+ number of cells:		38386
+
+ results written in benchs/optim/with10valorless/hs108.cov
+ (old file saved in benchs/optim/with10valorless/hs108.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/mistake
+  random seed:		1
+  output COV file:	benchs/optim/with10valorless/mistake.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-1.00096001801,-0.999959057993]
+	(best bound)
+
+ x* =	(0.751986893466 ; 0.735453846717 ; 0.328326785819 ; 0.883317490173 ; 0.990925877208 ; 0.13440280838 ; 0.615365456104 ; 1.72607495678 ; 0.0763076159191)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00100096001802
+ cpu time used:			992.197236001s
+ number of cells:		432712
+
+ results written in benchs/optim/with10valorless/mistake.cov
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/mistake
+  random seed:		1
+  output COV file:	benchs/optim/with10valorless/mistake.cov
+*******************************************************
+
+running............
+

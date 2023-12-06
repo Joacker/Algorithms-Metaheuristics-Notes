@@ -1085,3 +1085,51 @@ running............
 
 running............
 
+[32m optimization successful!
+[0m
+ f* in	[3.96478380919,3.968748593]
+	(best bound)
+
+ x* =	(14.44353105 ; 2.90173354595 ; 126.827462089 ; 84.2744196852 ; 52.5842596709 ; 175.862886699 ; 15.887745633 ; 137.464423076 ; 23.0325220378 ; 22.252982997 ; 35.4967300863 ; 49.5572286577 ; 228.447146361 ; 176.384690756 ; 107.306941732)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00396478380919
+ cpu time used:			2050.06350001s
+ number of cells:		500450
+
+ results written in benchs/optim/hard/sambal.cov
+ (old file saved in benchs/optim/hard/sambal.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/sambal.bch
+  random seed:		5
+  output COV file:	benchs/optim/hard/sambal.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[3.96478380919,3.968748593]
+	(best bound)
+
+ x* =	(14.44353105 ; 2.90173354595 ; 126.827462089 ; 84.2744196852 ; 52.5842596709 ; 175.862886699 ; 15.887745633 ; 137.464423076 ; 23.0325220378 ; 22.252982997 ; 35.4967300863 ; 49.5572286577 ; 228.447146361 ; 176.384690756 ; 107.306941732)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00396478380919
+ cpu time used:			2276.80733001s
+ number of cells:		500450
+
+ results written in benchs/optim/hard/sambal.cov
+ (old file saved in benchs/optim/hard/sambal.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/sambal.bch
+  random seed:		5
+  output COV file:	benchs/optim/hard/sambal.cov
+*******************************************************
+
+running............
+

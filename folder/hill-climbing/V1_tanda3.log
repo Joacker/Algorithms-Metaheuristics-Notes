@@ -3122,3 +3122,27 @@ running............
 
 running............
 
+[32m optimization successful!
+[0m
+ f* in	[-1.00098372489,-0.999982741171]
+	(best bound)
+
+ x* =	(0.112457874776 ; 1.017370741 ; -0.32646565531 ; 0.856840516581 ; 0.667240946049 ; 0.744841315761 ; -0.632475209628 ; 1.68447749958 ; 0.0237249249756)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.0010009837249
+ cpu time used:			922.552936001s
+ number of cells:		399808
+
+ results written in benchs/optim/with10valorless/mistake.cov
+ (old file saved in benchs/optim/with10valorless/mistake.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/mistake
+  random seed:		2
+  output COV file:	benchs/optim/with10valorless/mistake.cov
+*******************************************************
+
+running............
+

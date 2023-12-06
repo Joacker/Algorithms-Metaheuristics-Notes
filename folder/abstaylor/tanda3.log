@@ -1875,3 +1875,291 @@ running............
 
 running............
 
+[32m optimization successful!
+[0m
+ f* in	[-0.375369458557,-0.374994089098]
+	(best bound)
+
+ x* =	(0 ; 0 ; 0 ; 0.252431079739 ; 0.25 ; 0.25 ; 0.247568919262 ; 0 ; 0)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000375369458558
+ cpu time used:			86.0167320001s
+ number of cells:		74894
+
+ results written in benchs/optim/blowup/ex2_1_9bis.cov
+ (old file saved in benchs/optim/blowup/ex2_1_9bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/blowup/ex2_1_9bis.bch
+  random seed:		1
+  output COV file:	benchs/optim/blowup/ex2_1_9bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.375369458557,-0.374994089098]
+	(best bound)
+
+ x* =	(0 ; 0 ; 0 ; 0.252431079739 ; 0.25 ; 0.25 ; 0.247568919262 ; 0 ; 0)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000375369458558
+ cpu time used:			84.7898030001s
+ number of cells:		74894
+
+ results written in benchs/optim/blowup/ex2_1_9bis.cov
+ (old file saved in benchs/optim/blowup/ex2_1_9bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/blowup/ex2_1_9bis.bch
+  random seed:		2
+  output COV file:	benchs/optim/blowup/ex2_1_9bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.375375374624,-0.374999999249]
+	(best bound)
+
+ x* =	(0 ; 0 ; 0 ; 0.25 ; 0.25 ; 0.25 ; 0.249999999 ; 0 ; 0)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000375375374625
+ cpu time used:			83.0250850001s
+ number of cells:		74338
+
+ results written in benchs/optim/blowup/ex2_1_9bis.cov
+ (old file saved in benchs/optim/blowup/ex2_1_9bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/blowup/ex2_1_9bis.bch
+  random seed:		2
+  output COV file:	benchs/optim/blowup/ex2_1_9bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.375375374624,-0.374999999249]
+	(best bound)
+
+ x* =	(0 ; 0 ; 0 ; 0.25 ; 0.25 ; 0.25 ; 0.249999999 ; 0 ; 0)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000375375374625
+ cpu time used:			83.6103170001s
+ number of cells:		74338
+
+ results written in benchs/optim/blowup/ex2_1_9bis.cov
+ (old file saved in benchs/optim/blowup/ex2_1_9bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/blowup/ex2_1_9bis.bch
+  random seed:		2
+  output COV file:	benchs/optim/blowup/ex2_1_9bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.375375374624,-0.374999999249]
+	(best bound)
+
+ x* =	(0 ; 0 ; 0 ; 0.25 ; 0.25 ; 0.25 ; 0.249999999 ; 0 ; 0)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000375375374625
+ cpu time used:			83.5322310001s
+ number of cells:		74338
+
+ results written in benchs/optim/blowup/ex2_1_9bis.cov
+ (old file saved in benchs/optim/blowup/ex2_1_9bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/blowup/ex2_1_9bis.bch
+  random seed:		2
+  output COV file:	benchs/optim/blowup/ex2_1_9bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.375375374624,-0.374999999249]
+	(best bound)
+
+ x* =	(0 ; 0 ; 0 ; 0.25 ; 0.25 ; 0.25 ; 0.249999999 ; 0 ; 0)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000375375374625
+ cpu time used:			84.6311290001s
+ number of cells:		74338
+
+ results written in benchs/optim/blowup/ex2_1_9bis.cov
+ (old file saved in benchs/optim/blowup/ex2_1_9bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/blowup/ex2_1_9bis.bch
+  random seed:		2
+  output COV file:	benchs/optim/blowup/ex2_1_9bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.375375374624,-0.374999999249]
+	(best bound)
+
+ x* =	(0 ; 0 ; 0 ; 0.25 ; 0.25 ; 0.25 ; 0.249999999 ; 0 ; 0)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000375375374625
+ cpu time used:			83.0182670001s
+ number of cells:		74338
+
+ results written in benchs/optim/blowup/ex2_1_9bis.cov
+ (old file saved in benchs/optim/blowup/ex2_1_9bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/blowup/ex2_1_9bis.bch
+  random seed:		3
+  output COV file:	benchs/optim/blowup/ex2_1_9bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.375314266786,-0.374938952519]
+	(best bound)
+
+ x* =	(0 ; 0 ; 0 ; 0.255454013681 ; 0.2410490848 ; 0.25 ; 0.253496900521 ; 0 ; 0)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000375314266787
+ cpu time used:			87.4123150001s
+ number of cells:		77556
+
+ results written in benchs/optim/blowup/ex2_1_9bis.cov
+ (old file saved in benchs/optim/blowup/ex2_1_9bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/blowup/ex2_1_9bis.bch
+  random seed:		3
+  output COV file:	benchs/optim/blowup/ex2_1_9bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.375314266786,-0.374938952519]
+	(best bound)
+
+ x* =	(0 ; 0 ; 0 ; 0.255454013681 ; 0.2410490848 ; 0.25 ; 0.253496900521 ; 0 ; 0)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000375314266787
+ cpu time used:			87.5561270001s
+ number of cells:		77556
+
+ results written in benchs/optim/blowup/ex2_1_9bis.cov
+ (old file saved in benchs/optim/blowup/ex2_1_9bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/blowup/ex2_1_9bis.bch
+  random seed:		3
+  output COV file:	benchs/optim/blowup/ex2_1_9bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.375314266786,-0.374938952519]
+	(best bound)
+
+ x* =	(0 ; 0 ; 0 ; 0.255454013681 ; 0.2410490848 ; 0.25 ; 0.253496900521 ; 0 ; 0)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000375314266787
+ cpu time used:			87.2816470001s
+ number of cells:		77556
+
+ results written in benchs/optim/blowup/ex2_1_9bis.cov
+ (old file saved in benchs/optim/blowup/ex2_1_9bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/blowup/ex2_1_9bis.bch
+  random seed:		3
+  output COV file:	benchs/optim/blowup/ex2_1_9bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.375314266786,-0.374938952519]
+	(best bound)
+
+ x* =	(0 ; 0 ; 0 ; 0.255454013681 ; 0.2410490848 ; 0.25 ; 0.253496900521 ; 0 ; 0)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000375314266787
+ cpu time used:			88.5958630001s
+ number of cells:		77556
+
+ results written in benchs/optim/blowup/ex2_1_9bis.cov
+ (old file saved in benchs/optim/blowup/ex2_1_9bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/blowup/ex2_1_9bis.bch
+  random seed:		3
+  output COV file:	benchs/optim/blowup/ex2_1_9bis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.375314266786,-0.374938952519]
+	(best bound)
+
+ x* =	(0 ; 0 ; 0 ; 0.255454013681 ; 0.2410490848 ; 0.25 ; 0.253496900521 ; 0 ; 0)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000375314266787
+ cpu time used:			86.8126830001s
+ number of cells:		77556
+
+ results written in benchs/optim/blowup/ex2_1_9bis.cov
+ (old file saved in benchs/optim/blowup/ex2_1_9bis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/blowup/ex2_1_9bis.bch
+  random seed:		4
+  output COV file:	benchs/optim/blowup/ex2_1_9bis.cov
+*******************************************************
+
+running............
+

@@ -869,3 +869,27 @@ running............
 
 running............
 
+[32m optimization successful!
+[0m
+ f* in	[3.96488038714,3.96884526753]
+	(best bound)
+
+ x* =	(14.4829816114 ; 2.89686683732 ; 126.850372356 ; 84.2471776297 ; 52.5510253366 ; 175.926373098 ; 15.9047821802 ; 137.462015609 ; 22.9850070586 ; 22.1632615541 ; 35.5674906607 ; 49.5014324916 ; 228.477398426 ; 176.351804857 ; 107.232184698)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.00396488038714
+ cpu time used:			1998.17874801s
+ number of cells:		515918
+
+ results written in benchs/optim/hard/sambal.cov
+ (old file saved in benchs/optim/hard/sambal.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/sambal.bch
+  random seed:		3
+  output COV file:	benchs/optim/hard/sambal.cov
+*******************************************************
+
+running............
+

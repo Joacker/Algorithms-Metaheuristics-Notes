@@ -1708,3 +1708,51 @@ running............
 
 running............
 
+[32m optimization successful!
+[0m
+ f* in	[18291.0942785,18309.3853728]
+	(best bound)
+
+ x* =	(0.0155732513904 ; 0.0855914089752 ; 0.0209917838826 ; 0 ; 0 ; 0.358449180087 ; 0 ; 0.519394366666)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	18.2910942785
+ cpu time used:			297.593617001s
+ number of cells:		187112
+
+ results written in benchs/optim/with10valorless/dualc8.cov
+ (old file saved in benchs/optim/with10valorless/dualc8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/dualc8
+  random seed:		5
+  output COV file:	benchs/optim/with10valorless/dualc8.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[18291.0942785,18309.3853728]
+	(best bound)
+
+ x* =	(0.0155732513904 ; 0.0855914089752 ; 0.0209917838826 ; 0 ; 0 ; 0.358449180087 ; 0 ; 0.519394366666)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	18.2910942785
+ cpu time used:			286.655094001s
+ number of cells:		187112
+
+ results written in benchs/optim/with10valorless/dualc8.cov
+ (old file saved in benchs/optim/with10valorless/dualc8.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/dualc8
+  random seed:		5
+  output COV file:	benchs/optim/with10valorless/dualc8.cov
+*******************************************************
+
+running............
+

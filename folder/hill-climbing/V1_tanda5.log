@@ -1396,3 +1396,339 @@ running............
 
 running............
 
+[32m optimization successful!
+[0m
+ f* in	[-0.866892296491,-0.866025404195]
+	(best bound)
+
+ x* =	(0.999999998978 ; 0.499999987396 ; 1.22558894895e-08 ; 0.999999994534 ; 0.49999999416 ; 0.866025386356 ; 0 ; 8.08228561855e-09 ; 0.866025386207 ; 9e-09 ; 0.43301269947 ; -3.87771573863e-09 ; 4.22417510734e-09 ; 0.433012690471 ; 4.90903687778e-09)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866892296492
+ cpu time used:			20.5963480001s
+ number of cells:		4000
+
+ results written in benchs/optim/medium/himmel16.cov
+ (old file saved in benchs/optim/medium/himmel16.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/himmel16.bch
+  random seed:		2
+  output COV file:	benchs/optim/medium/himmel16.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.866756909121,-0.865890152212]
+	(best bound)
+
+ x* =	(0.999993961293 ; 0.499868192045 ; 9.04770559518e-05 ; 0.999999944032 ; 0.499868175845 ; 0.86595272529 ; -0.000200914827857 ; 0.000284288301728 ; 0.865952748235 ; 4.36990213683e-09 ; 0.432973755605 ; -8.93868860574e-05 ; 0.000100475388209 ; 0.432905294737 ; 9e-09)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866756909122
+ cpu time used:			21.0618300001s
+ number of cells:		4178
+
+ results written in benchs/optim/medium/himmel16.cov
+ (old file saved in benchs/optim/medium/himmel16.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/himmel16.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/himmel16.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.866756909121,-0.865890152212]
+	(best bound)
+
+ x* =	(0.999993961293 ; 0.499868192045 ; 9.04770559518e-05 ; 0.999999944032 ; 0.499868175845 ; 0.86595272529 ; -0.000200914827857 ; 0.000284288301728 ; 0.865952748235 ; 4.36990213683e-09 ; 0.432973755605 ; -8.93868860574e-05 ; 0.000100475388209 ; 0.432905294737 ; 9e-09)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866756909122
+ cpu time used:			21.0166000001s
+ number of cells:		4178
+
+ results written in benchs/optim/medium/himmel16.cov
+ (old file saved in benchs/optim/medium/himmel16.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/himmel16.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/himmel16.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.866756909121,-0.865890152212]
+	(best bound)
+
+ x* =	(0.999993961293 ; 0.499868192045 ; 9.04770559518e-05 ; 0.999999944032 ; 0.499868175845 ; 0.86595272529 ; -0.000200914827857 ; 0.000284288301728 ; 0.865952748235 ; 4.36990213683e-09 ; 0.432973755605 ; -8.93868860574e-05 ; 0.000100475388209 ; 0.432905294737 ; 9e-09)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866756909122
+ cpu time used:			20.6191890001s
+ number of cells:		4178
+
+ results written in benchs/optim/medium/himmel16.cov
+ (old file saved in benchs/optim/medium/himmel16.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/himmel16.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/himmel16.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.866756909121,-0.865890152212]
+	(best bound)
+
+ x* =	(0.999993961293 ; 0.499868192045 ; 9.04770559518e-05 ; 0.999999944032 ; 0.499868175845 ; 0.86595272529 ; -0.000200914827857 ; 0.000284288301728 ; 0.865952748235 ; 4.36990213683e-09 ; 0.432973755605 ; -8.93868860574e-05 ; 0.000100475388209 ; 0.432905294737 ; 9e-09)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866756909122
+ cpu time used:			20.7449980001s
+ number of cells:		4178
+
+ results written in benchs/optim/medium/himmel16.cov
+ (old file saved in benchs/optim/medium/himmel16.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/himmel16.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/himmel16.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.866756909121,-0.865890152212]
+	(best bound)
+
+ x* =	(0.999993961293 ; 0.499868192045 ; 9.04770559518e-05 ; 0.999999944032 ; 0.499868175845 ; 0.86595272529 ; -0.000200914827857 ; 0.000284288301728 ; 0.865952748235 ; 4.36990213683e-09 ; 0.432973755605 ; -8.93868860574e-05 ; 0.000100475388209 ; 0.432905294737 ; 9e-09)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866756909122
+ cpu time used:			20.9976210001s
+ number of cells:		4178
+
+ results written in benchs/optim/medium/himmel16.cov
+ (old file saved in benchs/optim/medium/himmel16.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/himmel16.bch
+  random seed:		3
+  output COV file:	benchs/optim/medium/himmel16.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.866756909121,-0.865890152212]
+	(best bound)
+
+ x* =	(0.999993961293 ; 0.499868192045 ; 9.04770559518e-05 ; 0.999999944032 ; 0.499868175845 ; 0.86595272529 ; -0.000200914827857 ; 0.000284288301728 ; 0.865952748235 ; 4.36990213683e-09 ; 0.432973755605 ; -8.93868860574e-05 ; 0.000100475388209 ; 0.432905294737 ; 9e-09)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866756909122
+ cpu time used:			20.9778760001s
+ number of cells:		4178
+
+ results written in benchs/optim/medium/himmel16.cov
+ (old file saved in benchs/optim/medium/himmel16.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/himmel16.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/himmel16.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.866613703616,-0.865747089912]
+	(best bound)
+
+ x* =	(0.999811851977 ; 0.499872733575 ; 0.000164702214738 ; 0.999863370242 ; 0.499906007499 ; 0.865955699899 ; -8.27189513228e-05 ; 0.000317526625548 ; 0.866079636096 ; 7.92687799035e-09 ; 0.43289639102 ; -9.19818884565e-05 ; 4.13757526599e-05 ; 0.432901288103 ; 9e-09)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866613703617
+ cpu time used:			21.7976020001s
+ number of cells:		4558
+
+ results written in benchs/optim/medium/himmel16.cov
+ (old file saved in benchs/optim/medium/himmel16.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/himmel16.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/himmel16.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.866857207283,-0.865990350076]
+	(best bound)
+
+ x* =	(0.999999997725 ; 0.499999993937 ; 0.000121355758405 ; 0.999999998741 ; 0.5 ; 0.866025373266 ; -7.00343115808e-05 ; 0 ; 0.866025373232 ; 9e-09 ; 0.433012691178 ; -7.00580005428e-05 ; 3.50158428229e-05 ; 0.433012683057 ; 9e-09)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866857207284
+ cpu time used:			20.6677150001s
+ number of cells:		4502
+
+ results written in benchs/optim/medium/himmel16.cov
+ (old file saved in benchs/optim/medium/himmel16.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/himmel16.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/himmel16.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.866613703616,-0.865747089912]
+	(best bound)
+
+ x* =	(0.999811851977 ; 0.499872733575 ; 0.000164702214738 ; 0.999863370242 ; 0.499906007499 ; 0.865955699899 ; -8.27189513228e-05 ; 0.000317526625548 ; 0.866079636096 ; 7.92687799035e-09 ; 0.43289639102 ; -9.19818884565e-05 ; 4.13757526599e-05 ; 0.432901288103 ; 9e-09)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866613703617
+ cpu time used:			20.6878730001s
+ number of cells:		4558
+
+ results written in benchs/optim/medium/himmel16.cov
+ (old file saved in benchs/optim/medium/himmel16.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/himmel16.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/himmel16.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.86661911449,-0.865752495375]
+	(best bound)
+
+ x* =	(0.999742715301 ; 0.499695368986 ; 7.43197347176e-05 ; 0.999999897183 ; 0.4997139916 ; 0.865997832615 ; -2.06135444781e-05 ; 0.000449574271871 ; 0.866008712428 ; 9e-09 ; 0.432887511221 ; -3.73383736201e-05 ; 1.03250576397e-05 ; 0.432891979472 ; 9e-09)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866619114491
+ cpu time used:			22.8010180001s
+ number of cells:		4594
+
+ results written in benchs/optim/medium/himmel16.cov
+ (old file saved in benchs/optim/medium/himmel16.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/himmel16.bch
+  random seed:		4
+  output COV file:	benchs/optim/medium/himmel16.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.866857207283,-0.865990350076]
+	(best bound)
+
+ x* =	(0.999999997725 ; 0.499999993937 ; 0.000121355758405 ; 0.999999998741 ; 0.5 ; 0.866025373266 ; -7.00343115808e-05 ; 0 ; 0.866025373232 ; 9e-09 ; 0.433012691178 ; -7.00580005428e-05 ; 3.50158428229e-05 ; 0.433012683057 ; 9e-09)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866857207284
+ cpu time used:			21.0975110001s
+ number of cells:		4502
+
+ results written in benchs/optim/medium/himmel16.cov
+ (old file saved in benchs/optim/medium/himmel16.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/himmel16.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/himmel16.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.866854315911,-0.865987461595]
+	(best bound)
+
+ x* =	(0.999999999499 ; 0.499935188942 ; 5.74244750478e-05 ; 0.999999999278 ; 0.499959845107 ; 0.865987930185 ; -7.94946224256e-05 ; 1.06074240252e-05 ; 0.866002192547 ; 6.63106457485e-09 ; 0.432993969665 ; -4.47306657644e-05 ; 3.97553813368e-05 ; 0.432998451585 ; 9e-09)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866854315912
+ cpu time used:			21.1576020001s
+ number of cells:		4174
+
+ results written in benchs/optim/medium/himmel16.cov
+ (old file saved in benchs/optim/medium/himmel16.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/himmel16.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/himmel16.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-0.866850714664,-0.865983863949]
+	(best bound)
+
+ x* =	(0.999999998718 ; 0.500000006381 ; 7.11978808592e-05 ; 0.99999998446 ; 0.500000007315 ; 0.866025394119 ; 0 ; 4.2846506495e-05 ; 0.866025384446 ; 6.42503627726e-09 ; 0.433012703493 ; -3.0827427381e-05 ; 3.35355852301e-09 ; 0.433001970395 ; 7.71180502785e-09)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.000866850714665
+ cpu time used:			21.9178640001s
+ number of cells:		4194
+
+ results written in benchs/optim/medium/himmel16.cov
+ (old file saved in benchs/optim/medium/himmel16.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/medium/himmel16.bch
+  random seed:		5
+  output COV file:	benchs/optim/medium/himmel16.cov
+*******************************************************
+
+running............
+

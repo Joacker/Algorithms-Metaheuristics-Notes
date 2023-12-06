@@ -653,3 +653,75 @@ running............
 
 running............
 
+[32m optimization successful!
+[0m
+ f* in	[426.825314977,427.252140292]
+	(best bound)
+
+ x* =	(0.0745811726311 ; 0.199264570261 ; 0.156205903749 ; 0 ; 0.421875 ; 0.148073344361 ; 0 ; 0)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.426825314977
+ cpu time used:			73.7132710001s
+ number of cells:		53436
+
+ results written in benchs/optim/with10valorless/dualc5.cov
+ (old file saved in benchs/optim/with10valorless/dualc5.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/dualc5
+  random seed:		1
+  output COV file:	benchs/optim/with10valorless/dualc5.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[426.825314977,427.252140292]
+	(best bound)
+
+ x* =	(0.0745811726311 ; 0.199264570261 ; 0.156205903749 ; 0 ; 0.421875 ; 0.148073344361 ; 0 ; 0)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.426825314977
+ cpu time used:			72.5029310001s
+ number of cells:		53436
+
+ results written in benchs/optim/with10valorless/dualc5.cov
+ (old file saved in benchs/optim/with10valorless/dualc5.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/dualc5
+  random seed:		1
+  output COV file:	benchs/optim/with10valorless/dualc5.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[426.825314977,427.252140292]
+	(best bound)
+
+ x* =	(0.0745811726311 ; 0.199264570261 ; 0.156205903749 ; 0 ; 0.421875 ; 0.148073344361 ; 0 ; 0)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.426825314977
+ cpu time used:			73.7753290001s
+ number of cells:		53436
+
+ results written in benchs/optim/with10valorless/dualc5.cov
+ (old file saved in benchs/optim/with10valorless/dualc5.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/dualc5
+  random seed:		2
+  output COV file:	benchs/optim/with10valorless/dualc5.cov
+*******************************************************
+
+running............
+

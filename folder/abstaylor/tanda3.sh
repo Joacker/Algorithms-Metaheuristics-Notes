@@ -1,4 +1,4 @@
-files=("hs108" "mistake")
+files=("hs103" "dualc5" "dualc8")
 #"ex6_2_8.bch" "ex6_1_3bis.bch" "ex6_2_12.bch" "launch.bch"
 for file in ${files[@]}
 do
@@ -6,7 +6,7 @@ do
   do
     for i in {1..5}
     do
-       ./__build__/src/ibexopt benchs/optim/with10valorless/$file --random-seed=$seed >> V1_tanda3.log
+       ./__build__/src/ibexopt benchs/optim/with10valorless/$file --random-seed=$seed >> tanda3.log
     done
   done
 done

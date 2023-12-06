@@ -1,0 +1,32 @@
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs103
+  random seed:		1
+  output COV file:	benchs/optim/with10valorless/hs103.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[543.253768715,543.797022484]
+	(best bound)
+
+ x* =	(4.38640459649 ; 0.854003451277 ; 2.84948079538 ; 3.42150458825 ; 0.727462146965 ; 0.875860819961 ; 0.0247982676822)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.543253768715
+ cpu time used:			664.540871001s
+ number of cells:		267870
+
+ results written in benchs/optim/with10valorless/hs103.cov
+
+************************ setup ************************
+  file loaded:		benchs/optim/with10valorless/hs103
+  random seed:		1
+  output COV file:	benchs/optim/with10valorless/hs103.cov
+*******************************************************
+
+running............
+

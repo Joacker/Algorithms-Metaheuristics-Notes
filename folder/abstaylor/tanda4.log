@@ -3529,3 +3529,51 @@ running............
 
 running............
 
+[32m optimization successful!
+[0m
+ f* in	[-47.7532104902,-47.7054572797]
+	(best bound)
+
+ x* =	(0.0321406251563 ; 0.142633427061 ; 0.793702514393 ; 0.00100000000001 ; 0.485584639514 ; 0.00100000000001 ; 0.026830729974 ; 0.0164863286915 ; 0.0343964675023 ; 0.0941875009376 ; 1.62796224223)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.0477532104903
+ cpu time used:			751.867150001s
+ number of cells:		479978
+
+ results written in benchs/optim/hard/chembis.cov
+ (old file saved in benchs/optim/hard/chembis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/chembis.bch
+  random seed:		5
+  output COV file:	benchs/optim/hard/chembis.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-47.7532104902,-47.7054572797]
+	(best bound)
+
+ x* =	(0.0321406251563 ; 0.142633427061 ; 0.793702514393 ; 0.00100000000001 ; 0.485584639514 ; 0.00100000000001 ; 0.026830729974 ; 0.0164863286915 ; 0.0343964675023 ; 0.0941875009376 ; 1.62796224223)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.0477532104903
+ cpu time used:			727.475204001s
+ number of cells:		479978
+
+ results written in benchs/optim/hard/chembis.cov
+ (old file saved in benchs/optim/hard/chembis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/chembis.bch
+  random seed:		5
+  output COV file:	benchs/optim/hard/chembis.cov
+*******************************************************
+
+running............
+

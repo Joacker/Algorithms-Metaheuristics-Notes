@@ -6,7 +6,7 @@ do
   do
     for i in {1..3}
     do
-       ./__build__/src/ibexopt benchs/optim/with10valorless/$file --random-seed=$seed >> tanda2.log
+      ./__build__/src/ibexopt benchs/optim/with10valorless/$file --random-seed=$seed >> tanda2.log
     done
   done
 done

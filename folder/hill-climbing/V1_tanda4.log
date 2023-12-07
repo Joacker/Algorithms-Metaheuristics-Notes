@@ -3169,3 +3169,27 @@ running............
 
 running............
 
+[32m optimization successful!
+[0m
+ f* in	[-47.7533529625,-47.7055996095]
+	(best bound)
+
+ x* =	(0.0321406251563 ; 0.148743889804 ; 0.78759205165 ; 0.00100000000001 ; 0.485584639514 ; 0.00100000000001 ; 0.026830729974 ; 0.0164863286915 ; 0.0374516988739 ; 0.0941875009376 ; 1.6310174736)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.0477533529626
+ cpu time used:			891.196777001s
+ number of cells:		484934
+
+ results written in benchs/optim/hard/chembis.cov
+ (old file saved in benchs/optim/hard/chembis.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/chembis.bch
+  random seed:		2
+  output COV file:	benchs/optim/hard/chembis.cov
+*******************************************************
+
+running............
+

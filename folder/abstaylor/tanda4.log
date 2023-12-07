@@ -2450,3 +2450,315 @@ running............
 
 running............
 
+[32m optimization successful!
+[0m
+ f* in	[-47.7531029949,-47.7053498919]
+	(best bound)
+
+ x* =	(0.0401875015626 ; 0.157750006251 ; 0.772562496297 ; 0.00100000000001 ; 0.484473262395 ; 0.00100000000001 ; 0.0290534842106 ; 0.0155781253516 ; 0.0423092003987 ; 0.0981875023438 ; 1.64210158781)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.047753102995
+ cpu time used:			1665.08190601s
+ number of cells:		901754
+
+ results written in benchs/optim/hard/chem-1.cov
+ (old file saved in benchs/optim/hard/chem-1.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/chem-1.bch
+  random seed:		1
+  output COV file:	benchs/optim/hard/chem-1.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-47.7531029949,-47.7053498919]
+	(best bound)
+
+ x* =	(0.0401875015626 ; 0.157750006251 ; 0.772562496297 ; 0.00100000000001 ; 0.484473262395 ; 0.00100000000001 ; 0.0290534842106 ; 0.0155781253516 ; 0.0423092003987 ; 0.0981875023438 ; 1.64210158781)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.047753102995
+ cpu time used:			1554.04270901s
+ number of cells:		901754
+
+ results written in benchs/optim/hard/chem-1.cov
+ (old file saved in benchs/optim/hard/chem-1.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/chem-1.bch
+  random seed:		1
+  output COV file:	benchs/optim/hard/chem-1.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-47.7531029949,-47.7053498919]
+	(best bound)
+
+ x* =	(0.0401875015626 ; 0.157750006251 ; 0.772562496297 ; 0.00100000000001 ; 0.484473262395 ; 0.00100000000001 ; 0.0290534842106 ; 0.0155781253516 ; 0.0423092003987 ; 0.0981875023438 ; 1.64210158781)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.047753102995
+ cpu time used:			1499.90598201s
+ number of cells:		901754
+
+ results written in benchs/optim/hard/chem-1.cov
+ (old file saved in benchs/optim/hard/chem-1.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/chem-1.bch
+  random seed:		2
+  output COV file:	benchs/optim/hard/chem-1.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-47.7532787771,-47.7055254983]
+	(best bound)
+
+ x* =	(0.0401875015625 ; 0.154804510542 ; 0.775507992006 ; 0.00100000000001 ; 0.482947434133 ; 0.00100000000001 ; 0.0321051407348 ; 0.0155781253516 ; 0.0393106242822 ; 0.0981875023438 ; 1.64062883996)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.0477532787771
+ cpu time used:			1493.81019201s
+ number of cells:		908132
+
+ results written in benchs/optim/hard/chem-1.cov
+ (old file saved in benchs/optim/hard/chem-1.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/chem-1.bch
+  random seed:		2
+  output COV file:	benchs/optim/hard/chem-1.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-47.7532787771,-47.7055254983]
+	(best bound)
+
+ x* =	(0.0401875015625 ; 0.154804510542 ; 0.775507992006 ; 0.00100000000001 ; 0.482947434133 ; 0.00100000000001 ; 0.0321051407348 ; 0.0155781253516 ; 0.0393106242822 ; 0.0981875023438 ; 1.64062883996)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.0477532787771
+ cpu time used:			1491.89649101s
+ number of cells:		908132
+
+ results written in benchs/optim/hard/chem-1.cov
+ (old file saved in benchs/optim/hard/chem-1.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/chem-1.bch
+  random seed:		2
+  output COV file:	benchs/optim/hard/chem-1.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-47.7532787771,-47.7055254983]
+	(best bound)
+
+ x* =	(0.0401875015625 ; 0.154804510542 ; 0.775507992006 ; 0.00100000000001 ; 0.482947434133 ; 0.00100000000001 ; 0.0321051407348 ; 0.0155781253516 ; 0.0393106242822 ; 0.0981875023438 ; 1.64062883996)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.0477532787771
+ cpu time used:			1495.09158301s
+ number of cells:		908132
+
+ results written in benchs/optim/hard/chem-1.cov
+ (old file saved in benchs/optim/hard/chem-1.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/chem-1.bch
+  random seed:		2
+  output COV file:	benchs/optim/hard/chem-1.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-47.7532787771,-47.7055254983]
+	(best bound)
+
+ x* =	(0.0401875015625 ; 0.154804510542 ; 0.775507992006 ; 0.00100000000001 ; 0.482947434133 ; 0.00100000000001 ; 0.0321051407348 ; 0.0155781253516 ; 0.0393106242822 ; 0.0981875023438 ; 1.64062883996)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.0477532787771
+ cpu time used:			1492.03428901s
+ number of cells:		908132
+
+ results written in benchs/optim/hard/chem-1.cov
+ (old file saved in benchs/optim/hard/chem-1.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/chem-1.bch
+  random seed:		2
+  output COV file:	benchs/optim/hard/chem-1.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-47.7532787771,-47.7055254983]
+	(best bound)
+
+ x* =	(0.0401875015625 ; 0.154804510542 ; 0.775507992006 ; 0.00100000000001 ; 0.482947434133 ; 0.00100000000001 ; 0.0321051407348 ; 0.0155781253516 ; 0.0393106242822 ; 0.0981875023438 ; 1.64062883996)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.0477532787771
+ cpu time used:			1471.70414301s
+ number of cells:		908132
+
+ results written in benchs/optim/hard/chem-1.cov
+ (old file saved in benchs/optim/hard/chem-1.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/chem-1.bch
+  random seed:		3
+  output COV file:	benchs/optim/hard/chem-1.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-47.7530874956,-47.7053344081]
+	(best bound)
+
+ x* =	(0.0401875015625 ; 0.15775000625 ; 0.772562496297 ; 0.00100000000001 ; 0.483992083481 ; 0.00100000000001 ; 0.0300158420394 ; 0.0155781253516 ; 0.0418280214843 ; 0.0981875023438 ; 1.64210158781)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.0477530874957
+ cpu time used:			1453.95875001s
+ number of cells:		907452
+
+ results written in benchs/optim/hard/chem-1.cov
+ (old file saved in benchs/optim/hard/chem-1.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/chem-1.bch
+  random seed:		3
+  output COV file:	benchs/optim/hard/chem-1.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-47.7530874956,-47.7053344081]
+	(best bound)
+
+ x* =	(0.0401875015625 ; 0.15775000625 ; 0.772562496297 ; 0.00100000000001 ; 0.483992083481 ; 0.00100000000001 ; 0.0300158420394 ; 0.0155781253516 ; 0.0418280214843 ; 0.0981875023438 ; 1.64210158781)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.0477530874957
+ cpu time used:			1459.97919901s
+ number of cells:		907452
+
+ results written in benchs/optim/hard/chem-1.cov
+ (old file saved in benchs/optim/hard/chem-1.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/chem-1.bch
+  random seed:		3
+  output COV file:	benchs/optim/hard/chem-1.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-47.7530874956,-47.7053344081]
+	(best bound)
+
+ x* =	(0.0401875015625 ; 0.15775000625 ; 0.772562496297 ; 0.00100000000001 ; 0.483992083481 ; 0.00100000000001 ; 0.0300158420394 ; 0.0155781253516 ; 0.0418280214843 ; 0.0981875023438 ; 1.64210158781)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.0477530874957
+ cpu time used:			1469.21030001s
+ number of cells:		907452
+
+ results written in benchs/optim/hard/chem-1.cov
+ (old file saved in benchs/optim/hard/chem-1.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/chem-1.bch
+  random seed:		3
+  output COV file:	benchs/optim/hard/chem-1.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-47.7530874956,-47.7053344081]
+	(best bound)
+
+ x* =	(0.0401875015625 ; 0.15775000625 ; 0.772562496297 ; 0.00100000000001 ; 0.483992083481 ; 0.00100000000001 ; 0.0300158420394 ; 0.0155781253516 ; 0.0418280214843 ; 0.0981875023438 ; 1.64210158781)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.0477530874957
+ cpu time used:			1426.61510401s
+ number of cells:		907452
+
+ results written in benchs/optim/hard/chem-1.cov
+ (old file saved in benchs/optim/hard/chem-1.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/chem-1.bch
+  random seed:		3
+  output COV file:	benchs/optim/hard/chem-1.cov
+*******************************************************
+
+running............
+
+[32m optimization successful!
+[0m
+ f* in	[-47.7530874956,-47.7053344081]
+	(best bound)
+
+ x* =	(0.0401875015625 ; 0.15775000625 ; 0.772562496297 ; 0.00100000000001 ; 0.483992083481 ; 0.00100000000001 ; 0.0300158420394 ; 0.0155781253516 ; 0.0418280214843 ; 0.0981875023438 ; 1.64210158781)
+	(best feasible point)
+
+ relative precision on f*:	0.001[32m [passed] [0m
+ absolute precision on f*:	0.0477530874957
+ cpu time used:			1418.01356901s
+ number of cells:		907452
+
+ results written in benchs/optim/hard/chem-1.cov
+ (old file saved in benchs/optim/hard/chem-1.cov~)
+
+************************ setup ************************
+  file loaded:		benchs/optim/hard/chem-1.bch
+  random seed:		4
+  output COV file:	benchs/optim/hard/chem-1.cov
+*******************************************************
+
+running............
+

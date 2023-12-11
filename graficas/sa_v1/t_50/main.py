@@ -12,6 +12,8 @@ df_combinado = pd.concat(dfs)
 # Calcular los promedios
 promedios = df_combinado.groupby('Archivo').mean()
 
+promedios['Promedio de cantidad cajas'] = promedios['Promedio de cantidad cajas'].astype(int)
+
 # Mostrar los promedios
 print(promedios)
 

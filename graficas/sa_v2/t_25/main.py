@@ -62,3 +62,7 @@ plt.ylabel('Cantidad de Cajas')
 plt.xticks(rotation=45)
 plt.grid(axis='y', alpha=0.75)
 plt.show()
+
+promedios_ordenados = promedios.sort_values('Promedio de tiempo en segundos', ascending=False)
+
+print(promedios_ordenados)

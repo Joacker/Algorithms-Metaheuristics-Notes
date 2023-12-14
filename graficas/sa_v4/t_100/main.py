@@ -66,3 +66,5 @@ plt.show()
 promedios_ordenados = promedios.sort_values('Promedio de tiempo en segundos', ascending=False)
 
 print(promedios_ordenados)
+
+promedios_ordenados.to_csv('promedios.csv')

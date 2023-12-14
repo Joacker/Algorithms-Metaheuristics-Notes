@@ -1,6 +1,15 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+def generate_varianza(vector, mean, n):
+    sumatoria = 0
+    for i in range(n):
+        sumatoria += (vector[i] - mean)**2
+    return sumatoria / (n - 1)
+
+def generate_desviacion_estandar(varianza):
+    return varianza**(1/2)
+
 # Nombres de los archivos CSV
 archivos_csv = ['resultadosSAv3_25_v1.csv', 'resultadosSAv3_25_v2.csv', 'resultadosSAv3_25_v3.csv', 
                 'resultadosSAv4_25_v4.csv', 'resultadosSAv4_25_v5.csv']
@@ -11,6 +20,8 @@ df_combinado = pd.concat(dfs)
 
 # Calcular los promedios
 promedios = df_combinado.groupby('Archivo').mean()
+
+promedios['Promedio de tiempo en segundos'] = promedios['Promedio de tiempo en segundos'].round(2)
 
 promedios['Promedio de cantidad cajas'] = promedios['Promedio de cantidad cajas'].astype(int)
 
@@ -67,4 +78,38 @@ promedios_ordenados = promedios.sort_values('Promedio de tiempo en segundos', as
 
 print(promedios_ordenados)
 
+nombre_archivo_csv = "promedios.csv"
 promedios_ordenados.to_csv('promedios.csv')
+
+# leer el archivos promdios.csv
+df_promedios = pd.read_csv(nombre_archivo_csv)
+lenght_file = len(df_promedios)
+# el promedio de tiempo lo quiero acotado con 2 decimales
+time_mean = df_promedios['Promedio de tiempo en segundos'].mean().round(2)
+cajas_mean = df_promedios['Promedio de cantidad cajas'].mean().astype(int)
+
+
+##################### PROMEDIOS #####################
+print("El promedio de tiempo en segundos es: ", time_mean)
+print("El promedio de cajas es: ", cajas_mean)
+
+##################### TIEMPO #####################
+varianza = generate_varianza(df_promedios['Promedio de tiempo en segundos'], time_mean, lenght_file)
+varianza = varianza.round(2)
+
+print("La varianza del tiempo es: ", varianza)
+
+desviacion_estandar = generate_desviacion_estandar(varianza)
+desviacion_estandar = desviacion_estandar.round(2)
+
+print("La desviación estándar del tiempo es: ", desviacion_estandar)
+
+##################### CAJAS #####################
+varianza = generate_varianza(df_promedios['Promedio de cantidad cajas'], cajas_mean, lenght_file)
+varianza = varianza.round(2)
+
+print("La varianza de las cajas es: ", varianza)
+
+desviacion_estandar = generate_desviacion_estandar(varianza).round(2)
+
+print("La desviación estándar de las cajas es: ", desviacion_estandar)
